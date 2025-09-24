@@ -1,7 +1,7 @@
 ---
 title: Audience Agent
 description: Découvrez comment utiliser Audience Agent pour créer des audiences, afficher les modifications d’audience, détecter les audiences en double et afficher les informations sur l’audience.
-source-git-commit: 6d1f6a8c6a97bbbad88c0dd8123fac7821f06754
+source-git-commit: d91aac948a6fef36949218004dc0481dc8f5cf7f
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 >Audience Agent est disponible pour tous les clients qui ont accès à l’assistant AI. Toutefois, vous aurez besoin des autorisations suivantes pour utiliser pleinement les fonctionnalités d’Audience Agent.
 >
 >**Afficher les segments** : cette autorisation vous permet d’utiliser Audience Agent pour afficher des informations sur les audiences directement dans l’assistant AI.
->&#x200B;>**Gérer les segments** : pour obtenir l’autorisation, vous pouvez utiliser Audience Agent afin de créer de nouvelles audiences directement dans l’assistant AI.
+>>**Gérer les segments** : pour obtenir l’autorisation, vous pouvez utiliser Audience Agent afin de créer de nouvelles audiences directement dans l’assistant AI.
 
 Audience Agent vous permet d’obtenir des informations sur les audiences, notamment la détection des modifications importantes de la taille de l’audience, la détection des audiences en double, l’exploration de votre inventaire des audiences et la récupération de la taille de vos audiences.
 
@@ -33,7 +33,7 @@ L’assistant Audience Agent within AI prend en charge les cas d’utilisation s
 - Découvrir les champs XDM que vous pouvez utiliser pour définir une audience
    - Cette compétence vous permet d’identifier plus facilement les champs à utiliser dans votre audience en fonction du contexte et de la pertinence
 
-Actuellement, Audience Agent ne prend **pas** en charge les fonctionnalités suivantes :
+Audience Agent ne prend pas **actuellement** en charge les fonctionnalités suivantes :
 
 - Création d’audiences basées sur les connaissances
    - La création d’une audience basée sur les connaissances consiste à créer une audience basée sur les attributs et les événements donnés
