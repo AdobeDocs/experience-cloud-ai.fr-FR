@@ -1,24 +1,30 @@
 ---
-title: Présentation des compétences Journey Agent Analyze et guide de l’utilisateur
+title: Présentation des compétences de l’agent Parcours Analyze et guide de l’utilisateur
 description: Guide complet relatif à la compétence Journey Agent Analyze, permettant aux utilisateurs d’analyser les parcours marketing, de détecter les problèmes, de découvrir des informations et d’optimiser l’engagement des clients.
 solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
-hide: true
-hidefromtoc: true
-source-git-commit: 3bab2928fba6d06785797630e405b216cc080fd2
+source-git-commit: 04afa45b0fae7aace9bd81afd2ac032c7d0f55c6
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '899'
 ht-degree: 0%
 
 ---
 
 
-# Journey Agent Analyze : présentation des compétences et guide de l’utilisateur
+# Agent Parcours Analyze : présentation des compétences et guide de l’utilisateur
 
 ## Vue d’ensemble
 
-Journey Agent permet aux utilisateurs de Journey Optimizer de créer, d’analyser et d’optimiser des parcours à l’aide d’une interface en langage naturel. Avec Journey Agent, les utilisateurs et utilisatrices peuvent rapidement créer des parcours, détecter et résoudre les conflits de planning ou d’audience, analyser les performances et les points de chute, et identifier les parcours les plus performants à répliquer pour les campagnes futures. Il permet aux professionnels de prendre des décisions basées sur les données, d’améliorer l’engagement des clients et de rationaliser l’orchestration des parcours.
+Journey Agent permet aux utilisateurs de Journey Optimizer d’analyser et d’optimiser les parcours à l’aide d’une interface en langage naturel. Avec Journey Agent, les utilisateurs et utilisatrices peuvent rapidement identifier et résoudre les conflits de planning et/ou d’audience, détecter les points d’abandon d’utilisateur ou d’utilisatrice dans un parcours et fournir des informations ou des recommandations. Il permet aux professionnels de prendre des décisions basées sur les données, d’améliorer l’engagement des clients et de rationaliser l’orchestration des parcours.
+
+>[!AVAILABILITY]
+>
+>Audience Agent est disponible pour tous les clients qui ont accès à l’assistant AI. Toutefois, vous aurez besoin des autorisations suivantes pour utiliser pleinement les fonctionnalités d’Audience Agent.
+>
+>**Afficher les segments** : cette autorisation vous permet d’utiliser Audience Agent pour afficher des informations sur les audiences directement dans l’assistant AI.
+>>**Gérer les segments** : pour obtenir l’autorisation, vous pouvez utiliser Audience Agent afin de créer de nouvelles audiences directement dans l’assistant AI.
+
 
 ![Exemple pour AJO Agent](./images/ajo-agent/ajo-agent-sample.png)
 
@@ -50,6 +56,8 @@ La compétence Journey Agent Analyze offre un éventail de fonctionnalités qui 
 
    - Informations sur les Parcours basés sur des invites - Informations opérationnelles de surface sur les parcours , c’est-à-dire « Afficher tous les parcours en direct ».
 
+Pour chacune de ces analyses, l’agent détecte non seulement les problèmes, mais fournit également des recommandations **exploitables pour les résoudre**.
+
 
 ## Compétences incluses et exclues
 
@@ -59,6 +67,7 @@ Journey Agent Analyze prend en charge les fonctionnalités suivantes :
 
 - **Requêtes réactives** : permet aux utilisateurs et utilisatrices de poser des questions spécifiques sur les performances du parcours, l’utilisation de l’audience et les conflits de planification.
 - **Intégration à d’autres agents** : collabore avec Audience Agent et Data Insights Agent pour une analyse plus approfondie.
+- **Structuration de la réponse de l’agent** : raisonnement (expliquer la logique), résumé de l’analyse (mettre en évidence les points clés), détails du problème (décrire le problème) et recommandation (proposer les étapes suivantes).
 
 ### **Hors de portée**
 
@@ -92,6 +101,10 @@ Voici des exemples d’invites utiles que les utilisateurs peuvent utiliser pour
 
 - « Quelles audiences sont utilisées dans plus de X parcours ? »
 - « Répertoriez tous les parcours à l’aide de l’audience [nom de l’audience]. »
+
+### Analyse des abandons
+
+
 
 ### Invites d’analyse des conflits
 
