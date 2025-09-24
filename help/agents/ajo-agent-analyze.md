@@ -4,9 +4,9 @@ description: Guide complet relatif à la compétence Journey Agent Analyze, perm
 solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
-source-git-commit: 04afa45b0fae7aace9bd81afd2ac032c7d0f55c6
+source-git-commit: 56dbe826fc73cbf699f08b12014b2b73d2bab71b
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '937'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,12 @@ Journey Agent permet aux utilisateurs de Journey Optimizer d’analyser et d’o
 
 >[!AVAILABILITY]
 >
->Audience Agent est disponible pour tous les clients qui ont accès à l’assistant AI. Toutefois, vous aurez besoin des autorisations suivantes pour utiliser pleinement les fonctionnalités d’Audience Agent.
+>Le Journey Agent est disponible pour tous les clients qui ont accès à l’assistant AI. Toutefois, vous aurez besoin des autorisations suivantes pour utiliser pleinement les fonctionnalités de Journey Agent.
 >
->**Afficher les segments** : cette autorisation vous permet d’utiliser Audience Agent pour afficher des informations sur les audiences directement dans l’assistant AI.
->&#x200B;>**Gérer les segments** : pour obtenir l’autorisation, vous pouvez utiliser Audience Agent afin de créer de nouvelles audiences directement dans l’assistant AI.
-
+>**Afficher les Parcours** : cette autorisation vous permet d’utiliser Journey Agent pour afficher des informations sur le parcours directement dans l’assistant AI.
+>>**Gérer les Parcours** : pour obtenir l’autorisation, vous pouvez utiliser Journey Agent pour créer des parcours directement dans l’assistant AI.
+>>**Afficher les segments** : cette autorisation vous permet d’utiliser le Journey Agent pour afficher des informations sur les audiences directement dans l’assistant AI.
+>>**Gérer les segments** : pour obtenir l’autorisation, vous pouvez utiliser le Journey Agent afin de créer de nouvelles audiences directement dans l’assistant AI.
 
 ![Exemple pour AJO Agent](./images/ajo-agent/ajo-agent-sample.png)
 
