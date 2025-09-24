@@ -4,9 +4,9 @@ description: Guide complet relatif à la compétence Journey Agent Analyze, perm
 solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
-source-git-commit: 56dbe826fc73cbf699f08b12014b2b73d2bab71b
+source-git-commit: cf29a28477881b400b32b4623ccff2e626010e10
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '986'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ Journey Agent permet aux utilisateurs de Journey Optimizer d’analyser et d’o
 >Le Journey Agent est disponible pour tous les clients qui ont accès à l’assistant AI. Toutefois, vous aurez besoin des autorisations suivantes pour utiliser pleinement les fonctionnalités de Journey Agent.
 >
 >**Afficher les Parcours** : cette autorisation vous permet d’utiliser Journey Agent pour afficher des informations sur le parcours directement dans l’assistant AI.
->&#x200B;>**Gérer les Parcours** : pour obtenir l’autorisation, vous pouvez utiliser Journey Agent pour créer des parcours directement dans l’assistant AI.
->&#x200B;>**Afficher les segments** : cette autorisation vous permet d’utiliser le Journey Agent pour afficher des informations sur les audiences directement dans l’assistant AI.
->&#x200B;>**Gérer les segments** : pour obtenir l’autorisation, vous pouvez utiliser le Journey Agent afin de créer de nouvelles audiences directement dans l’assistant AI.
+>>**Gérer les Parcours** : pour obtenir l’autorisation, vous pouvez utiliser Journey Agent pour créer des parcours directement dans l’assistant AI.
+>>**Afficher les segments** : cette autorisation vous permet d’utiliser le Journey Agent pour afficher des informations sur les audiences directement dans l’assistant AI.
+>>**Gérer les segments** : pour obtenir l’autorisation, vous pouvez utiliser le Journey Agent afin de créer de nouvelles audiences directement dans l’assistant AI.
 
 ![Exemple pour AJO Agent](./images/ajo-agent/ajo-agent-sample.png)
 
@@ -105,7 +105,10 @@ Voici des exemples d’invites utiles que les utilisateurs peuvent utiliser pour
 
 ### Analyse des abandons
 
-
+- « Je souhaite analyser les abandons par nœud pour la campagne du 4 juillet par parcours. »
+- « Effectuez une analyse des abandons pour la campagne du 4 juillet par parcours. »
+- « Qu&#39;est-ce que la perte de profil au cours de la campagne du parcours du 4 juillet ? »
+- « Indique l’endroit où les utilisateurs quittent la campagne du 4 juillet dans le parcours. »
 
 ### Invites d’analyse des conflits
 
