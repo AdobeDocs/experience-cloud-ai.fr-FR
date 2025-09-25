@@ -1,7 +1,7 @@
 ---
 title: Audience Agent
 description: Découvrez comment utiliser Audience Agent pour créer des audiences, afficher les modifications d’audience, détecter les audiences en double et afficher les informations sur l’audience.
-source-git-commit: d91aac948a6fef36949218004dc0481dc8f5cf7f
+source-git-commit: c9909616697ef319a307b5c8a1ee135204347844
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 0%
@@ -16,7 +16,8 @@ ht-degree: 0%
 >Audience Agent est disponible pour tous les clients qui ont accès à l’assistant AI. Toutefois, vous aurez besoin des autorisations suivantes pour utiliser pleinement les fonctionnalités d’Audience Agent.
 >
 >**Afficher les segments** : cette autorisation vous permet d’utiliser Audience Agent pour afficher des informations sur les audiences directement dans l’assistant AI.
->&#x200B;>**Gérer les segments** : pour obtenir l’autorisation, vous pouvez utiliser Audience Agent afin de créer de nouvelles audiences directement dans l’assistant AI.
+>
+>**Gérer les segments** : pour obtenir l’autorisation, vous pouvez utiliser Audience Agent afin de créer de nouvelles audiences directement dans l’assistant AI.
 
 Audience Agent vous permet d’obtenir des informations sur les audiences, notamment la détection des modifications importantes de la taille de l’audience, la détection des audiences en double, l’exploration de votre inventaire des audiences et la récupération de la taille de vos audiences.
 
@@ -25,27 +26,39 @@ Audience Agent vous permet d’obtenir des informations sur les audiences, notam
 L’assistant Audience Agent within AI prend en charge les cas d’utilisation suivants :
 
 - Rechercher la taille de l’audience et détecter les modifications importantes de cette dernière
+
    - Vous pouvez ainsi trouver des audiences qui ont soudainement augmenté ou diminué, ce qui vous permet de mieux analyser les changements potentiels du marché
+
 - Détecter les audiences en double
+
    - Vous pouvez ainsi réduire les redondances avec les audiences que vous avez créées
+
 - Rechercher des audiences en fonction d’attributs complets ou partiels nommés
+
    - Vous pouvez ainsi parcourir plus facilement votre inventaire d’audiences
+
 - Découvrir les champs XDM que vous pouvez utiliser pour définir une audience
+
    - Cette compétence vous permet d’identifier plus facilement les champs à utiliser dans votre audience en fonction du contexte et de la pertinence
 
 Audience Agent ne prend pas **actuellement** en charge les fonctionnalités suivantes :
 
 - Création d’audiences basées sur les connaissances
+
    - La création d’une audience basée sur les connaissances consiste à créer une audience basée sur les attributs et les événements donnés
    - De plus, vous pouvez estimer la taille potentielle de l’audience avant la création de l’audience. Vous pouvez ainsi itérer rapidement sur l’audience la plus efficace avant qu’elle ne soit prête à être activée
    - La prise en charge de cette fonctionnalité sera bientôt disponible
+
 - Exploration des audiences basée sur des objectifs
+
    - L’exploration des audiences basée sur des objectifs vous permet de découvrir des jeux de données et des profils pertinents alignés sur un objectif commercial en appliquant des modèles de machine learning tels que la propension à acheter ou à convertir.
 
 En outre, lors de l’utilisation d’Audience Agent, vous devez tenir compte des contraintes suivantes :
 
 - Audience Agent a besoin d’au moins 24 heures pour traiter vos données
+
    - Par exemple, vous **pouvez pas** une requête qui recherche des données au cours des dernières 24 heures. Vous devrez vérifier dans les 48 dernières heures, au minimum.
+
 - Audience Agent ne prend en charge que les audiences basées sur les **personnes** qui sont évaluées à l’aide de la segmentation par lots
 
 ## Exemples d’invites

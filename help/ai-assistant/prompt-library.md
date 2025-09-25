@@ -1,7 +1,7 @@
 ---
 title: Bibliothèque d’invites de l’assistant AI
 description: Découvrez les différents types d’invites et de modèles d’invites que vous pouvez utiliser lors de l’interrogation de l’assistant AI.
-source-git-commit: 860b0f2414dc006c23fedcd7b0e29727fc0641d4
+source-git-commit: c9909616697ef319a307b5c8a1ee135204347844
 workflow-type: tm+mt
 source-wordcount: '811'
 ht-degree: 0%

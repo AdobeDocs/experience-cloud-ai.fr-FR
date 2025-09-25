@@ -1,7 +1,7 @@
 ---
 title: Guide de l’interface utilisateur de l’assistant AI
 description: Découvrez comment accéder à l’assistant AI et l’utiliser dans l’interface utilisateur.
-source-git-commit: 860b0f2414dc006c23fedcd7b0e29727fc0641d4
+source-git-commit: c9909616697ef319a307b5c8a1ee135204347844
 workflow-type: tm+mt
 source-wordcount: '1843'
 ht-degree: 0%
@@ -57,12 +57,12 @@ L’interface de l’assistant d’IA comprend plusieurs éléments clés pour v
 La vue du rail permet d’accéder rapidement aux conversations, aux invites de découverte, aux mises à jour, aux conversations et aux commandes d’interface dans un panneau compact.
 
 1. **[!UICONTROL Chat]** : sélectionnez **[!UICONTROL Chat]** dans l’en-tête pour revenir à votre conversation au cas où vous seriez parti pour accéder à différents éléments de l’interface.
-2. **[!UICONTROL Découverte]** : sélectionnez **[!UICONTROL Découverte]** pour afficher la liste des invites de l’assistant AI organisées par catégorie. Vous pouvez utiliser ces invites préconfigurées pour renseigner votre chat. De plus, vous pouvez ajuster les invites suggérées pour répondre à votre cas d’utilisation particulier.
-3. **[!UICONTROL Nouveautés]** : sélectionnez **[!UICONTROL Nouveautés]** pour afficher la liste des dernières mises à jour disponibles pour l’assistant AI.
-4. **[!UICONTROL Conversations]** : sélectionnez l’icône **[!UICONTROL Conversations]** pour démarrer une nouvelle conversation et accéder aux conversations récentes à partir de votre historique. Pour plus d’informations, consultez la section sur les [conversations](#conversations).
-5. **Affichage plein écran** : sélectionnez l’icône **[!UICONTROL Affichage plein écran]** pour passer de l’interface de l’assistant AI du rail de droite au mode Plein écran.
-6. **Saisie automatique des données et des objets** : sélectionnez l’icône plus pour utiliser les données et la suggestion d’objet et la saisie automatique. Lorsque cette option est sélectionnée, vous pouvez utiliser une fenêtre pop-up pour sélectionner les entités suggérées. Pour plus d’informations, consultez la section sur la [saisie automatique des données et des objets](#autocomplete).
-7. **Paramètre de contexte** : sélectionnez l’icône Paramètre de contexte pour configurer les sources d’informations pour l’assistant AI. Vous pouvez utiliser cet outil pour configurer l’application, le sandbox et la vue de données auxquels l’assistant AI fait référence afin de répondre à votre requête. Pour plus d’informations, consultez la section sur [le paramètre contextuel](#context-setting).
+1. **[!UICONTROL Découverte]** : sélectionnez **[!UICONTROL Découverte]** pour afficher la liste des invites de l’assistant AI organisées par catégorie. Vous pouvez utiliser ces invites préconfigurées pour renseigner votre chat. De plus, vous pouvez ajuster les invites suggérées pour répondre à votre cas d’utilisation particulier.
+1. **[!UICONTROL Nouveautés]** : sélectionnez **[!UICONTROL Nouveautés]** pour afficher la liste des dernières mises à jour disponibles pour l’assistant AI.
+1. **[!UICONTROL Conversations]** : sélectionnez l’icône **[!UICONTROL Conversations]** pour démarrer une nouvelle conversation et accéder aux conversations récentes à partir de votre historique. Pour plus d’informations, consultez la section sur les [conversations](#conversations).
+1. **Affichage plein écran** : sélectionnez l’icône **[!UICONTROL Affichage plein écran]** pour passer de l’interface de l’assistant AI du rail de droite au mode Plein écran.
+1. **Saisie automatique des données et des objets** : sélectionnez l’icône plus pour utiliser les données et la suggestion d’objet et la saisie automatique. Lorsque cette option est sélectionnée, vous pouvez utiliser une fenêtre pop-up pour sélectionner les entités suggérées. Pour plus d’informations, consultez la section sur la [saisie automatique des données et des objets](#autocomplete).
+1. **Paramètre de contexte** : sélectionnez l’icône Paramètre de contexte pour configurer les sources d’informations pour l’assistant AI. Vous pouvez utiliser cet outil pour configurer l’application, le sandbox et la vue de données auxquels l’assistant AI fait référence afin de répondre à votre requête. Pour plus d’informations, consultez la section sur [le paramètre contextuel](#context-setting).
 
 ![Assistant d’IA en mode rail](./images/ai-assistant/rail-mode.png)
 

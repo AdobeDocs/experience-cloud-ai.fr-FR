@@ -4,7 +4,7 @@ description: Guide complet relatif à la compétence Journey Agent Analyze, perm
 solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
-source-git-commit: cf29a28477881b400b32b4623ccff2e626010e10
+source-git-commit: c9909616697ef319a307b5c8a1ee135204347844
 workflow-type: tm+mt
 source-wordcount: '986'
 ht-degree: 0%
@@ -23,9 +23,12 @@ Journey Agent permet aux utilisateurs de Journey Optimizer d’analyser et d’o
 >Le Journey Agent est disponible pour tous les clients qui ont accès à l’assistant AI. Toutefois, vous aurez besoin des autorisations suivantes pour utiliser pleinement les fonctionnalités de Journey Agent.
 >
 >**Afficher les Parcours** : cette autorisation vous permet d’utiliser Journey Agent pour afficher des informations sur le parcours directement dans l’assistant AI.
->&#x200B;>**Gérer les Parcours** : pour obtenir l’autorisation, vous pouvez utiliser Journey Agent pour créer des parcours directement dans l’assistant AI.
->&#x200B;>**Afficher les segments** : cette autorisation vous permet d’utiliser le Journey Agent pour afficher des informations sur les audiences directement dans l’assistant AI.
->&#x200B;>**Gérer les segments** : pour obtenir l’autorisation, vous pouvez utiliser le Journey Agent afin de créer de nouvelles audiences directement dans l’assistant AI.
+>
+>**Gérer les Parcours** : l’autorisation À vous permet d’utiliser Journey Agent pour créer des parcours directement dans l’assistant AI.
+>
+>**Afficher les segments** : cette autorisation vous permet d’utiliser le Journey Agent pour afficher des informations sur les audiences directement dans l’assistant AI.
+>
+>**Gérer les segments** : pour obtenir l’autorisation, vous pouvez utiliser le Journey Agent afin de créer de nouvelles audiences directement dans l’assistant AI.
 
 ![Exemple pour AJO Agent](./images/ajo-agent/ajo-agent-sample.png)
 
@@ -140,7 +143,6 @@ Utilisez ces invites pour analyser les conflits potentiels entre les parcours, n
 - « Analyse du risque de conflit pour le parcours [Nom du Parcours ]. »
 - « Fournissez des diagnostics de conflit pour [Nom du Parcours ]. »
 
-
 ## Bonnes pratiques
 
 ### Bonnes pratiques relatives à la promotion
@@ -150,7 +152,6 @@ Pour optimiser l’efficacité de Journey Agent Analyze, appliquez les bonnes pr
 1. **Soyez précis** : utilisez des invites claires et concises pour obtenir des informations ciblées. Par exemple, au lieu de demander « Quels sont mes parcours ? », indiquez « Répertorier tous les parcours créés le mois dernier ».
 1. **Combiner les informations** : intégrez les informations d’Audience Agent et de Data Insights Agent pour une vue holistique des performances du parcours.
 1. **Affinement itératif** : utilisez l’analyse des abandons et des chevauchements pour affiner de manière itérative la conception et la planification des parcours.
-
 
 ### Bonnes pratiques de configuration
 

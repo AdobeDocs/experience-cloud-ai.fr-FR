@@ -1,7 +1,7 @@
 ---
 title: Clause de non-responsabilité légale - Données personnelles, prise en charge linguistique et vérification des réponses
 description: Découvrez les clauses de non-responsabilité légales concernant les données personnelles, l’assistance linguistique et la vérification des réponses lors de l’utilisation de l’assistant AI.
-source-git-commit: 36307b844a1effb8202d4d10adc171b1429b04ff
+source-git-commit: c9909616697ef319a307b5c8a1ee135204347844
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 0%
