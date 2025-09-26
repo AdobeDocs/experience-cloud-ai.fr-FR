@@ -1,7 +1,7 @@
 ---
 title: Bibliothèque d’invites de l’assistant AI
 description: Découvrez les différents types d’invites et de modèles d’invites que vous pouvez utiliser lors de l’interrogation de l’assistant AI.
-source-git-commit: c9909616697ef319a307b5c8a1ee135204347844
+source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
 source-wordcount: '811'
 ht-degree: 0%
@@ -133,3 +133,4 @@ L’agent d’assistance produit vous aide à résoudre les problèmes, à crée
 
 - « Quelles sont les dernières informations sur mon dossier E-12345 ? »
 - « Quelle est la mise à jour sur le ticket E-67890 ? »
+

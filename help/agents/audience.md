@@ -1,7 +1,7 @@
 ---
 title: Audience Agent
 description: Découvrez comment utiliser Audience Agent pour créer des audiences, afficher les modifications d’audience, détecter les audiences en double et afficher les informations sur l’audience.
-source-git-commit: c9909616697ef319a307b5c8a1ee135204347844
+source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 0%
@@ -164,3 +164,4 @@ Quelle est mon audience qui croît le plus rapidement ?
 ## Étapes suivantes
 
 Vous êtes arrivé au bout de ce guide, vous devriez mieux comprendre Audience Agent et les fonctionnalités qu’il prend en charge. Pour plus d’informations sur les agents dans Adobe Experience Platform, lisez la présentation d’[Agent Orchestrator](./agent-orchestrator.md).
+

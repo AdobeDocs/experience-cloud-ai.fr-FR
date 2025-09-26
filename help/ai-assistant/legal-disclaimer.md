@@ -1,7 +1,7 @@
 ---
 title: Clause de non-responsabilité légale - Données personnelles, prise en charge linguistique et vérification des réponses
 description: Découvrez les clauses de non-responsabilité légales concernant les données personnelles, l’assistance linguistique et la vérification des réponses lors de l’utilisation de l’assistant AI.
-source-git-commit: c9909616697ef319a307b5c8a1ee135204347844
+source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 0%
@@ -25,3 +25,4 @@ L’assistant AI est actuellement pris en charge en anglais uniquement. Les entr
 ## Vérification des réponses {#verifying-responses}
 
 Il est important de vérifier vos réponses, car les modèles linguistiques peuvent faire des erreurs. Vérifiez toujours les sources pour vous assurer que la logique SQL est correcte et que la documentation appropriée a été référencée pour votre cas d’utilisation. Passez en revue les étapes de raisonnement et les explications fournies par AI Assistant pour comprendre comment il en est arrivé à sa réponse. Si quelque chose ne vous semble pas correct, envoyez vos commentaires.
+
