@@ -6,7 +6,7 @@ type: Documentation
 mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/experience-cloud-ai.fr-FR
 index: true
-source-git-commit: 63c53db7347c1d5998cb6439833b4f735623d4fb
+source-git-commit: 00bb5af3650dc661da5f007b2062ea2a496a3082
 workflow-type: tm+mt
 source-wordcount: '53'
 ht-degree: 98%
@@ -19,3 +19,4 @@ ht-degree: 98%
 Le fichier metadata.md comprend des métadonnées au niveau du référentiel qui sont transmises aux fichiers TOC.md du guide de l’utilisateur dans le référentiel. Si vous souhaitez modifier le contenu metadata.md pour n’importe quel guide d’utilisateur, faites-le dans n’importe quel fichier TOC.md.
 
 Voir [Métadonnées](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html?lang=fr) pour une liste de valeurs valides pour **solution**, **produit**, et **type**.
+
