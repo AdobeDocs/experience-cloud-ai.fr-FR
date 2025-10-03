@@ -1,10 +1,10 @@
 ---
 title: L’IA dans les applications Experience Cloud
-description: Découvrez comment les applications Experience Cloud utilisent l’IA générative (GenAI), l’assistant d’IA et l’IA dédiée aux agences.
+description: Découvrez comment les applications Experience Cloud utilisent l’IA générative (GenAI), l’Assistant IA et l’IA agentique.
 source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
 source-wordcount: '645'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
