@@ -1,11 +1,9 @@
 ---
 title: Agent d’expérimentation
 description: Découvrez comment utiliser l’agent d’expérience
-hide: true
-hidefromtoc: true
-source-git-commit: 352ba791195eca7f68e6d317e0f2449d6ededeb2
+source-git-commit: 0069a97bcb35f609019ec32f263175a36525161a
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '506'
 ht-degree: 2%
 
 ---
@@ -14,11 +12,11 @@ ht-degree: 2%
 
 >[!AVAILABILITY]
 >
->L’agent d’expérimentation est disponible pour tous les clients qui ont accès à l’assistant AI. Cependant, vous aurez besoin des autorisations suivantes pour utiliser pleinement les fonctionnalités de l’agent d’expérience.
+>L’agent d’expérimentation est disponible pour tous les clients qui ont accès à l’assistant AI. Cependant, vous avez besoin des autorisations suivantes pour utiliser pleinement les fonctionnalités de l’agent d’expérience.
 >
 >**Afficher les expériences** : cette autorisation vous permet d’utiliser l’agent d’expérimentation pour afficher des informations sur l’expérience directement dans l’assistant AI.
 >
->**Gérer les métadonnées d’expérience** : pour obtenir l’autorisation d’utiliser l’agent d’expérience, vous pouvez créer de nouvelles expériences directement dans l’assistant AI.
+>**Gérer les métadonnées d’expérience** : cette autorisation vous permet d’utiliser l’agent d’expérience pour créer de nouvelles expériences directement dans l’assistant AI.
 
 ## Vue d’ensemble
 
