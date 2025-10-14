@@ -1,5 +1,5 @@
 ---
-title: Guide de l’interface utilisateur de l’assistant AI
+title: Guide de l’interface d’utilisation de l’Assistant IA
 description: Découvrez comment accéder à l’assistant AI et l’utiliser dans l’interface utilisateur.
 source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
