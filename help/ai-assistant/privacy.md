@@ -22,7 +22,7 @@ Lisez ce document pour en savoir plus sur les fonctionnalités axées sur la con
 
 * Vous devez disposer d’autorisations explicites pour interagir avec l’assistant AI.
 
-   * Vous pouvez définir différemment les autorisations pour Experience Platform et Journey Optimizer à l’aide de l’interface utilisateur [Autorisations](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/browse) et utiliser [Admin Console](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse) pour attribuer des autorisations à Customer Journey Analytics.
+   * Vous pouvez définir différemment les autorisations pour Experience Platform et Journey Optimizer à l’aide de l’interface utilisateur [Autorisations](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/abac/permissions-ui/browse) et utiliser [Admin Console](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/ui/browse) pour attribuer des autorisations à Customer Journey Analytics.
    * Les autorisations sont granulaires et l’administrateur de votre sandbox peut configurer quelles catégories de questions peuvent être posées par vos utilisateurs (questions basées sur les connaissances du produit avec l’assistant AI ou questions sur les informations opérationnelles).
 
 * L’assistant AI est une fonctionnalité conforme à la loi HIPAA lorsqu’il est utilisé en combinaison avec Adobe Experience Platform Healthcare Shield.
