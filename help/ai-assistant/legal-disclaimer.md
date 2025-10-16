@@ -4,7 +4,7 @@ description: Découvrez les clauses de non-responsabilité légales concernant l
 source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
 source-wordcount: '230'
-ht-degree: 0%
+ht-degree: 22%
 
 ---
 
@@ -14,7 +14,7 @@ Lisez ce document pour plus d’informations sur les clauses de non-responsabili
 
 ## Données Personnelles {#personal-data}
 
-AI Assistant utilise un chatbot automatisé. Votre utilisation de ce bot conversationnel automatisé constitue un consentement à ce que les informations que vous fournissez dans la session de conversation soient collectées, utilisées, divulguées et conservées par Adobe et les fournisseurs de services agissant pour le compte d’Adobe conformément aux termes de l’accord entre votre organisation et Adobe.
+L’Assistant IA utilise un chatbot automatisé. En utilisant ce chatbot automatisé, vous consentez à ce que les informations que vous fournissez lors de la session de chat soient collectées, utilisées, divulguées et conservées par Adobe et les prestataires de services agissant pour le compte d’Adobe, conformément aux dispositions du contrat conclu entre votre organisation et Adobe.
 
 Si vous devez inclure des données personnelles ici, ajoutez uniquement ce qui est nécessaire et uniquement si vous avez le droit de les utiliser.
 

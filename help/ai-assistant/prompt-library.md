@@ -4,7 +4,7 @@ description: Découvrez les différents types d’invites et de modèles d’inv
 source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
 source-wordcount: '811'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 Lisez ce guide pour connaître les différents types d’invites que vous pouvez utiliser sur l’assistant AI.
 
-## Audience Agent
+## Agent Audience
 
 Les sections suivantes fournissent des exemples d’invites que vous pouvez utiliser avec l’Audience Agent pour explorer et analyser vos audiences. Il s’agit notamment de moyens d’étudier les caractéristiques des audiences, de détecter les audiences en double, de récupérer les tailles d’audience et de surveiller les changements significatifs de la taille d’audience au fil du temps. Utilisez ces invites pour obtenir des informations plus précises et maintenir la qualité des données de votre audience.
 
@@ -61,25 +61,25 @@ Les exemples d’invites ci-dessous peuvent être utilisés avec Data Insights A
 
 Les exemples d’invites ci-dessous peuvent être utilisés avec Journey Agent pour vous aider à analyser les cycles de vie des parcours, à gérer les ressources de parcours, à obtenir des informations sur les relations entre l’audience et le parcours et à détecter les conflits entre les parcours. Utilisez ces invites pour optimiser l&#39;orchestration des parcours et résoudre les problèmes efficacement.
 
-### Questions relatives au cycle de vie du parcours
+### Questions sur le cycle de vie des parcours
 
 - « Quand a-t-{JOURNEY_NAME} été publié ? »
 - « Quand a-t-{JOURNEY_NAME} été arrêté ? »
 - « Répertorier tous les parcours actuellement en mode test »
 
-### Questions sur les ressources de parcours
+### Questions sur les ressources des parcours
 
 - « Combien de parcours en direct ai-je ? »
 - « Donnez-moi la liste de tous les parcours récurrents planifiés et de leurs durées d’exécution prévues. »
 
-### Informations sur l’audience et le Parcours
+### Informations sur les audiences et les parcours
 
 - « Quelles audiences sont utilisées dans plus de X parcours ? »
 - « Répertoriez tous les parcours utilisant l’audience {AUDIENCE_NAME}. »
 
-### Invites d’analyse des conflits
+### Prompts d’analyse des conflits
 
-Utilisez ces invites pour analyser les conflits potentiels entre les parcours, notamment la planification et les chevauchements d&#39;audiences :
+Utilisez ces prompts pour analyser les conflits potentiels entre les parcours, y compris les chevauchements de plannings et d’audiences :
 
 +++Sélectionner pour afficher la liste
 

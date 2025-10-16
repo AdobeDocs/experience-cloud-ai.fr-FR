@@ -1,20 +1,20 @@
 ---
-title: L’IA dans les applications Experience Cloud
+title: IA dans les applications Experience Cloud
 description: Découvrez comment les applications Experience Cloud utilisent l’IA générative (GenAI), l’Assistant IA et l’IA agentique.
 source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
 source-wordcount: '645'
-ht-degree: 3%
+ht-degree: 16%
 
 ---
 
-# L’IA dans Experience Cloud
+# IA dans Experience Cloud
 
 Bienvenue dans le guide complet des fonctionnalités d’IA dans les applications Adobe Experience Cloud. Cette documentation explique comment l’IA générative, l’assistant d’IA et les agents Adobe sont intégrés à vos workflows Experience Cloud pour accélérer la productivité et améliorer la prise de décision.
 
 ## Éléments compris dans ce guide
 
-### Assistant IA
+### Assistant IA
 
 [AI Assistant](./ai-assistant/ai-assistant-ui.md) est un outil d’IA intelligent, conversationnel et génératif qui stimulera la productivité et redéfinira le travail dans les applications Adobe Experience Platform. Les utilisateurs peuvent acquérir des connaissances sur les produits, résoudre les problèmes et trouver des informations opérationnelles grâce à des invites en langage naturel. Vous pouvez également utiliser l’assistant AI pour accéder aux agents Adobe Experience Platform et à d’autres fonctionnalités d’IA.
 
@@ -26,9 +26,9 @@ Bienvenue dans le guide complet des fonctionnalités d’IA dans les application
 - **Visualisation des données** : graphiques et diagrammes interactifs pour obtenir des informations sur les données
 - **Vérification de la réponse** : citations de Source, explications de raisonnement et mécanismes de retour d’informations
 
-### Agent Orchestrator
+### Agent Orchestrator
 
-[Adobe Experience Platform Agent Orchestrator](./agents/agent-orchestrator.md) est la nouvelle couche agentic de Adobe Experience Platform. Conçu pour exploiter les données riches et les connaissances des clients de la plateforme, Experience Platform Agent Orchestrator alimente l&#39;intelligence et la logique derrière des agents Adobe Experience Platform experts spécialement conçus, leur permettant d&#39;exécuter des tâches complexes de prise de décision et de résolution de problèmes à vitesse et à l&#39;échelle, le tout avec une supervision humaine. Lorsque vous posez des questions ou demandez de l’aide en langage naturel dans une interface de conversation comme l’assistant d’IA, Agent Orchestrator fait automatiquement appel à des agents spécialisés pour vous obtenir les bonnes réponses. Agent Orchestrator mémorise l&#39;historique de vos conversations, ce qui vous permet de vous appuyer sur les questions précédentes naturellement sans répéter le contexte, et d&#39;associer les informations provenant de plusieurs agents pour vous présenter des réponses claires et unifiées.
+[Adobe Experience Platform Agent Orchestrator](./agents/agent-orchestrator.md) est la nouvelle couche agentic de Adobe Experience Platform. Conçu pour exploiter la richesse des données et des connaissances clientèle de la plateforme, Experience Platform Agent Orchestrator alimente l’intelligence et le raisonnement d’agents experts spécialement conçus pour Adobe Experience Platform, leur permettant d’exécuter des prises de décision complexes et de résoudre des problèmes à grande vitesse et à grande échelle, le tout sous supervision humaine. Lorsque vous posez des questions ou demandez de l’aide en langage naturel dans une interface conversationnelle telle que l’assistant IA, Agent Orchestrator fait automatiquement appel à des agentes et agents spécialisés pour vous fournir les bonnes réponses. Agent Orchestrator mémorise l&#39;historique de vos conversations, ce qui vous permet de vous appuyer sur les questions précédentes naturellement sans répéter le contexte, et d&#39;associer les informations provenant de plusieurs agents pour vous présenter des réponses claires et unifiées.
 
 **Composants principaux :**
 
@@ -38,7 +38,7 @@ Bienvenue dans le guide complet des fonctionnalités d’IA dans les application
 
 ### Agents spécialisés
 
-#### Audience Agent
+#### Agent Audience
 
 Fournit des informations sur les audiences, notamment :
 
@@ -71,7 +71,7 @@ Offre un débogage et un dépannage en libre-service :
 - Créer des tickets d’assistance avec du contexte à partir des interactions de l’assistant AI
 - Vérifier les mises à jour des tickets via l’assistant AI
 
-## Prise en main
+## Commencer
 
 ### Exigences d’accès
 

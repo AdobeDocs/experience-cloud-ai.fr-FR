@@ -4,7 +4,7 @@ description: Découvrez comment utiliser l’agent d’expérience
 source-git-commit: 0069a97bcb35f609019ec32f263175a36525161a
 workflow-type: tm+mt
 source-wordcount: '506'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -65,7 +65,7 @@ Ses fonctionnalités peuvent être regroupées en cinq fonctions clés :
 Les fonctionnalités suivantes sont actuellement prises en charge :
 
 * Performances
-* Informations
+* Insights
 * Opportunités
 
 ### **Hors du champ d’application**

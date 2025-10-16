@@ -4,11 +4,11 @@ description: Découvrez comment accéder à l’assistant AI et l’utiliser dan
 source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
 source-wordcount: '1843'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# Assistant IA
+# Assistant IA
 
 AI Assistant est un outil d’IA conversationnel et génératif intelligent qui stimulera la productivité et redéfinira le travail dans les applications Adobe Experience Platform. Vous pouvez utiliser l’assistant AI pour accéder aux agents Adobe Experience Platform et à d’autres fonctionnalités d’IA.
 
@@ -16,7 +16,7 @@ Lisez ce guide pour savoir comment utiliser l’assistant AI.
 
 ![Interface d’accueil de l’assistant AI en plein écran.](./images/ai-assistant/blank-home.png)
 
-## Accéder à l’assistant AI
+## Accéder à l’assistant IA
 
 Il existe plusieurs façons d’accéder à l’assistant AI.
 
@@ -122,7 +122,7 @@ Pour vérifier la réponse de l’assistant AI, sélectionnez **[!UICONTROL Sour
 
 ![Liste des sources référencées par l’assistant AI.](./images/ai-assistant/inputs/sources.png)
 
-### Fournir du feeback
+### Fournir des commentaires
 
 Vous pouvez fournir un retour d’expérience avec l’assistant d’IA à l’aide des options fournies avec la réponse.
 
@@ -140,7 +140,7 @@ Sélectionnez **[!UICONTROL Pouces vers le haut]** pour fournir un retour positi
 
 ![Fenêtre de commentaires pouces vers le haut.](./images/ai-assistant/inputs/thumbs-up.png)
 
-Vous pouvez également sélectionner **[!UICONTROL Retour d’informations détaillé]** pour en savoir plus. Lorsque vous avez terminé, sélectionnez **[!UICONTROL Envoyer]**.
+Vous pouvez également sélectionner **[!UICONTROL Retour d’informations détaillé]** pour en savoir plus. Lorsque vous avez terminé, sélectionnez **[!UICONTROL Soumettre]**.
 
 ![La fenêtre de commentaires détaillée pour les pouces vers le haut.](./images/ai-assistant/inputs/thumbs-up-detailed.png)
 
@@ -154,7 +154,7 @@ Sélectionnez **[!UICONTROL Pouces vers le bas]** pour fournir des commentaires 
 
 ![Fenêtre de rétroaction pouces baissés.](./images/ai-assistant/inputs/thumbs-down.png)
 
-De même, vous pouvez également sélectionner **[!UICONTROL Commentaires détaillés]** pour développer davantage vos commentaires. Lorsque vous avez terminé, sélectionnez **[!UICONTROL Envoyer]**.
+De même, vous pouvez également sélectionner **[!UICONTROL Commentaires détaillés]** pour développer davantage vos commentaires. Lorsque vous avez terminé, sélectionnez **[!UICONTROL Soumettre]**.
 
 ![Fenêtre de commentaires détaillée pour les pouces baissés.](./images/ai-assistant/inputs/thumbs-down-detailed.png)
 
@@ -226,7 +226,7 @@ L’assistant AI prend en charge plusieurs types de graphiques pour la visualisa
 
 >[!BEGINTABS]
 
->[!TAB Ligne]
+>[!TAB Line]
 
 Pour afficher un graphique linéaire, sélectionnez **[!UICONTROL Propriétés]** puis **[!UICONTROL Ligne]**.
 
