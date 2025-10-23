@@ -1,7 +1,7 @@
 ---
 title: Agent Audience
 description: Découvrez comment utiliser Audience Agent pour créer des audiences, afficher les modifications d’audience, détecter les audiences en double et afficher les informations sur l’audience.
-source-git-commit: 2c50a4abaf9606e3c7887073053d0cde3ec761e5
+source-git-commit: f2b5bd1a59055a8ca6785abfc2d0a336eea7fd98
 workflow-type: tm+mt
 source-wordcount: '859'
 ht-degree: 2%
@@ -20,6 +20,8 @@ ht-degree: 2%
 >**Gérer les segments** : pour obtenir l’autorisation, vous pouvez utiliser Audience Agent afin de créer de nouvelles audiences directement dans l’assistant AI.
 
 Audience Agent vous permet d’obtenir des informations sur les audiences, notamment la détection des modifications importantes de la taille de l’audience, la détection des audiences en double, l’exploration de votre inventaire des audiences et la récupération de la taille de vos audiences.
+
+>[!SLIDE](audience-agent-overview)
 
 ## Cas d’utilisation pris en charge
 
@@ -139,7 +141,7 @@ Quelle est la taille actuelle de mon audience « Membres Gold-star en Californie
 
 +++ Réponse
 
-![&#x200B; L’assistant d’IA indique la taille actuelle de l’audience qui a fait l’objet d’une question.](./images/audience/current-size.png)
+![ L’assistant d’IA indique la taille actuelle de l’audience qui a fait l’objet d’une question.](./images/audience/current-size.png)
 
 +++
 
@@ -157,7 +159,7 @@ Quelles audiences ont augmenté leur taille de plus de 20 % au cours de la derni
 
 +++ Réponse
 
-![&#x200B; L’assistant AI affiche un tableau qui répertorie les noms de toutes les audiences qui correspondent à la requête. Elle affiche également le pourcentage d’augmentation, la taille actuelle de l’audience, ainsi que la taille précédente de l’audience.](./images/audience/increase-past-week.png)
+![ L’assistant AI affiche un tableau qui répertorie les noms de toutes les audiences qui correspondent à la requête. Elle affiche également le pourcentage d’augmentation, la taille actuelle de l’audience, ainsi que la taille précédente de l’audience.](./images/audience/increase-past-week.png)
 
 +++
 
@@ -165,7 +167,7 @@ Quelles audiences ont vu leur taille diminuer de plus de 10 % au cours du dernie
 
 +++ Réponse
 
-![&#x200B; L’assistant AI affiche un tableau qui répertorie les noms de toutes les audiences qui correspondent à la requête. Elle affiche également la taille de l’audience actuelle, la taille de l’ancienne audience, ainsi que la date de l’ancienne audience.](./images/audience/decrease-month.png)
+![ L’assistant AI affiche un tableau qui répertorie les noms de toutes les audiences qui correspondent à la requête. Elle affiche également la taille de l’audience actuelle, la taille de l’ancienne audience, ainsi que la date de l’ancienne audience.](./images/audience/decrease-month.png)
 
 +++
 
