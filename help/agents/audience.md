@@ -1,9 +1,9 @@
 ---
 title: Agent Audience
 description: Découvrez comment utiliser Audience Agent pour créer des audiences, afficher les modifications d’audience, détecter les audiences en double et afficher les informations sur l’audience.
-source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
+source-git-commit: 2c50a4abaf9606e3c7887073053d0cde3ec761e5
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '859'
 ht-degree: 2%
 
 ---
@@ -25,41 +25,41 @@ Audience Agent vous permet d’obtenir des informations sur les audiences, notam
 
 L’assistant Audience Agent within AI prend en charge les cas d’utilisation suivants :
 
-- Rechercher la taille de l’audience et détecter les modifications importantes de cette dernière
-
+- Explorer votre audience par conversation
+   - Rechercher les tailles d’audience des audiences existantes
+   - Recherchez des audiences en fonction d’attributs complets ou partiels nommés
+   - Détecter les audiences en double
+   - Découvrir les champs XDM que vous pouvez utiliser pour définir une audience
+- Détecter les modifications importantes de la taille de l’audience
    - Vous pouvez ainsi trouver des audiences qui ont soudainement augmenté ou diminué, ce qui vous permet de mieux analyser les changements potentiels du marché
 
-- Détecter les audiences en double
-
-   - Vous pouvez ainsi réduire les redondances avec les audiences que vous avez créées
-
-- Rechercher des audiences en fonction d’attributs complets ou partiels nommés
-
-   - Vous pouvez ainsi parcourir plus facilement votre inventaire d’audiences
-
-- Découvrir les champs XDM que vous pouvez utiliser pour définir une audience
-
-   - Cette compétence vous permet d’identifier plus facilement les champs à utiliser dans votre audience en fonction du contexte et de la pertinence
+<!-- - Find your audience size and detect significant changes in audience size
+  - This lets you find audiences that have suddenly grown or shrunk, letting you better analyze potential market changes
+- Detect duplicate audiences
+  - This lets you reduce redundancies with your created audiences
+- Find audiences based on full or partial attributes named
+  - This lets you more easily navigate through your audience inventory
+- Discover XDM fields you can use to define an audience
+  - This skill lets you more easily identify the right fields to use in your audience based on context and relevance -->
 
 Audience Agent ne prend pas **actuellement** en charge les fonctionnalités suivantes :
 
 - Création d’audiences basées sur les connaissances
-
    - La création d’une audience basée sur les connaissances consiste à créer une audience basée sur les attributs et les événements donnés
    - De plus, vous pouvez estimer la taille potentielle de l’audience avant la création de l’audience. Vous pouvez ainsi itérer rapidement sur l’audience la plus efficace avant qu’elle ne soit prête à être activée
    - La prise en charge de cette fonctionnalité sera bientôt disponible
-
 - Exploration des audiences basée sur des objectifs
-
    - L’exploration des audiences basée sur des objectifs vous permet de découvrir des jeux de données et des profils pertinents alignés sur un objectif commercial en appliquant des modèles de machine learning tels que la propension à acheter ou à convertir.
 
 En outre, lors de l’utilisation d’Audience Agent, vous devez tenir compte des contraintes suivantes :
 
 - Audience Agent a besoin d’au moins 24 heures pour traiter vos données
-
    - Par exemple, vous **pouvez pas** une requête qui recherche des données au cours des dernières 24 heures. Vous devrez vérifier dans les 48 dernières heures, au minimum.
-
-- Audience Agent ne prend en charge que les audiences basées sur les **personnes** qui sont évaluées à l’aide de la segmentation par lots
+- Audience Agent ne prend en charge que les types d’audiences suivants :
+   - Audiences **basées sur les personnes** évaluées à l’aide de la segmentation par lots
+   - Audiences **basées sur un compte** pour les cas d’utilisation suivants :
+      - Exploration des audiences de conversation
+      - Détection des doublons d’audience
 
 ## Exemples d’invites
 
@@ -91,6 +91,14 @@ Répertoriez toutes les audiences qui ont été mappées à de nouvelles destina
 
 +++
 
+Quelle audience de compte a la plus grande taille d’audience et quelle est cette taille ?
+
++++ Réponse
+
+![L’assistant AI affiche un tableau qui affiche les audiences de compte les plus importantes.](./images/audience/largest-account-audience.png)
+
++++
+
 ### Détecter les audiences en double
 
 Existe-t-il des audiences avec des descriptions identiques ou similaires ?
@@ -117,13 +125,21 @@ Montrez-moi toutes les audiences qui ont les mêmes règles, mais des destinatio
 
 +++
 
+Identifiez les audiences de compte qui ont les mêmes règles, mais des noms différents.
+
++++ Réponse
+
+![L’assistant AI affiche un tableau contenant les noms et identifiants des audiences de compte qui partagent les mêmes règles d’audience.](./images/audience/duplicate-account-audience.png)
+
++++
+
 ### Récupérer la taille de l’audience
 
 Quelle est la taille actuelle de mon audience « Membres Gold-star en Californie_f153e1 » ?
 
 +++ Réponse
 
-![&#x200B; L’assistant d’IA indique la taille actuelle de l’audience qui a fait l’objet d’une question.](./images/audience/current-size.png)
+![ L’assistant d’IA indique la taille actuelle de l’audience qui a fait l’objet d’une question.](./images/audience/current-size.png)
 
 +++
 
@@ -141,7 +157,7 @@ Quelles audiences ont augmenté leur taille de plus de 20 % au cours de la derni
 
 +++ Réponse
 
-![&#x200B; L’assistant AI affiche un tableau qui répertorie les noms de toutes les audiences qui correspondent à la requête. Elle affiche également le pourcentage d’augmentation, la taille actuelle de l’audience, ainsi que la taille précédente de l’audience.](./images/audience/increase-past-week.png)
+![ L’assistant AI affiche un tableau qui répertorie les noms de toutes les audiences qui correspondent à la requête. Elle affiche également le pourcentage d’augmentation, la taille actuelle de l’audience, ainsi que la taille précédente de l’audience.](./images/audience/increase-past-week.png)
 
 +++
 
@@ -149,7 +165,7 @@ Quelles audiences ont vu leur taille diminuer de plus de 10 % au cours du dernie
 
 +++ Réponse
 
-![&#x200B; L’assistant AI affiche un tableau qui répertorie les noms de toutes les audiences qui correspondent à la requête. Elle affiche également la taille de l’audience actuelle, la taille de l’ancienne audience, ainsi que la date de l’ancienne audience.](./images/audience/decrease-month.png)
+![ L’assistant AI affiche un tableau qui répertorie les noms de toutes les audiences qui correspondent à la requête. Elle affiche également la taille de l’audience actuelle, la taille de l’ancienne audience, ainsi que la date de l’ancienne audience.](./images/audience/decrease-month.png)
 
 +++
 
