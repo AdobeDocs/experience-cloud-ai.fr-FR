@@ -66,7 +66,7 @@ L’agent d’analyse de Parcours permet aux utilisateurs de Adobe Journey Optim
 - Détectez et résolvez les conflits de planning ou d’audience.
 - Analysez les performances et les points de chute.
 
-Lisez la documentation de l&#39;agent d&#39;analyse de Parcours [](./agents/ajo-agent-analyze.md) pour plus d&#39;informations.
+Lisez la documentation de l&#39;agent d&#39;analyse de Parcours [&#128279;](./agents/ajo-agent-analyze.md) pour plus d&#39;informations.
 
 #### Agent du support technique du produit
 
