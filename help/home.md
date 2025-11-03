@@ -1,9 +1,9 @@
 ---
 title: IA dans les applications Experience Cloud
 description: Découvrez comment les applications Experience Cloud utilisent l’IA générative (GenAI), l’Assistant IA et l’IA agentique.
-source-git-commit: a19c891d1a17c9112aff3d9a52daa94ad162a553
+source-git-commit: 8c05562121071874002afd6d248f16186616da55
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '830'
 ht-degree: 13%
 
 ---
@@ -48,6 +48,8 @@ Audience Agent fournit des informations sur les audiences, notamment :
 - Exploration de l’inventaire des audiences.
 - Récupération des tailles d’audience.
 
+Lisez la [documentation d’Audience Agent](./agents/audience.md) pour plus d’informations.
+
 #### Data Insights Agent
 
 Disponible dans Customer Journey Analytics, le Data Insights Agent :
@@ -56,13 +58,15 @@ Disponible dans Customer Journey Analytics, le Data Insights Agent :
 - Crée des visualisations pertinentes dans Analysis Workspace.
 - Utilise des composants de votre vue de données et des données réelles.
 
-#### Journey Agent
+#### Agent d’analyse de parcours
 
-Le Journey Agent permet aux utilisateurs de Adobe Journey Optimizer de :
+L’agent d’analyse de Parcours permet aux utilisateurs de Adobe Journey Optimizer de :
 
 - Analysez et optimisez les parcours à l’aide du langage naturel.
 - Détectez et résolvez les conflits de planning ou d’audience.
 - Analysez les performances et les points de chute.
+
+Lisez la documentation de l&#39;agent d&#39;analyse de Parcours [](./agents/ajo-agent-analyze.md) pour plus d&#39;informations.
 
 #### Agent du support technique du produit
 
@@ -71,6 +75,8 @@ Utilisez l’agent du support produit pour le débogage et le dépannage en libr
 - Résolution des problèmes liés aux fonctionnalités de Adobe Experience Platform sans quitter les workflows.
 - Créez des tickets d’assistance avec du contexte à partir des interactions de l’assistant AI.
 - Vérifiez les mises à jour des tickets via l’assistant AI.
+
+Pour plus d’informations, consultez la [documentation de l’agent d’assistance produit](./agents/product-support.md).
 
 ## Commencer
 
