@@ -16,7 +16,7 @@ ht-degree: 5%
 >
 >Data Insights Agent est disponible pour les clients éligibles pendant une durée limitée. Data Insights Agent est accessible jusqu’au 28 février 2026. Pour continuer à utiliser Data Insights Agent au-delà de cette date sans interruption, contactez votre représentant de compte Adobe pour en savoir plus sur les licences Adobe Experience Platform Agent Orchestrator.
 
-Data Insights Agent, accessible à partir de l’[assistant AI](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant) dans Customer Journey Analytics, est un agent de conversation IA générative qui répond rapidement et efficacement aux questions sur vos données. Il crée des visualisations pertinentes dans Analysis Workspace en utilisant les composants de votre vue de données et vos données réelles.
+Data Insights Agent, accessible à partir de l’[assistant AI](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant) dans Customer Journey Analytics, est un agent de conversation IA générative qui répond rapidement et efficacement aux questions sur vos données. Il crée des visualisations pertinentes dans Analysis Workspace en utilisant les composants de votre vue de données et vos données réelles.
 
 L’utilisation de Data Insights Agent pour répondre aux questions relatives aux données dans Analysis Workspace peut vous faire gagner un nombre incalculable d’heures que vous pourriez passer à créer manuellement des visualisations dans Analysis Workspace et à vous familiariser avec vos composants de vue de données.
 
@@ -71,7 +71,7 @@ Les paramètres suivants régissent l’accès à Data Insights Agent dans Custo
 
    1. Sélectionnez **[!UICONTROL Enregistrer]** pour enregistrer les autorisations.
 
-  Pour plus d’informations sur le contrôle d’accès, voir [&#x200B; Contrôle d’accès &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control#access-control).
+  Pour plus d’informations sur le contrôle d’accès, voir [&#x200B; Contrôle d’accès &#x200B;](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/technotes/access-control#access-control).
 
 * **Accès aux vues de données** : les vues de données doivent être activées pour Data Insights Agent.
 
@@ -254,7 +254,7 @@ Vous trouverez ci-dessous les bonnes pratiques relatives à votre configuration 
 
 >[!MORELIKETHIS]
 >
->[Paramètres des composants](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
->[Dictionnaire de données &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/data-dictionary/data-dictionary-overview)
->[Approuver la mesure calculée](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-approving)
->[Partage de segments &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/segments/seg-share)
+>[Paramètres des composants](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
+>[Dictionnaire de données &#x200B;](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-components/data-dictionary/data-dictionary-overview)
+>[Approuver la mesure calculée](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-approving)
+>[Partage de segments &#x200B;](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-components/segments/seg-share)
