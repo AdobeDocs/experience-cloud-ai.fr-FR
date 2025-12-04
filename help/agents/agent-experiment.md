@@ -1,9 +1,9 @@
 ---
 title: Agent d’expérimentation
 description: Découvrez comment utiliser l’agent d’expérience
-source-git-commit: 0069a97bcb35f609019ec32f263175a36525161a
+source-git-commit: 5694f15d82081eed8e762fea8aabc3da1e265b04
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '535'
 ht-degree: 3%
 
 ---
@@ -12,15 +12,21 @@ ht-degree: 3%
 
 >[!AVAILABILITY]
 >
->L’agent d’expérimentation est disponible pour tous les clients qui ont accès à l’assistant AI. Cependant, vous avez besoin des autorisations suivantes pour utiliser pleinement les fonctionnalités de l’agent d’expérience.
+>L’agent d’expérimentation est disponible pour tous les clients qui ont acheté la licence payante de Journey Optimizer Experimentation Accelerator et s’intègre de manière transparente à Adobe Target ou Adobe Journey Optimizer.
 >
->**Afficher les expériences** : cette autorisation vous permet d’utiliser l’agent d’expérimentation pour afficher des informations sur l’expérience directement dans l’assistant AI.
->
->**Gérer les métadonnées d’expérience** : cette autorisation vous permet d’utiliser l’agent d’expérience pour créer de nouvelles expériences directement dans l’assistant AI.
+>[En savoir plus sur Journey Optimizer Experimentation Accelerator](https://experienceleague.adobe.com/fr/docs/experimentation-accelerator/using/overview)
 
 ## Vue d’ensemble
 
 Le **agent d’expérimentation** est un outil optimisé par l’IA qui modernise la manière dont vous pouvez exécuter et gérer des expériences numériques sur des sites web, des e-mails, des messages push et des applications. Basé sur la plateforme d’IA et les outils d’expérimentation de Adobe Experience Platform, le **Agent d’expérimentation** vous permet d’exécuter des expériences plus efficacement, d’organiser les objectifs commerciaux et de générer des informations exploitables, en mettant en évidence ce qui a fonctionné, ce qui n’a pas fonctionné et où tester ensuite.
+
+Les autorisations suivantes permettent d’utiliser pleinement les fonctionnalités de l’agent d’expérience.
+
+* **Afficher les expériences** : cette autorisation vous permet d’utiliser l’agent d’expérimentation pour afficher des informations sur l’expérience directement dans l’assistant AI.
+
+* **Gérer les métadonnées d’expérience** : cette autorisation vous permet d’utiliser l’agent d’expérience pour créer de nouvelles expériences directement dans l’assistant AI.
+
+➡️ [En savoir plus dans la documentation Journey Optimizer Experimentation Accelerator](https://experienceleague.adobe.com/en/docs/experimentation-accelerator/using/get-started/experiment-accelerator-access)
 
 Dans le cadre de la fonctionnalité Experimentation Accelerator, l’agent fournit :
 
