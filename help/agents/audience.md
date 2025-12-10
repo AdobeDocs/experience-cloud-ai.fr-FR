@@ -1,9 +1,9 @@
 ---
 title: Agent Audience
 description: Découvrez comment utiliser Audience Agent pour créer des audiences, afficher les modifications d’audience, détecter les audiences en double et afficher les informations sur l’audience.
-source-git-commit: f2b5bd1a59055a8ca6785abfc2d0a336eea7fd98
+source-git-commit: ca3766477459fb13170d176057a3ea9fbb791b29
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '1204'
 ht-degree: 2%
 
 ---
@@ -34,6 +34,9 @@ L’assistant Audience Agent within AI prend en charge les cas d’utilisation s
    - Découvrir les champs XDM que vous pouvez utiliser pour définir une audience
 - Détecter les modifications importantes de la taille de l’audience
    - Vous pouvez ainsi trouver des audiences qui ont soudainement augmenté ou diminué, ce qui vous permet de mieux analyser les changements potentiels du marché
+- Création d’une audience
+   - Cette compétence vous permet de créer une audience basée sur les attributs et les événements donnés
+   - En outre, cette compétence vous permet d’estimer la taille potentielle d’une audience avant de créer l’audience, ce qui vous permet d’itérer rapidement sur l’audience la plus efficace avant qu’elle ne soit prête à être activée
 
 <!-- - Find your audience size and detect significant changes in audience size
   - This lets you find audiences that have suddenly grown or shrunk, letting you better analyze potential market changes
@@ -46,10 +49,6 @@ L’assistant Audience Agent within AI prend en charge les cas d’utilisation s
 
 Audience Agent ne prend pas **actuellement** en charge les fonctionnalités suivantes :
 
-- Création d’audiences basées sur les connaissances
-   - La création d’une audience basée sur les connaissances consiste à créer une audience basée sur les attributs et les événements donnés
-   - De plus, vous pouvez estimer la taille potentielle de l’audience avant la création de l’audience. Vous pouvez ainsi itérer rapidement sur l’audience la plus efficace avant qu’elle ne soit prête à être activée
-   - La prise en charge de cette fonctionnalité sera bientôt disponible
 - Exploration des audiences basée sur des objectifs
    - L’exploration des audiences basée sur des objectifs vous permet de découvrir des jeux de données et des profils pertinents alignés sur un objectif commercial en appliquant des modèles de machine learning tels que la propension à acheter ou à convertir.
 
@@ -141,7 +140,7 @@ Quelle est la taille actuelle de mon audience « Membres Gold-star en Californie
 
 +++ Réponse
 
-![&#x200B; L’assistant d’IA indique la taille actuelle de l’audience qui a fait l’objet d’une question.](./images/audience/current-size.png)
+![ L’assistant d’IA indique la taille actuelle de l’audience qui a fait l’objet d’une question.](./images/audience/current-size.png)
 
 +++
 
@@ -159,7 +158,7 @@ Quelles audiences ont augmenté leur taille de plus de 20 % au cours de la derni
 
 +++ Réponse
 
-![&#x200B; L’assistant AI affiche un tableau qui répertorie les noms de toutes les audiences qui correspondent à la requête. Elle affiche également le pourcentage d’augmentation, la taille actuelle de l’audience, ainsi que la taille précédente de l’audience.](./images/audience/increase-past-week.png)
+![ L’assistant AI affiche un tableau qui répertorie les noms de toutes les audiences qui correspondent à la requête. Elle affiche également le pourcentage d’augmentation, la taille actuelle de l’audience, ainsi que la taille précédente de l’audience.](./images/audience/increase-past-week.png)
 
 +++
 
@@ -167,7 +166,7 @@ Quelles audiences ont vu leur taille diminuer de plus de 10 % au cours du dernie
 
 +++ Réponse
 
-![&#x200B; L’assistant AI affiche un tableau qui répertorie les noms de toutes les audiences qui correspondent à la requête. Elle affiche également la taille de l’audience actuelle, la taille de l’ancienne audience, ainsi que la date de l’ancienne audience.](./images/audience/decrease-month.png)
+![ L’assistant AI affiche un tableau qui répertorie les noms de toutes les audiences qui correspondent à la requête. Elle affiche également la taille de l’audience actuelle, la taille de l’ancienne audience, ainsi que la date de l’ancienne audience.](./images/audience/decrease-month.png)
 
 +++
 
@@ -178,6 +177,80 @@ Quelle est mon audience qui croît le plus rapidement ?
 ![L’assistant d’IA indique le nom de l’audience qui croît le plus rapidement, ainsi que la taille actuelle et le pourcentage de croissance.](./images/audience/fastest-growing.png)
 
 +++
+
+### Créer une audience
+
+Lorsque vous créez une audience avec Audience Agent, l’assistant AI vous guide tout au long d’un plan. Par exemple, vous pouvez demander à « Créer une audience composée de personnes qui vivent en Californie ». L’assistant AI répertorie ensuite le plan qu’il entreprendra pour créer l’audience.
+
++++ Réponse
+
+![L’assistant AI affiche le plan de création d’une audience.](./images/audience/audience-create-plan.png)
+
++++
+
+Ce plan se compose de trois étapes :
+
+1. [Identifier les caractéristiques de l’audience](#identify)
+2. [Estimer la taille de l’audience](#estimate)
+3. [Créer et conserver une nouvelle audience](#create)
+
+#### Identifier les caractéristiques de l’audience {#identify}
+
+![Étape 1 du plan, qui consiste à identifier les caractéristiques de l’audience.](./images/audience/plan-step-1.png){align="center" width="80%"}
+
+Après avoir accepté le plan, l’assistant AI récupérera les caractéristiques de l’audience en fonction de votre requête initiale.
+
++++ Réponse
+
+![Définition de l’audience basée sur la requête de l’utilisateur.](./images/audience/audience-create-definition.png)
+
+Pour cette requête, l’assistant AI génère le Profile Query Language (PQL) approprié qui rechercherait les personnes qui vivent en Californie. Dans ce cas d’utilisation, la requête PQL se présenterait comme suit :
+
+```sql
+homeAddress.state.equals("California", false)
+```
+
+Pour plus d’informations sur PQL, consultez la présentation de PQL [](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview).
+
++++
+
+Si la définition de l’audience de l’assistant d’IA est correcte, vous pouvez l’approuver et passer à l’étape suivante.
+
+#### Estimer la taille de l’audience {#estimate}
+
+![Étape 2 du plan, qui consiste à estimer la taille de l’audience potentielle.](./images/audience/plan-step-2.png){align="center" width="80%"}
+
+Après avoir approuvé les caractéristiques d’audience identifiées, l’assistant AI estimera la taille de l’audience potentielle et les détails de la définition de l’audience.
+
++++ Réponse
+
+![L’exemple d’estimation pour l’audience potentielle s’affiche. La taille estimée et la définition de segment s’affichent.](./images/audience/audience-create-estimate.png)
+
++++
+
+Si la taille estimée semble correcte, vous pouvez approuver et passer à l’étape suivante.
+
+#### Créer et conserver une nouvelle audience {#create}
+
+![Étape 3 du plan, qui consiste à terminer la création de l’audience.](./images/audience/plan-step-3.png){align="center" width="80%"}
+
+Enfin, si les caractéristiques et la taille de l’audience semblent correctes, vous pouvez approuver ou rejeter la création de l’audience.
+
++++ Réponse
+
+Tout d’abord, vous pouvez examiner l’audience proposée par le biais de la grille de données fournie.
+
+![L’écran de révision s’affiche.](./images/audience/audience-create-review.png)
+
+Si l’audience semble correcte, vous pouvez accepter la proposition en sélectionnant **[!UICONTROL Créer]** pour terminer la création de l’audience.
+
+![La proposition complète pour l’audience s’affiche.](./images/audience/audience-create-proposal.png)
+
++++
+
+L’audience est maintenant créée.
+
+![La proposition d’audience a été acceptée et l’audience a été créée.](./images/audience/audience-finish-create.png){align="center" width="80%"}
 
 ## Étapes suivantes
 
