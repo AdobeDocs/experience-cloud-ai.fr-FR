@@ -1,9 +1,9 @@
 ---
 title: Agent Audience
 description: Découvrez comment utiliser Audience Agent pour créer des audiences, afficher les modifications d’audience, détecter les audiences en double et afficher les informations sur l’audience.
-source-git-commit: ca3766477459fb13170d176057a3ea9fbb791b29
+source-git-commit: effd4fe4123953b6af375dfb46fcc669b2e35df1
 workflow-type: tm+mt
-source-wordcount: '1204'
+source-wordcount: '1229'
 ht-degree: 2%
 
 ---
@@ -140,7 +140,7 @@ Quelle est la taille actuelle de mon audience « Membres Gold-star en Californie
 
 +++ Réponse
 
-![&#x200B; L’assistant d’IA indique la taille actuelle de l’audience qui a fait l’objet d’une question.](./images/audience/current-size.png)
+![ L’assistant d’IA indique la taille actuelle de l’audience qui a fait l’objet d’une question.](./images/audience/current-size.png)
 
 +++
 
@@ -158,7 +158,7 @@ Quelles audiences ont augmenté leur taille de plus de 20 % au cours de la derni
 
 +++ Réponse
 
-![&#x200B; L’assistant AI affiche un tableau qui répertorie les noms de toutes les audiences qui correspondent à la requête. Elle affiche également le pourcentage d’augmentation, la taille actuelle de l’audience, ainsi que la taille précédente de l’audience.](./images/audience/increase-past-week.png)
+![ L’assistant AI affiche un tableau qui répertorie les noms de toutes les audiences qui correspondent à la requête. Elle affiche également le pourcentage d’augmentation, la taille actuelle de l’audience, ainsi que la taille précédente de l’audience.](./images/audience/increase-past-week.png)
 
 +++
 
@@ -166,7 +166,7 @@ Quelles audiences ont vu leur taille diminuer de plus de 10 % au cours du dernie
 
 +++ Réponse
 
-![&#x200B; L’assistant AI affiche un tableau qui répertorie les noms de toutes les audiences qui correspondent à la requête. Elle affiche également la taille de l’audience actuelle, la taille de l’ancienne audience, ainsi que la date de l’ancienne audience.](./images/audience/decrease-month.png)
+![ L’assistant AI affiche un tableau qui répertorie les noms de toutes les audiences qui correspondent à la requête. Elle affiche également la taille de l’audience actuelle, la taille de l’ancienne audience, ainsi que la date de l’ancienne audience.](./images/audience/decrease-month.png)
 
 +++
 
@@ -179,6 +179,10 @@ Quelle est mon audience qui croît le plus rapidement ?
 +++
 
 ### Créer une audience
+
+>[!AVAILABILITY]
+>
+>Vous ne pouvez utiliser la compétence de création d’audience que si vous faites partie du programme Explorateur Agent Orchestrator. Pour plus d’informations, contactez l’Assistance clientèle d’Adobe.
 
 Lorsque vous créez une audience avec Audience Agent, l’assistant AI vous guide tout au long d’un plan. Par exemple, vous pouvez demander à « Créer une audience composée de personnes qui vivent en Californie ». L’assistant AI répertorie ensuite le plan qu’il entreprendra pour créer l’audience.
 
@@ -210,7 +214,7 @@ Pour cette requête, l’assistant AI génère le Profile Query Language (PQL) a
 homeAddress.state.equals("California", false)
 ```
 
-Pour plus d’informations sur PQL, consultez la présentation de PQL [&#128279;](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/pql/overview).
+Pour plus d’informations sur PQL, consultez la présentation de PQL [](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview).
 
 +++
 
