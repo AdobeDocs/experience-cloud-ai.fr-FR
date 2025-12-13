@@ -26,7 +26,7 @@ Les autorisations suivantes permettent d’utiliser pleinement les fonctionnalit
 
 * **Gérer les métadonnées d’expérience** : cette autorisation vous permet d’utiliser l’agent d’expérience pour créer de nouvelles expériences directement dans l’assistant AI.
 
-➡️ [En savoir plus dans la documentation Journey Optimizer Experimentation Accelerator](https://experienceleague.adobe.com/en/docs/experimentation-accelerator/using/get-started/experiment-accelerator-access)
+➡️ [En savoir plus dans la documentation Journey Optimizer Experimentation Accelerator](https://experienceleague.adobe.com/fr/docs/experimentation-accelerator/using/get-started/experiment-accelerator-access)
 
 Dans le cadre de la fonctionnalité Experimentation Accelerator, l’agent fournit :
 
