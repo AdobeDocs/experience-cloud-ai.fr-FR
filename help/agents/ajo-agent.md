@@ -4,7 +4,7 @@ description: Guide complet de Journey Agent permettant aux utilisateurs de crée
 solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
-source-git-commit: 0e3839f829efc5670c235435d49ed5e49da2ed13
+source-git-commit: 229d349d971ffaba3f2f2fb989e363d96a8d7a70
 workflow-type: tm+mt
 source-wordcount: '2147'
 ht-degree: 18%
@@ -22,9 +22,7 @@ Journey Agent se compose de deux compétences principales :
 - **Parcours Create Agent** : crée et configure des parcours marketing à l’aide d’invites en langage naturel
 - **Agent d’analyse de Parcours** : analysez les parcours, détectez les problèmes, découvrez des informations et optimisez l’engagement des clients
 
-&#x200B;---
-
-&#x200B;# Parcours Create Agent : présentation des compétences et guide de l’utilisateur
+## Parcours Create Agent : présentation des compétences et guide de l’utilisateur
 
 ## Vue d’ensemble
 
@@ -161,15 +159,13 @@ Lorsqu’un utilisateur accède à l’emplacement de ma boutique, envoyez un me
 - **Planifier le contenu du message** : définissez votre stratégie de messagerie avant la création du parcours.
 - **Tenir compte de l’expérience client** : concevez des flux de parcours qui respectent les préférences des clients et évitent la surcommunication.
 
-&#x200B;---
-
-&#x200B;# Agent Parcours Analyze : présentation des compétences et guide de l’utilisateur
+## Agent Parcours Analyze : présentation des compétences et guide de l’utilisateur
 
 ## Vue d’ensemble
 
 Journey Agent permet aux utilisateurs de Journey Optimizer d’analyser et d’optimiser les parcours à l’aide d’une interface en langage naturel. Avec Journey Agent, les utilisateurs et utilisatrices peuvent rapidement identifier et résoudre les conflits de planning et/ou d’audience, détecter les points d’abandon d’utilisateur ou d’utilisatrice dans un parcours et fournir des informations ou des recommandations. Il permet aux personnes professionnelles de prendre des décisions fondées sur des données, d’améliorer l’engagement de la clientèle et de rationaliser l’orchestration de parcours.
 
-Découvrez l’agent en un coup d’œil et en savoir plus dans cette [présentation](https://experienceleague.adobe.com/fr/slides/journey-agent-overview).
+Découvrez l’agent en un coup d’œil et en savoir plus dans cette [présentation](https://experienceleague.adobe.com/en/slides/journey-agent-overview).
 
 >[!AVAILABILITY]
 >
@@ -310,8 +306,6 @@ Pour maximiser l’efficacité de l’analyse de l’agent Journey, suivez ces b
 - **Définir des objectifs clairs** : avant d’analyser les parcours, définissez des objectifs clairs (par exemple, améliorer la fidélisation, augmenter les conversions).
 - **Contrôler régulièrement** : planifiez des vérifications régulières des performances des parcours afin d’identifier les tendances et les anomalies.
 - **Optimiser la segmentation** : veillez à ce que la segmentation de l’audience soit équilibrée afin d’éviter la lassitude et de maximiser l’engagement.
-
-&#x200B;---
 
 ## Diapositives et présentations
 
