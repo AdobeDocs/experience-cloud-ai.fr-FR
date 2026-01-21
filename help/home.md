@@ -1,9 +1,9 @@
 ---
 title: IA dans les applications Experience Cloud
 description: Découvrez comment les applications Experience Cloud utilisent l’IA générative (GenAI), l’Assistant IA et l’IA agentique.
-source-git-commit: 8c05562121071874002afd6d248f16186616da55
+source-git-commit: 0e3839f829efc5670c235435d49ed5e49da2ed13
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '829'
 ht-degree: 13%
 
 ---
@@ -66,7 +66,7 @@ L’agent d’analyse de Parcours permet aux utilisateurs de Adobe Journey Optim
 - Détectez et résolvez les conflits de planning ou d’audience.
 - Analysez les performances et les points de chute.
 
-Lisez la documentation de l&#39;agent d&#39;analyse de Parcours [&#128279;](./agents/ajo-agent-analyze.md) pour plus d&#39;informations.
+Pour plus d’informations[ consultez la documentation de Journey Agent ](./agents/ajo-agent.md).
 
 #### Agent du support technique du produit
 
@@ -78,7 +78,7 @@ Utilisez l’agent du support produit pour le débogage et le dépannage en libr
 
 Pour plus d’informations, consultez la [documentation de l’agent d’assistance produit](./agents/product-support.md).
 
-## Commencer
+## Prise en main
 
 ### Exigences d’accès
 
