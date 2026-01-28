@@ -1,7 +1,7 @@
 ---
 title: Guide de l’interface d’utilisation de l’Assistant IA
 description: Découvrez comment accéder à l’assistant AI et l’utiliser dans l’interface utilisateur.
-source-git-commit: a19c891d1a17c9112aff3d9a52daa94ad162a553
+source-git-commit: 0e7306c50fbb6913bfd08d9d31484ec1690be91d
 workflow-type: tm+mt
 source-wordcount: '1843'
 ht-degree: 2%
@@ -72,7 +72,7 @@ La vue du rail permet d’accéder rapidement aux conversations, aux invites de 
 
 Cette section présente les principales fonctionnalités et options de navigation de l’interface utilisateur de l’assistant AI. Il explique comment accéder à l’assistant d’IA, décrit la disposition et les contrôles dans les vues plein écran et rail et présente des outils clés tels que les conversations, les fonctionnalités de saisie, la saisie semi-automatique, le paramètre de contexte et les invites de découverte. Les sections suivantes fournissent des conseils détaillés sur l’utilisation de ces fonctionnalités pour interagir avec l’assistant AI et tirer le meilleur parti de votre expérience.
 
-### Invites de découverte
+### Invites de découverte {#discovery-prompts}
 
 Vous pouvez utiliser la fonction de découverte de l&#39;assistant AI pour afficher une liste des sujets généraux, regroupés en entités, pris en charge par l&#39;assistant AI. Les invites de découverte sont différentes selon votre point de départ.
 
