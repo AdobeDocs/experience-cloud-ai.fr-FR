@@ -1,10 +1,10 @@
 ---
 title: Essai lié à l’utilisation des agents Adobe Experience Platform
 description: Découvrez l’essai gratuit des agents Adobe Experience Platform.
-source-git-commit: a94ab9a30900e2d3a8db44994a1cb51a5f9361ff
+source-git-commit: 919abbc1a4919b46f6a9beec6f8e3dc71dc4edb7
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 2%
+source-wordcount: '1023'
+ht-degree: 1%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 Adobe déterminera votre éligibilité pour l&#39;essai à sa seule discrétion. Les clients qui disposent actuellement ou qui possédaient précédemment une licence Adobe Experience Platform Agent Orchestrator Promotion ou une licence Experience Platform Agents AI Credits ne sont pas éligibles à l’évaluation.
 
-Les clients éligibles reçoivent un droit initial unique allant jusqu’à 10 000 crédits AI à utiliser pour toute combinaison de tâches (selon votre ou vos licences existantes pour les applications Experience Cloud) répertoriées dans le [Tableau de consommation de crédit AI](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption). Vous pouvez effectuer le suivi de vos crédits AI à l’aide du tableau de bord d’utilisation des licences dans l’interface utilisateur de Adobe Experience Platform. Pour plus d’informations, consultez la [documentation du tableau de bord d’utilisation des licences](https://experienceleague.adobe.com/fr/docs/experience-platform/dashboards/guides/license-usage).
+Les clients éligibles reçoivent un droit initial unique allant jusqu’à 10 000 crédits AI à utiliser pour toute combinaison de tâches (selon votre ou vos licences existantes pour les applications Experience Cloud) répertoriées dans le [Tableau de consommation de crédit AI](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption). Vous pouvez effectuer le suivi de vos crédits AI à l’aide du tableau de bord d’utilisation des licences dans l’interface utilisateur de Adobe Experience Platform. Pour plus d’informations, consultez la [documentation du tableau de bord d’utilisation des licences](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage).
 
 >[!IMPORTANT]
 >
@@ -42,6 +42,50 @@ Pour plus d’informations sur les agents disponibles, lisez la présentation d�
 >[!TIP]
 >
 >Obtenez de l’aide - Veuillez envoyer une demande à [aep-agents-trial-support@adobe.com](mailto:aep-agents-trial-support@adobe.com).
+
+## Questions fréquentes {#faq}
+
+Lisez les sections suivantes pour obtenir des réponses aux questions fréquentes sur l’essai lié à l’utilisation des agents Experience Platform.
+
+### Quelle est la version d’essai des agents Adobe Experience Platform liée à l’utilisation ?
+
+La version d’évaluation des agents Adobe Experience Platform limitée à l’utilisation permet aux clients éligibles d’utiliser certains agents sans frais supplémentaires jusqu’à 10 000 crédits d’IA. L’objectif est de fournir une solution à faible friction et à faible risque pour tirer parti de ces agents avant que les clients ne prennent une décision commerciale.
+
+### Quels agents sont inclus dans cet essai ?
+
+Lisez le guide sur [l’IA dédiée aux agents dans Experience Cloud](https://experienceleague.adobe.com/fr/docs/core-services/interface/features/agentic-ai) pour obtenir la liste complète des agents inclus dans l’essai.
+
+### Qui peut participer à cet essai ?
+
+L’évaluation est actuellement déployée par phases auprès de certains clients Adobe Experience Cloud éligibles, afin qu’Adobe puisse fournir une assistance appropriée. Si vous souhaitez participer, contactez l’équipe chargée de votre compte Adobe afin de connaître votre statut et de discuter des options d’accès.
+
+### Combien de crédits d’IA vais-je obtenir et que se passe-t-il lorsque ces crédits d’IA sont utilisés ?
+
+Les clients éligibles reçoivent jusqu’à 10 000 crédits AI pour l’évaluation, qui sont consommés lorsque les agents exécutent des tâches. Veuillez noter que ces crédits AI n’existent que pendant la durée de l’expérience d’évaluation et ne sont pas transférés si vous possédez une licence de crédits AI supplémentaires avant d’utiliser l’intégralité des 10 000 crédits AI. Pour plus d’informations sur la consommation de crédit AI, consultez le guide [Tâches d’agent et consommation de crédit AI](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption).
+
+### Est-ce que ça coûte quelque chose ?
+
+L’évaluation ne nécessite aucun achat supplémentaire. Il n’existe pas de conversion automatique en offre payante. Si vous décidez de continuer à utiliser des agents au-delà de l’évaluation, l’équipe chargée de votre compte Adobe collaborera avec vous pour passer à une offre payante.
+
+### Qui peut voir l’utilisation et comment ?
+
+Vous pouvez effectuer le suivi de vos crédits AI à l’aide du tableau de bord d’utilisation des licences dans l’interface utilisateur de Adobe Experience Platform. Pour plus d’informations, consultez la [documentation du tableau de bord d’utilisation des licences](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage).
+
+Utilisez le tableau de bord pour afficher l’utilisation et les rapports de vos crédits AI. Seuls les administrateurs et les utilisateurs disposant des autorisations appropriées peuvent afficher vos informations d’utilisation.
+
+### Que se passe-t-il une fois le procès terminé ?
+
+L’essai se termine lorsque vous consommez les droits uniques initiaux de 10 000 crédits d’IA ou une fois que vous possédez une licence de crédits d’IA supplémentaires.
+
+Une fois l’essai terminé, vous pouvez choisir les options suivantes :
+
+- Ne pas avancer
+   - Cela permet à l’essai d’expirer
+   - Vos produits Adobe existants continuent à fonctionner comme avant, sans pénalité si vous ne convertissez pas l’évaluation
+- Continuer l’utilisation de l’agent
+   - Vous pouvez collaborer avec l’équipe chargée de votre compte Adobe pour passer à une offre payante.
+
+Il n’existe pas de commutateur masqué automatique pour convertir les clients dont l’essai est terminé en payant.
 
 ## Ressources supplémentaires
 
