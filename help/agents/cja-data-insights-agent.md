@@ -16,7 +16,7 @@ ht-degree: 5%
 >
 >Data Insights Agent est disponible pour les clients éligibles pendant une durée limitée. Data Insights Agent est accessible jusqu’au 28 février 2026. Pour continuer à utiliser Data Insights Agent au-delà de cette date sans interruption, contactez votre représentant de compte Adobe pour en savoir plus sur les licences Adobe Experience Platform Agent Orchestrator.
 
-Data Insights Agent, accessible à partir de l’[assistant AI](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant) dans Customer Journey Analytics, est un agent de conversation IA générative qui répond rapidement et efficacement aux questions sur vos données. Il crée des visualisations pertinentes dans Analysis Workspace en utilisant les composants de votre vue de données et vos données réelles.
+Data Insights Agent, accessible à partir de l’[assistant AI](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant) dans Customer Journey Analytics, est un agent de conversation IA générative qui répond rapidement et efficacement aux questions sur vos données. Il crée des visualisations pertinentes dans Analysis Workspace en utilisant les composants de votre vue de données et vos données réelles.
 
 L’utilisation de Data Insights Agent pour répondre aux questions relatives aux données dans Analysis Workspace peut vous faire gagner un nombre incalculable d’heures que vous pourriez passer à créer manuellement des visualisations dans Analysis Workspace et à vous familiariser avec vos composants de vue de données.
 
@@ -40,7 +40,7 @@ L’utilisation de Data Insights Agent pour répondre aux questions relatives au
 >[!CONTEXTUALHELP]
 >id="cja-enable-data-insights-data-view"
 >title="Activer pour l’agent Data Insights"
->abstract="Cette option active cette vue de données pour une utilisation avec l’agent Data Insights. L’agent Data Insights est un agent de conversation d’IA générative accessible à partir de l’assistant IA dans Customer Journey Analytics. Il vous permet d’analyser rapidement vos données à l’aide d’invites textuelles. Il crée des visualisations pertinentes dans Analysis Workspace en utilisant les composants de votre vue de données et vos données réelles."
+>abstract="Cette option active cette vue de données pour une utilisation avec l’agent Data Insights. L’agent Data Insights est un agent de conversation d’IA générative accessible à partir de l’assistant IA dans Customer Journey Analytics. Il vous permet d’analyser rapidement vos données à l’aide d’invites textuelles. Il crée des visualisations pertinentes dans Analysis Workspace en utilisant les composants de votre vue de données et vos données réelles."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -71,7 +71,7 @@ Les paramètres suivants régissent l’accès à Data Insights Agent dans Custo
 
    1. Sélectionnez **[!UICONTROL Enregistrer]** pour enregistrer les autorisations.
 
-  Pour plus d’informations sur le contrôle d’accès, voir [&#x200B; Contrôle d’accès &#x200B;](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/technotes/access-control#access-control).
+  Pour plus d’informations sur le contrôle d’accès, voir [ Contrôle d’accès ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control#access-control).
 
 * **Accès aux vues de données** : les vues de données doivent être activées pour Data Insights Agent.
 
@@ -140,7 +140,7 @@ Ensuite, vous devez comparer vos revenus par région.
 
 ![Graphique à barres](images/cja-agent/ai-asst-result2.png)
 
-### Exemple 3
+### Exemple 3
 
 Ensuite, en plus de comprendre le chiffre d’affaires par région, vous souhaitez également afficher les données de bénéfice par région. Au lieu de répéter l’invite précédente, vous pouvez demander à Data Insights Agent de mettre à jour le tableau à structure libre et de visualisation le plus récent.
 
@@ -254,7 +254,7 @@ Vous trouverez ci-dessous les bonnes pratiques relatives à votre configuration 
 
 >[!MORELIKETHIS]
 >
->[Paramètres des composants](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
->[Dictionnaire de données &#x200B;](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-components/data-dictionary/data-dictionary-overview)
->[Approuver la mesure calculée](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-approving)
->[Partage de segments &#x200B;](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-components/segments/seg-share)
+>[Paramètres des composants](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
+>[Dictionnaire de données ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/data-dictionary/data-dictionary-overview)
+>[Approuver la mesure calculée](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-approving)
+>[Partage de segments ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/segments/seg-share)
