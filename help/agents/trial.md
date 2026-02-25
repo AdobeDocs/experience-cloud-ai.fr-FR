@@ -1,9 +1,9 @@
 ---
 title: Essai lié à l’utilisation des agents Adobe Experience Platform
 description: Découvrez l’essai gratuit des agents Adobe Experience Platform.
-source-git-commit: 919abbc1a4919b46f6a9beec6f8e3dc71dc4edb7
+source-git-commit: 0da2be4ca1026abb04a230eb5d1eb2c8c776b0a6
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1040'
 ht-degree: 1%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 1%
 >
 >Certains clients Experience Cloud éligibles peuvent avoir accès à la version d’essai des agents Adobe Experience Platform liés à l’utilisation afin de découvrir la valeur des agents dans leur propre environnement avant de s’engager à obtenir la licence.
 
+La vidéo suivante est destinée à vous aider à comprendre l’essai des agents Adobe Experience Platform lié à l’utilisation.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3480228?learn=on)
+
 ## Disponibilité de l’essai
 
 - **Assistant IA** : interface conversationnelle immersive pleine page optimisée par Agent Orchestrator et fonctionnant sur plusieurs produits, permettant aux utilisateurs de produits Experience Cloud activés d’exploiter les fonctionnalités de GenAI et d’IA dédiée aux agents. Pour plus d’informations, consultez le [guide de l’interface d’utilisation de l’Assistant IA](../ai-assistant/ai-assistant-ui.md).
@@ -23,7 +27,7 @@ ht-degree: 1%
 
 Adobe déterminera votre éligibilité pour l&#39;essai à sa seule discrétion. Les clients qui disposent actuellement ou qui possédaient précédemment une licence Adobe Experience Platform Agent Orchestrator Promotion ou une licence Experience Platform Agents AI Credits ne sont pas éligibles à l’évaluation.
 
-Les clients éligibles reçoivent un droit initial unique allant jusqu’à 10 000 crédits AI à utiliser pour toute combinaison de tâches (selon votre ou vos licences existantes pour les applications Experience Cloud) répertoriées dans le [Tableau de consommation de crédit AI](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption). Vous pouvez effectuer le suivi de vos crédits AI à l’aide du tableau de bord d’utilisation des licences dans l’interface utilisateur de Adobe Experience Platform. Pour plus d’informations, consultez la [documentation du tableau de bord d’utilisation des licences](https://experienceleague.adobe.com/fr/docs/experience-platform/dashboards/guides/license-usage).
+Les clients éligibles reçoivent un droit initial unique allant jusqu’à 10 000 crédits AI à utiliser pour toute combinaison de tâches (selon votre ou vos licences existantes pour les applications Experience Cloud) répertoriées dans le [Tableau de consommation de crédit AI](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption). Vous pouvez effectuer le suivi de vos crédits AI à l’aide du tableau de bord d’utilisation des licences dans l’interface utilisateur de Adobe Experience Platform. Pour plus d’informations, consultez la [documentation du tableau de bord d’utilisation des licences](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage).
 
 >[!IMPORTANT]
 >
@@ -69,7 +73,7 @@ L’évaluation ne nécessite aucun achat supplémentaire. Il n’existe pas de 
 
 ### Qui peut voir l’utilisation et comment ?
 
-Vous pouvez effectuer le suivi de vos crédits AI à l’aide du tableau de bord d’utilisation des licences dans l’interface utilisateur de Adobe Experience Platform. Pour plus d’informations, consultez la [documentation du tableau de bord d’utilisation des licences](https://experienceleague.adobe.com/fr/docs/experience-platform/dashboards/guides/license-usage).
+Vous pouvez effectuer le suivi de vos crédits AI à l’aide du tableau de bord d’utilisation des licences dans l’interface utilisateur de Adobe Experience Platform. Pour plus d’informations, consultez la [documentation du tableau de bord d’utilisation des licences](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage).
 
 Utilisez le tableau de bord pour afficher l’utilisation et les rapports de vos crédits AI. Seuls les administrateurs et les utilisateurs disposant des autorisations appropriées peuvent afficher vos informations d’utilisation.
 
