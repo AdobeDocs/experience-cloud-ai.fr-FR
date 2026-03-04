@@ -4,10 +4,10 @@ description: Guide complet de Journey Agent permettant aux utilisateurs de crée
 solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
-source-git-commit: 229d349d971ffaba3f2f2fb989e363d96a8d7a70
+source-git-commit: aba0b2f7f819f762c336c4dfeb952326a0814800
 workflow-type: tm+mt
-source-wordcount: '2147'
-ht-degree: 18%
+source-wordcount: '2608'
+ht-degree: 15%
 
 ---
 
@@ -18,19 +18,21 @@ ht-degree: 18%
 
 Journey Agent permet aux utilisateurs de Journey Optimizer de créer, d’analyser et d’optimiser des parcours marketing à l’aide d’une interface en langage naturel. Avec l’agent Journey, les personnes professionnelles peuvent rapidement créer des parcours, détecter et résoudre les conflits de plannings ou d’audiences, analyser les performances et les points d’abandon, et identifier les parcours les plus performants à reproduire pour les campagnes futures. Il permet aux professionnels de prendre des décisions basées sur les données, d’améliorer l’engagement des clients et de rationaliser l’orchestration des parcours.
 
-Journey Agent se compose de deux compétences principales :
-- **Parcours Create Agent** : crée et configure des parcours marketing à l’aide d’invites en langage naturel
-- **Agent d’analyse de Parcours** : analysez les parcours, détectez les problèmes, découvrez des informations et optimisez l’engagement des clients
+Journey Agent se compose de trois tâches principales :
 
-## Parcours Create Agent : présentation des compétences et guide de l’utilisateur
+- **Création de Parcours** : créez et configurez des parcours marketing à l’aide d’invites en langage naturel
+- **Création de contenu de canal** : générez, modifiez et gérez le contenu spécifique au canal (e-mail, notification push, SMS) pour les parcours à l’aide de la génération de contenu optimisée par l’IA
+- **Analyse des Parcours** : analysez les parcours, détectez les problèmes, découvrez des informations et optimisez l’engagement des clients
+
+## Parcours Create : cas d’utilisation, compétences en agence et guide de l’utilisateur
 
 ## Vue d’ensemble
 
-L’agent de création de parcours permet aux utilisateurs de Journey Optimizer de créer et de configurer des parcours marketing à l’aide d’une interface en langage naturel. Avec l’agent de création de Parcours, les utilisateurs et utilisatrices peuvent rapidement créer des parcours en décrivant leurs besoins dans des invites conversationnelles. L’agent simplifie la création de parcours, ce qui permet aux spécialistes du marketing de se concentrer sur la stratégie plutôt que sur la configuration technique.
+Parcours Create permet aux utilisateurs de Journey Optimizer de créer et de configurer des parcours marketing à l’aide d’une interface en langage naturel. Avec la fonction Création de Parcours, les utilisateurs et utilisatrices peuvent rapidement créer des parcours en décrivant leurs besoins dans des invites conversationnelles. L’agent simplifie la création de parcours, ce qui permet aux spécialistes marketing de se concentrer sur la stratégie plutôt que sur la configuration technique.
 
 >[!AVAILABILITY]
 >
->Le Parcours Créer un agent est disponible pour tous les clients qui ont accès à l’assistant AI. Toutefois, vous aurez besoin des autorisations suivantes pour utiliser pleinement les fonctionnalités de création d’agent de Parcours :
+>La création de parcours est disponible pour tous les clients qui ont accès à l’assistant AI. Toutefois, vous aurez besoin des autorisations suivantes pour utiliser pleinement les fonctionnalités de création de Parcours :
 >
 >**Gérer les Parcours** : cette autorisation vous permet de créer des parcours directement dans l’assistant AI.
 >
@@ -42,9 +44,9 @@ L’agent de création de parcours permet aux utilisateurs de Journey Optimizer 
 
 ## Cas d’utilisation
 
-### Cas d’utilisation clés de l’agent de création de Parcours
+### Cas d’utilisation clés de la création de Parcours
 
-La compétence Parcours Créer un agent offre des fonctionnalités qui peuvent être exploitées pour accélérer l’exécution marketing :
+Parcours Créez des fonctionnalités d’offres qui peuvent être exploitées pour accélérer l’exécution marketing :
 
 1. **Création de parcours déclenchée par un événement**
 
@@ -78,7 +80,7 @@ Pour chacun de ces cas d’utilisation, l’agent traduit les exigences en langa
 
 ### **Dans la portée**
 
-Les fonctionnalités suivantes sont prises en charge par l’agent de création de Parcours :
+Les fonctionnalités suivantes sont prises en charge par Parcours Create :
 
 - **Création de parcours en langage naturel** : permet aux utilisateurs de décrire le flux du parcours dans un langage de conversation.
 - **parcours basés sur un événement et sur une audience** : prend en charge les types de parcours planifiés et basés sur un déclencheur, ainsi que la qualification des événements métier et des audiences.
@@ -95,7 +97,6 @@ Les fonctionnalités suivantes ne sont pas prises en charge actuellement :
 - **Orchestration entre parcours**
 - **Configuration des tests A/B**
 - **Transformations de données complexes**
-- **Création du message de contenu**
 
 ## Exemples d’invites
 
@@ -141,7 +142,7 @@ L’agent vous fournira des conseils et des exemples pour vous aider à définir
 
 ### Bonnes pratiques en matière de promotion
 
-Pour optimiser l’efficacité de l’action Créer un agent de Parcours, suivez les bonnes pratiques suivantes :
+Pour optimiser l’efficacité de Parcours Create, appliquez les bonnes pratiques suivantes :
 
 1. **Soyez précis** : donnez des détails clairs sur vos objectifs de parcours, votre audience cible et les actions souhaitées. Incluez des informations sur les canaux, la durée et les conditions.
 1. **Spécifier le minutage** : indiquez clairement les périodes d’attente entre les actions et le moment où le parcours doit démarrer.
@@ -159,13 +160,95 @@ Lorsqu’un utilisateur accède à l’emplacement de ma boutique, envoyez un me
 - **Planifier le contenu du message** : définissez votre stratégie de messagerie avant la création du parcours.
 - **Tenir compte de l’expérience client** : concevez des flux de parcours qui respectent les préférences des clients et évitent la surcommunication.
 
-## Agent Parcours Analyze : présentation des compétences et guide de l’utilisateur
+## Création de contenu de canal : cas d’utilisation, compétences techniques et guide de l’utilisateur
+
+>[!AVAILABILITY]
+>
+>Cette fonctionnalité est disponible pour tous les clients en disponibilité limitée. Contactez votre représentant ou représentante Adobe pour en obtenir l’accès.
+
+## Vue d’ensemble
+
+La création de contenu de canal permet aux utilisateurs de Journey Optimizer de générer, modifier et gérer du contenu spécifique au canal pour les parcours à l’aide de la génération de contenu optimisée par l’IA.
+
+## Cas d’utilisation
+
+### Cas d’utilisation clés de la création de contenu de canal
+
+1. **Génération de contenu spécifique à un canal** : générez du contenu pour les e-mails, les notifications push, les SMS et d’autres canaux à l’aide d’invites en langage naturel.
+
+1. **Création de contenu basé sur des modèles** : recherchez et sélectionnez des modèles disponibles avec des fonctionnalités d’aperçu.
+
+1. **Gestion de contenu multicanal** : générez et gérez du contenu pour plusieurs canaux au sein du même workflow de parcours.
+
+1. **Modification de contenu en contexte** : ouvrez le contenu généré dans Content Designer pour le modifier et l’affiner.
+
+1. **Affinement et itération du contenu** : générez à nouveau du contenu avec des tons ou des styles différents à l’aide de l’action Régénérer.
+
+1. Intégration de la zone de travail de Parcours **** : sélectionnez les parcours dans l’inventaire et affichez les canaux associés.
+
+## Compétences incluses et exclues
+
+### **Dans la portée**
+
+Les fonctionnalités suivantes sont prises en charge par la création de contenu de canal :
+
+- **Génération de contenu optimisée par l’IA** : générez du contenu pour les e-mails, les notifications push, les SMS et d’autres canaux à l’aide d’invites en langage naturel.
+- **Gestion des modèles** : recherchez et sélectionnez un modèle disponible avec les fonctionnalités d’aperçu.
+- **Modification en contexte** : ouvrez le contenu généré dans Content Designer pour le modifier et l’affiner.
+- **Régénération du contenu** : générez à nouveau du contenu avec des tons, des styles ou des messages différents à l’aide de l’action Régénérer.
+- **Prise en charge multicanal** : générez et gérez du contenu pour plusieurs canaux au sein du même workflow de parcours.
+- **Accès à l’inventaire des Parcours** : sélectionnez les parcours dans l’inventaire et affichez les canaux associés.
+
+### **Hors portée**
+
+Les fonctionnalités suivantes ne sont pas prises en charge actuellement :
+
+- **Alignement des marques et contrôles de la qualité du contenu**
+- **Insérer des nœuds de contenu directement dans la zone de travail du parcours**
+- **Importation de modèles**
+
+## Exemples d’invites
+
+### Génération de contenu
+
+« Générer le contenu de l’e-mail pour mon parcours de bienvenue. Créez un e-mail de bienvenue pour les nouveaux clients avec un ton convivial et incluez une offre de remise de 10 %. »
+
+« Ajouter du contenu pour l’e-mail du canal pour mon parcours de bienvenue. »
+
+« Générer une notification push pour le parcours de visite de ma boutique. Créez un message de bienvenue qui encourage les clients à s’enregistrer et à recevoir une offre spéciale. »
+
+« Générer du contenu SMS pour mon parcours déclenché par un événement. Créez un court message informant les clients d’une vente flash avec un call-to-action. »
+
+### Sélection de modèles
+
+« Montrez-moi les modèles d’e-mail disponibles pour mon parcours de campagne saisonnier. »
+
+« Sélectionnez un modèle d’e-mail au design moderne et épuré. »
+
+### Modification et affinement du contenu
+
+« Ouvrez le contenu de l’e-mail dans le Designer de contenu afin que je puisse personnaliser la conception. »
+
+« Régénérez le contenu de la notification push avec un ton plus décontracté. »
+
+« Mettez à jour le contenu de l’e-mail pour inclure un code promotionnel. »
+
+## Bonnes pratiques
+
+### Bonnes pratiques en matière de promotion
+
+1. **Soyez précis** : fournissez des détails clairs sur le type de contenu, le ton, l’audience cible et les messages clés.
+1. **Spécifier le canal** : indiquez clairement pour quel canal vous créez du contenu (e-mail, notification push, SMS).
+1. **Définir le ton** : spécifiez le ton souhaité (amical, formel, informel, urgent).
+1. **Itérer et affiner** : utilisez l’action de régénération pour affiner le contenu jusqu’à ce qu’il réponde à vos besoins.
+
+## Analyse de parcours : cas d’utilisation, compétences agences et guide de l’utilisateur
 
 ## Vue d’ensemble
 
 Journey Agent permet aux utilisateurs de Journey Optimizer d’analyser et d’optimiser les parcours à l’aide d’une interface en langage naturel. Avec Journey Agent, les utilisateurs et utilisatrices peuvent rapidement identifier et résoudre les conflits de planning et/ou d’audience, détecter les points d’abandon d’utilisateur ou d’utilisatrice dans un parcours et fournir des informations ou des recommandations. Il permet aux personnes professionnelles de prendre des décisions fondées sur des données, d’améliorer l’engagement de la clientèle et de rationaliser l’orchestration de parcours.
 
-Découvrez l’agent en un coup d’œil et en savoir plus dans cette [présentation](https://experienceleague.adobe.com/fr/slides/journey-agent-overview).
+Découvrez l’agent en un coup d’œil et en savoir plus dans cette [présentation](https://experienceleague.adobe.com/en/slides/journey-agent-overview).
 
 >[!AVAILABILITY]
 >
@@ -183,9 +266,9 @@ Découvrez l’agent en un coup d’œil et en savoir plus dans cette [présenta
 
 ## Cas d’utilisation
 
-### Principaux cas d’utilisation de l’analyse de l’agent Journey
+### Cas d’utilisation clés de l’analyse de Parcours
 
-La compétence d’analyse de l’agent Journey offre diverses fonctionnalités qui peuvent être utilisées pour optimiser les efforts marketing :
+L’analyse de parcours offre un éventail de fonctionnalités qui peuvent être exploitées pour optimiser les efforts marketing :
 
 1. **Analyse des abandons de parcours**
 
@@ -215,7 +298,7 @@ Pour chacune de ces analyses, l’agent détecte non seulement les problèmes, m
 
 ### **Dans le champ d’application**
 
-Les capacités suivantes sont prises en charge par l’analyse de l’agent Journey :
+Parcours Analyze prend en charge les fonctionnalités suivantes :
 
 - **Requêtes réactives** : permet aux utilisateurs et aux utilisatrices de poser des questions spécifiques sur les performances du parcours, l’utilisation de l’audience et les conflits de planning.
 - **Intégration à d’autres agents** : collabore avec l’agent Audience et l’agent Data Insights pour une analyse plus approfondie.
@@ -246,7 +329,7 @@ Voici des exemples de prompts utiles que les utilisateurs et utilisatrices peuve
 
 ### Questions sur les ressources des parcours
 
-- « Combien de parcours en direct ai-je ? »
+- « Combien de parcours actifs ai-je ? » 
 - « Donnez-moi la liste de tous les parcours récurrents planifiés et de leurs durées d’exécution prévues. »
 
 ### Informations sur les audiences et les parcours
@@ -295,7 +378,7 @@ Utilisez ces prompts pour analyser les conflits potentiels entre les parcours, y
 
 ### Bonnes pratiques en matière de prompt
 
-Pour maximiser l’efficacité de l’analyse de l’agent Journey, suivez ces bonnes pratiques :
+Pour optimiser l’efficacité de l’analyse de Parcours, appliquez les bonnes pratiques suivantes :
 
 1. **Être précis** : utilisez des questions claires et concises pour obtenir des informations ciblées. Par exemple, au lieu de demander « Quels sont mes parcours ? », indiquez « Répertorier tous les parcours créés le mois dernier ».
 1. **Combiner les informations** : intégrez les informations de l’agent Audience et de l’agent Data Insights pour obtenir une vue d’ensemble des performances des parcours.
