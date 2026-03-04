@@ -184,7 +184,7 @@ La création de contenu de canal permet aux utilisateurs de Journey Optimizer de
 
 1. **Affinement et itération du contenu** : générez à nouveau du contenu avec des tons ou des styles différents à l’aide de l’action Régénérer.
 
-1. Intégration de la zone de travail de Parcours **** : sélectionnez les parcours dans l’inventaire et affichez les canaux associés.
+1. Intégration de la zone de travail de Parcours **&#x200B;**&#x200B;: sélectionnez les parcours dans l’inventaire et affichez les canaux associés.
 
 ## Compétences incluses et exclues
 
