@@ -16,7 +16,7 @@ ht-degree: 1%
 
 La vidéo suivante est destinée à vous aider à comprendre la version d’essai des agents Adobe Experience Platform.
 
->[!VIDEO](https://video.tv.adobe.com/v/3480228?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3480230?captions=fre_fr&learn=on)
 
 ## Disponibilité de l’essai
 
