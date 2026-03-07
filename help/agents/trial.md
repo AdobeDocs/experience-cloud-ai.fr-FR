@@ -27,7 +27,7 @@ La vidéo suivante est destinée à vous aider à comprendre la version d’essa
 
 Adobe déterminera votre éligibilité pour l&#39;essai à sa seule discrétion. Les clients qui disposent actuellement ou qui possédaient précédemment une licence Adobe Experience Platform Agent Orchestrator Promotion ou une licence Experience Platform Agents AI Credits ne sont pas éligibles à l’évaluation.
 
-Les clients éligibles reçoivent un droit initial unique allant jusqu’à 10 000 crédits AI à utiliser pour toute combinaison de tâches (selon votre ou vos licences existantes pour les applications Experience Cloud) répertoriées dans le [Tableau de consommation de crédit AI](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption). Vous pouvez effectuer le suivi de vos crédits AI à l’aide du tableau de bord d’utilisation des licences dans l’interface utilisateur de Adobe Experience Platform. Pour plus d’informations, consultez la [documentation du tableau de bord d’utilisation des licences](https://experienceleague.adobe.com/fr/docs/experience-platform/dashboards/guides/license-usage).
+Les clients éligibles reçoivent un droit initial unique allant jusqu’à 10 000 crédits AI à utiliser pour toute combinaison de tâches (selon votre ou vos licences existantes pour les applications Experience Cloud) répertoriées dans le [Tableau de consommation de crédit AI](https://experienceleague.adobe.com/fr/docs/core-services/interface/features/ai-credit-consumption). Vous pouvez effectuer le suivi de vos crédits AI à l’aide du tableau de bord d’utilisation des licences dans l’interface utilisateur de Adobe Experience Platform. Pour plus d’informations, consultez la [documentation du tableau de bord d’utilisation des licences](https://experienceleague.adobe.com/fr/docs/experience-platform/dashboards/guides/license-usage).
 
 >[!IMPORTANT]
 >
@@ -65,7 +65,7 @@ L’évaluation est actuellement déployée par phases auprès de certains clien
 
 ### Combien de crédits d’IA vais-je obtenir et que se passe-t-il lorsque ces crédits d’IA sont utilisés ?
 
-Les clients éligibles reçoivent jusqu’à 10 000 crédits AI pour l’évaluation, qui sont consommés lorsque les agents exécutent des tâches. Veuillez noter que ces crédits AI n’existent que pendant la durée de l’expérience d’évaluation et ne sont pas transférés si vous possédez une licence de crédits AI supplémentaires avant d’utiliser l’intégralité des 10 000 crédits AI. Pour plus d’informations sur la consommation de crédit AI, consultez le guide [Tâches d’agent et consommation de crédit AI](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption).
+Les clients éligibles reçoivent jusqu’à 10 000 crédits AI pour l’évaluation, qui sont consommés lorsque les agents exécutent des tâches. Veuillez noter que ces crédits AI n’existent que pendant la durée de l’expérience d’évaluation et ne sont pas transférés si vous possédez une licence de crédits AI supplémentaires avant d’utiliser l’intégralité des 10 000 crédits AI. Pour plus d’informations sur la consommation de crédit AI, consultez le guide [Tâches d’agent et consommation de crédit AI](https://experienceleague.adobe.com/fr/docs/core-services/interface/features/ai-credit-consumption).
 
 ### Est-ce que ça coûte quelque chose ?
 
