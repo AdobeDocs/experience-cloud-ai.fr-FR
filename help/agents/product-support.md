@@ -1,18 +1,14 @@
 ---
 title: Agent du support technique du produit
 description: Découvrez comment utiliser l’agent du support produit dans l’Assistant IA pour rationaliser le dépannage et le processus de classement des tickets du service clientèle.
-source-git-commit: adf65e0d4c623fbd74645006939702b64b0c1fdd
+source-git-commit: 57e123e7fed24c26403adbc637814ca6a9ccf68e
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '365'
 ht-degree: 5%
 
 ---
 
 # Agent du support technique du produit
-
->[!AVAILABILITY]
->
->L’agent d’assistance produit est disponible pour les clients éligibles pendant une durée limitée. L’accès à l’agent du support produit prendra fin le 28 février 2026. Pour continuer à utiliser l’agent du support produit au-delà de cette date sans interruption, contactez votre représentant de compte Adobe pour en savoir plus sur les licences Adobe Experience Platform Agent Orchestrator.
 
 L’agent de support produit est une fonctionnalité de débogage et de dépannage de l’assistant AI en libre-service que vous pouvez utiliser pour les fonctionnalités et applications Adobe Experience Platform.
 
@@ -61,5 +57,5 @@ Une fois ces étapes effectuées, tous les administrateurs de l’assistance de 
 
 Pour plus d’informations, regardez la vidéo suivante pour découvrir comment utiliser l’agent du support produit afin de résoudre en toute simplicité les problèmes sans quitter vos workflows.
 
->[!VIDEO](https://video.tv.adobe.com/v/3443185?captions=fre_fr&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443183?learn=on)
 
