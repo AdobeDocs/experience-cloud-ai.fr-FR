@@ -101,7 +101,7 @@ Une fois connecté, vous pouvez utiliser les invites fournies dans la page princ
 
 Patientez quelques instants le temps que l’agent calcule, puis il répond avec une représentation visualisée de vos données. Vous pouvez utiliser le graphique à barres présenté ou sélectionner **[!DNL View data]** pour afficher les données dans les tableaux.
 
-![Réponse de l’agent avec un graphique à barres permettant de visualiser les visiteurs web pour les principaux produits et l’option Afficher les données ](../agents/images/ama/response.png).
+![Réponse de l’agent avec un graphique à barres permettant de visualiser les visiteurs web pour les principaux produits et l’option Afficher les données &#x200B;](../agents/images/ama/response.png).
 
 ![Mêmes informations affichées qu’un tableau de données après avoir sélectionné Afficher les données.](../agents/images/ama/tables.png)
 
