@@ -1,10 +1,10 @@
 ---
 title: IA dans les applications Experience Cloud
 description: Découvrez comment les applications Experience Cloud utilisent l’IA générative (GenAI), l’Assistant IA et l’IA agentique.
-source-git-commit: 0e3839f829efc5670c235435d49ed5e49da2ed13
+source-git-commit: 73d63e310783310d0e6fb3d696ded7d4edb5bede
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 13%
+source-wordcount: '902'
+ht-degree: 16%
 
 ---
 
@@ -29,7 +29,7 @@ Bienvenue dans le guide complet des fonctionnalités d’IA dans les application
 
 ### Agent Orchestrator
 
-[Adobe Experience Platform Agent Orchestrator](./agents/agent-orchestrator.md) est la nouvelle couche agentic de Adobe Experience Platform. Conçu pour exploiter la richesse des données et des connaissances clientèle de la plateforme, Experience Platform Agent Orchestrator alimente l’intelligence et le raisonnement d’agents experts spécialement conçus pour Adobe Experience Platform, leur permettant d’exécuter des prises de décision complexes et de résoudre des problèmes à grande vitesse et à grande échelle, le tout sous supervision humaine. Lorsque vous posez des questions ou demandez de l’aide en langage naturel dans une interface conversationnelle telle que l’assistant IA, Agent Orchestrator fait automatiquement appel à des agentes et agents spécialisés pour vous fournir les bonnes réponses. Agent Orchestrator mémorise l&#39;historique de vos conversations, ce qui vous permet de vous appuyer sur les questions précédentes naturellement sans répéter le contexte, et d&#39;associer les informations provenant de plusieurs agents pour vous présenter des réponses claires et unifiées.
+[](./agents/agent-orchestrator.md) est la nouvelle couche agentic de Adobe Experience Platform. Conçu pour exploiter la richesse des données et des connaissances clientèle de la plateforme, Experience Platform Agent Orchestrator alimente l’intelligence et le raisonnement d’agents experts spécialement conçus pour Adobe Experience Platform, leur permettant d’exécuter des prises de décision complexes et de résoudre des problèmes à grande vitesse et à grande échelle, le tout sous supervision humaine. Lorsque vous posez des questions ou demandez de l’aide en langage naturel dans une interface conversationnelle telle que l’assistant IA, Agent Orchestrator fait automatiquement appel à des agentes et agents spécialisés pour vous fournir les bonnes réponses. Agent Orchestrator se souvient de l’historique de vos conversations, ce qui lui permet de s’appuyer naturellement sur vos questions précédentes sans répéter le contexte et de combiner les informations issues de plusieurs agentes et agents afin de vous présenter des réponses claires et unifiées.
 
 **Composants principaux :**
 
@@ -48,7 +48,7 @@ Audience Agent fournit des informations sur les audiences, notamment :
 - Exploration de l’inventaire des audiences.
 - Récupération des tailles d’audience.
 
-Lisez la [documentation d’Audience Agent](./agents/audience.md) pour plus d’informations.
+Lisez la [documentation d’](./agents/audience.md) pour plus d’informations.
 
 #### Data Insights Agent
 
@@ -66,7 +66,7 @@ L’agent d’analyse de Parcours permet aux utilisateurs de Adobe Journey Optim
 - Détectez et résolvez les conflits de planning ou d’audience.
 - Analysez les performances et les points de chute.
 
-Pour plus d’informations[&#x200B; consultez la documentation de Journey Agent &#x200B;](./agents/ajo-agent.md).
+Pour plus d’informations](./agents/ajo-agent.md) consultez la documentation de Journey Agent [.
 
 #### Agent du support technique du produit
 
@@ -77,6 +77,16 @@ Utilisez l’agent du support produit pour le débogage et le dépannage en libr
 - Vérifiez les mises à jour des tickets via l’assistant AI.
 
 Pour plus d’informations, consultez la [documentation de l’agent d’assistance produit](./agents/product-support.md).
+
+#### Adobe Marketing Agent pour [!DNL Microsoft 365 Copilot]
+
+Utilisez Adobe Marketing Agent for [!DNL Microsoft 365 Copilot] pour récupérer des informations marketing à partir d’Experience Platform dans des applications [!DNL Microsoft 365] telles que [!DNL Teams], [!DNL Word], [!DNL Powerpoint] et [!DNL Excel]. Avec cet agent, vous pouvez :
+
+- Prenez plus rapidement des décisions de marketing axées sur les données.
+- Réduisez le temps nécessaire pour passer d’un outil à un autre.
+- Simplifiez l’accès aux informations sur les audiences et les parcours entre les équipes.
+
+Pour plus d’informations](./agents/ama-ms.md) consultez la documentation de Adobe Marketing Agent [.
 
 ## Prise en main
 
