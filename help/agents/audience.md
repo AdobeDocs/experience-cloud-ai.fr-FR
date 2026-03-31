@@ -1,9 +1,9 @@
 ---
 title: Agent Audience
 description: Découvrez comment utiliser Audience Agent pour créer des audiences, afficher les modifications d’audience, détecter les audiences en double et afficher les informations sur l’audience.
-source-git-commit: effd4fe4123953b6af375dfb46fcc669b2e35df1
+source-git-commit: ec03f46b5d80558b683f6cd4330f51258b7378a1
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1242'
 ht-degree: 2%
 
 ---
@@ -38,14 +38,16 @@ L’assistant Audience Agent within AI prend en charge les cas d’utilisation s
    - Cette compétence vous permet de créer une audience basée sur les attributs et les événements donnés
    - En outre, cette compétence vous permet d’estimer la taille potentielle d’une audience avant de créer l’audience, ce qui vous permet d’itérer rapidement sur l’audience la plus efficace avant qu’elle ne soit prête à être activée
 
-<!-- - Find your audience size and detect significant changes in audience size
+<!--
+  - Find your audience size and detect significant changes in audience size
   - This lets you find audiences that have suddenly grown or shrunk, letting you better analyze potential market changes
 - Detect duplicate audiences
   - This lets you reduce redundancies with your created audiences
 - Find audiences based on full or partial attributes named
   - This lets you more easily navigate through your audience inventory
 - Discover XDM fields you can use to define an audience
-  - This skill lets you more easily identify the right fields to use in your audience based on context and relevance -->
+  - This skill lets you more easily identify the right fields to use in your audience based on context and relevance 
+-->
 
 Audience Agent ne prend pas **actuellement** en charge les fonctionnalités suivantes :
 
@@ -140,7 +142,7 @@ Quelle est la taille actuelle de mon audience « Membres Gold-star en Californie
 
 +++ Réponse
 
-![&#x200B; L’assistant d’IA indique la taille actuelle de l’audience qui a fait l’objet d’une question.](./images/audience/current-size.png)
+![ L’assistant d’IA indique la taille actuelle de l’audience qui a fait l’objet d’une question.](./images/audience/current-size.png)
 
 +++
 
@@ -158,7 +160,7 @@ Quelles audiences ont augmenté leur taille de plus de 20 % au cours de la derni
 
 +++ Réponse
 
-![&#x200B; L’assistant AI affiche un tableau qui répertorie les noms de toutes les audiences qui correspondent à la requête. Elle affiche également le pourcentage d’augmentation, la taille actuelle de l’audience, ainsi que la taille précédente de l’audience.](./images/audience/increase-past-week.png)
+![ L’assistant AI affiche un tableau qui répertorie les noms de toutes les audiences qui correspondent à la requête. Elle affiche également le pourcentage d’augmentation, la taille actuelle de l’audience, ainsi que la taille précédente de l’audience.](./images/audience/increase-past-week.png)
 
 +++
 
@@ -166,7 +168,7 @@ Quelles audiences ont vu leur taille diminuer de plus de 10 % au cours du dernie
 
 +++ Réponse
 
-![&#x200B; L’assistant AI affiche un tableau qui répertorie les noms de toutes les audiences qui correspondent à la requête. Elle affiche également la taille de l’audience actuelle, la taille de l’ancienne audience, ainsi que la date de l’ancienne audience.](./images/audience/decrease-month.png)
+![ L’assistant AI affiche un tableau qui répertorie les noms de toutes les audiences qui correspondent à la requête. Elle affiche également la taille de l’audience actuelle, la taille de l’ancienne audience, ainsi que la date de l’ancienne audience.](./images/audience/decrease-month.png)
 
 +++
 
@@ -214,7 +216,7 @@ Pour cette requête, l’assistant AI génère le Profile Query Language (PQL) a
 homeAddress.state.equals("California", false)
 ```
 
-Pour plus d’informations sur PQL, consultez la présentation de PQL [&#128279;](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/pql/overview).
+Pour plus d’informations sur PQL, consultez la présentation de PQL [](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview).
 
 +++
 

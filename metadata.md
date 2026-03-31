@@ -2,21 +2,23 @@
 cloud: Experience Cloud
 solution: Experience Cloud,Experience Platform,Real-Time Customer Data Platform
 product: experience cloud
+landing-page-name: AI
+landing-page-breadcrumb-title: AI Documentation
 type: Documentation
 mini-toc-levels: 2
-git-repo: https://github.com/AdobeDocs/experience-cloud-ai.fr-FR
+git-repo: https://github.com/AdobeDocs/experience-cloud-ai.en
 index: true
-source-git-commit: 00bb5af3650dc661da5f007b2062ea2a496a3082
+source-git-commit: dae54c19020a07c35fcda244a31bbbee1c4aafc9
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 98%
+source-wordcount: '70'
+ht-degree: 0%
 
 ---
 
 
-# Métadonnées pour une utilisation interne
+# Métadonnées à usage interne
 
-Le fichier metadata.md comprend des métadonnées de niveau référentiel qui sont transmises aux fichiers TOC.md du guide de l’utilisateur dans le référentiel. Si vous souhaitez modifier le contenu du fichier metadata.md pour un guide de l’utilisateur, faites-le dans le fichier TOC.md.
+Le fichier metadata.md comprend des métadonnées au niveau du référentiel qui sont transmises aux fichiers TOC.md du guide de l’utilisateur dans le référentiel. Si vous souhaitez modifier du contenu metadata.md pour n’importe quel guide de l’utilisateur, effectuez vos modifications dans n’importe quel fichier TOC.md.
 
-Pour obtenir la liste des valeurs valides pour **solution**, **product** et **type**, voir [Métadonnées](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html?lang=fr).
+Consultez [Métadonnées](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html) pour obtenir une liste de valeurs valides pour **solution**, **produit** et **type**.
 
