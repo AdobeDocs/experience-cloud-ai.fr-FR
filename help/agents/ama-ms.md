@@ -1,9 +1,9 @@
 ---
 title: Adobe Marketing Agent for Microsoft 365 Copilot
 description: Découvrez comment utiliser Adobe Marketing Agent for Microsoft 365 Copilot.
-source-git-commit: 5cf5e42c727cd5e48b1b817e150fb9862fc80c82
+source-git-commit: c3cb327bb7625ee81f784a1fad740b7b4cbdfb71
 workflow-type: tm+mt
-source-wordcount: '1793'
+source-wordcount: '1843'
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ Une fois connecté, vous pouvez utiliser les invites fournies dans la page princ
 
 Patientez quelques instants le temps que l’agent calcule, puis il répond avec une représentation visualisée de vos données. Vous pouvez utiliser le graphique à barres présenté ou sélectionner **[!DNL View data]** pour afficher les données dans les tableaux.
 
-![Réponse de l’agent avec un graphique à barres permettant de visualiser les visiteurs web pour les principaux produits et l’option Afficher les données &#x200B;](../agents/images/ama/response.png).
+![Réponse de l’agent avec un graphique à barres permettant de visualiser les visiteurs web pour les principaux produits et l’option Afficher les données ](../agents/images/ama/response.png).
 
 ![Mêmes informations affichées qu’un tableau de données après avoir sélectionné Afficher les données.](../agents/images/ama/tables.png)
 
@@ -122,6 +122,10 @@ L’agent est destiné à renvoyer des informations en lecture seule et ne modif
 **Langues et portée prises en charge**
 
 La version initiale est disponible en tant qu’expérience en anglais. Les fonctionnalités sont limitées à des informations en lecture seule ; l’agent ne crée ni ne met à jour de ressources marketing ou de configurations.
+
+>[!IMPORTANT]
+>
+>Le Adobe Marketing Agent appelle différents agents et traitements Adobe en fonction des invites envoyées. Cet agent Adobe sous-jacent qui est appelé utilise des crédits AI comme indiqué dans les pages [Tâches de l’agent Adobe Experience Platform et Consommation des crédits AI](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption).
 
 ## Annexe
 
