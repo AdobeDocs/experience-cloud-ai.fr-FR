@@ -125,7 +125,7 @@ La version initiale est disponible en tant qu’expérience en anglais. Les fonc
 
 >[!IMPORTANT]
 >
->Le Adobe Marketing Agent appelle différents agents et traitements Adobe en fonction des invites envoyées. Cet agent Adobe sous-jacent qui est appelé utilise des crédits AI comme indiqué dans les pages [Tâches de l’agent Adobe Experience Platform et Consommation des crédits AI](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption).
+>Le Adobe Marketing Agent appelle différents agents et traitements Adobe en fonction des invites envoyées. Cet agent Adobe sous-jacent qui est appelé utilise des crédits AI comme indiqué dans les pages [Tâches de l’agent Adobe Experience Platform et Consommation des crédits AI](https://experienceleague.adobe.com/fr/docs/core-services/interface/features/ai-credit-consumption).
 
 ## Annexe
 
