@@ -3,8 +3,8 @@ title: Assistant Confidentialité, sécurité et gouvernance dans l’IA
 description: Découvrez les pratiques en matière de confidentialité, de sécurité et de gouvernance pour l’assistant AI.
 source-git-commit: 96db2a481d08011139bba6e93b13c8f35420fb61
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 0%
+source-wordcount: '239'
+ht-degree: 3%
 
 ---
 
@@ -17,7 +17,7 @@ Lisez ce document pour en savoir plus sur les fonctionnalités axées sur la con
 * Aucune donnée personnelle n&#39;est actuellement utilisée par AI Assistant, même à des fins de formation.
 * L’assistant AI ne connaît pas les données des consommateurs.
 * Toutes les politiques [de contrôle d’accès](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/home) existantes seront respectées par l’assistant AI.
-   * Toutes les nouvelles politiques de contrôle d’accès basé sur les attributs sont reflétées dans l’assistant AI après un maximum de 24 heures&ast;
+   * Toutes les nouvelles politiques de contrôle d’accès basé sur les attributs sont répercutées dans l’assistant AI après un maximum de 24 heures&ast;
 * L’assistant AI est une fonctionnalité conforme à la loi HIPAA lorsqu’il est utilisé en combinaison avec Adobe Experience Platform Healthcare Shield.
 * Vous pouvez consulter un journal de vos interactions précédentes avec l’assistant AI avec une politique de conservation de 30 jours.
 * L’assistant AI repose sur des données spécifiques aux sandbox et sur la documentation publique d’Adobe lorsqu’il répond aux invites des utilisateurs. Les données ne sont pas partagées entre les sandbox.
