@@ -53,8 +53,8 @@ Les paramètres suivants régissent l’accès à Data Insights Agent dans Custo
 * **Autorisations** : les autorisations nécessaires doivent être accordées dans le [!UICONTROL Adobe Admin Console] pour que les utilisateurs puissent accéder à Data Insights Agent.
 
   Pour accorder des autorisations, un [administrateur de profils de produit](https://helpx.adobe.com/fr/enterprise/using/manage-product-profiles.html) doit effectuer les étapes suivantes dans l’[!UICONTROL Admin Console] :
-   1. Dans ****, sélectionnez l’onglet **[!UICONTROL Produits]** pour afficher la page **[!UICONTROL Tous les produits et services]**.
-   1. Sélectionnez ****.
+   1. Dans **&#x200B;**, sélectionnez l’onglet **[!UICONTROL Produits]** pour afficher la page **[!UICONTROL Tous les produits et services]**.
+   1. Sélectionnez **&#x200B;**.
    1. Dans l’onglet **[!UICONTROL Profils de produit]**, sélectionnez le titre du profil de produit pour lequel vous souhaitez fournir un accès à [!UICONTROL Assistant AI : connaissance du produit].
    1. Dans le profil de produit spécifique, sélectionnez l’onglet **[!UICONTROL Autorisations]**.
 
@@ -62,7 +62,7 @@ Les paramètres suivants régissent l’accès à Data Insights Agent dans Custo
 
    1. Dans la ligne **[!UICONTROL Outils de création de rapports]** du tableau fourni, sélectionnez l’icône de modification ![Modifier](/help/agents/images/cja-agent/Edit.svg).
    1. Faites défiler l’écran jusqu’à ou recherchez **[!UICONTROL Assistant IA : connaissance du produit]**, puis sélectionnez l’icône plus ![Ajouter un cercle](/help/agents/images/cja-agent/AddCircle.svg) en regard de cette autorisation.
-   1. Faites défiler l’écran jusqu’à ou recherchez ****, puis sélectionnez l’icône plus ![AddCircle](/help/agents/images/cja-agent/AddCircle.svg) en regard de cette autorisation.
+   1. Faites défiler l’écran jusqu’à ou recherchez **&#x200B;**, puis sélectionnez l’icône plus ![AddCircle](/help/agents/images/cja-agent/AddCircle.svg) en regard de cette autorisation.
 
       L’autorisation **[!UICONTROL Assistant IA : connaissance du produit]** et l’autorisation **[!UICONTROL Data Insights Agent]** sont ajoutées à la colonne **[!UICONTROL Éléments d’autorisation inclus]**.
 
@@ -70,7 +70,7 @@ Les paramètres suivants régissent l’accès à Data Insights Agent dans Custo
 
    1. Sélectionnez **[!UICONTROL Enregistrer]** pour enregistrer les autorisations.
 
-  Pour plus d’informations sur le contrôle d’accès, voir [ Contrôle d’accès ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control#access-control).
+  Pour plus d’informations sur le contrôle d’accès, voir [&#x200B; Contrôle d’accès &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control#access-control).
 
 * **Accès aux vues de données** : les vues de données doivent être activées pour Data Insights Agent.
 
@@ -95,7 +95,7 @@ Les paramètres suivants régissent l’accès à Data Insights Agent dans Custo
 
    1. Dans Customer Journey Analytics, sélectionnez **[!UICONTROL Gestion des données]** > **[!UICONTROL Vues des données]**.
 
-   1. Sélectionnez l’icône d’informations en haut de la colonne ****.
+   1. Sélectionnez l’icône d’informations en haut de la colonne **&#x200B;**.
 
       Icône d’informations de Data Insights Agent ![](/help/agents/images/cja-agent/data-insights-agent-tooltip.png)
 
@@ -104,7 +104,7 @@ Les paramètres suivants régissent l’accès à Data Insights Agent dans Custo
 
 1. Accédez à [experience.adobe.com](https://experience.adobe.com/) et connectez-vous avec votre Adobe ID.
 
-2. Sélectionnez **** sur la page d’accueil Experience Cloud.
+2. Sélectionnez **&#x200B;**&#x200B;sur la page d’accueil Experience Cloud.
 
 3. Sélectionnez **[!UICONTROL Projet vierge]** dans la bannière en haut de la page des projets pour ouvrir un nouveau projet vierge.
 
@@ -116,7 +116,7 @@ Les paramètres suivants régissent l’accès à Data Insights Agent dans Custo
 
    * Outils de création de rapports : **[!UICONTROL Assistant IA : Connaissance des produits]**
 
-   * Outils De Vue De Données : ****
+   * Outils De Vue De Données : **&#x200B;**
 
    Pour plus d’informations, voir [Gérer l’accès à Data Insights Agent dans Customer Journey Analytics](#manage-access-to-data-insights-agent-in-customer-journey-analytics).
 
@@ -176,7 +176,7 @@ Adobe Experience Platform Agent Orchestrator vous permet d’accéder aux foncti
 
 Agent Orchestrator interprète votre requête, détermine les agents spécialisés nécessaires et les orchestre pour fournir la réponse appropriée. Il effectue le suivi du contexte dans les interactions à plusieurs tours, de sorte que vous puissiez tirer parti naturellement des requêtes précédentes.
 
-Pour plus d&#39;informations, voir [](https://business.adobe.com/products/experience-platform/agent-orchestrator.html).
+Pour plus d&#39;informations, voir [&#128279;](https://business.adobe.com/products/experience-platform/agent-orchestrator.html).
 
 ## Exemples d’invites de visualisation de données
 
@@ -269,4 +269,4 @@ Vous trouverez ci-dessous les bonnes pratiques relatives à votre configuration 
 >[Paramètres des composants](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
 >[Dictionnaire de données](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/data-dictionary/data-dictionary-overview)
 >[Approuver la mesure calculée](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-approving)
->[Partage de segments ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/segments/seg-share)
+>[Partage de segments &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/segments/seg-share)
