@@ -38,7 +38,7 @@ La vidéo suivante est destinée à vous aider à comprendre la version d’essa
 
 Adobe déterminera votre éligibilité pour l&#39;essai à sa seule discrétion. Les clients qui disposent actuellement ou qui possédaient précédemment une licence Adobe Experience Platform Agent Orchestrator Promotion ou une licence Experience Platform Agents AI Credits ne sont pas éligibles à l’évaluation.
 
-Les clients éligibles reçoivent un droit initial unique allant jusqu’à 10 000 crédits AI à utiliser pour toute combinaison de tâches (selon votre ou vos licences existantes pour les applications Experience Cloud) répertoriées dans le [Tableau de consommation de crédit AI](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption). Vous pouvez effectuer le suivi de vos crédits AI à l’aide du tableau de bord d’utilisation des licences dans l’interface utilisateur de Adobe Experience Platform. Pour plus d’informations, consultez la [documentation du tableau de bord d’utilisation des licences](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage).
+Les clients éligibles reçoivent un droit initial unique allant jusqu’à 10 000 crédits AI à utiliser pour toute combinaison de tâches (selon votre ou vos licences existantes pour les applications Experience Cloud) répertoriées dans le [Tableau de consommation de crédit AI](https://experienceleague.adobe.com/fr/docs/core-services/interface/features/ai-credit-consumption). Vous pouvez effectuer le suivi de vos crédits AI à l’aide du tableau de bord d’utilisation des licences dans l’interface utilisateur de Adobe Experience Platform. Pour plus d’informations, consultez la [documentation du tableau de bord d’utilisation des licences](https://experienceleague.adobe.com/fr/docs/experience-platform/dashboards/guides/license-usage).
 
 >[!IMPORTANT]
 >
@@ -76,7 +76,7 @@ The trial is being rolled out to certain eligible Adobe Experience Cloud custome
 
 ### How much AI Credits do I get and what happens when those AI Credits are used?
 
-Eligible customers receive up to 10,000 AI Credits for the trial, which are consumed as Agents execute Jobs. Please note that these AI Credits only exist for the duration of the trial experience and do not roll over if you license additional AI Credits before using the full 10,000 AI Credits. For more information on AI Credit consumption, read the [Agent jobs and AI Credit consumption guide](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption).
+Eligible customers receive up to 10,000 AI Credits for the trial, which are consumed as Agents execute Jobs. Please note that these AI Credits only exist for the duration of the trial experience and do not roll over if you license additional AI Credits before using the full 10,000 AI Credits. For more information on AI Credit consumption, read the [Agent jobs and AI Credit consumption guide](https://experienceleague.adobe.com/fr/docs/core-services/interface/features/ai-credit-consumption).
 
 ### Does this cost anything?
 
@@ -84,7 +84,7 @@ The trial does not require any additional purchase. Il n’existe pas de convers
 
 ### Qui peut voir l’utilisation et comment ?
 
-Vous pouvez effectuer le suivi de vos crédits AI à l’aide du tableau de bord d’utilisation des licences dans l’interface utilisateur de Adobe Experience Platform. Pour plus d’informations, consultez la [documentation du tableau de bord d’utilisation des licences](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage).
+Vous pouvez effectuer le suivi de vos crédits AI à l’aide du tableau de bord d’utilisation des licences dans l’interface utilisateur de Adobe Experience Platform. Pour plus d’informations, consultez la [documentation du tableau de bord d’utilisation des licences](https://experienceleague.adobe.com/fr/docs/experience-platform/dashboards/guides/license-usage).
 
 Utilisez le tableau de bord pour afficher l’utilisation et les rapports de vos crédits AI. Seuls les administrateurs et les utilisateurs disposant des autorisations appropriées peuvent afficher vos informations d’utilisation.
 
