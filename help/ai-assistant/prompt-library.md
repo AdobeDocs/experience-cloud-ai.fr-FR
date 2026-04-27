@@ -1,51 +1,55 @@
 ---
-title: Bibliothèque d’invites de l’assistant AI
-description: Découvrez les différents types d’invites et de modèles d’invites que vous pouvez utiliser lors de l’interrogation de l’assistant AI.
-source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
+title: AI Assistant Prompt Library
+description: Learn about the different kinds of prompts and prompt patterns that you can use when querying AI Assistant.
+TQID: https://experienceleague.adobe.com/QICjh9cNBT3XeKObkXqSDEGQT26zpv86V36L0tqvSgo
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: dd7883d8eccab3b0f006d55a850248e1c347d7e7
 workflow-type: tm+mt
-source-wordcount: '811'
-ht-degree: 3%
+source-wordcount: 813
+ht-degree: 17%
 
 ---
 
-# Bibliothèque d’invites de l’assistant AI
+# AI Assistant Prompt Library
 
-Lisez ce guide pour connaître les différents types d’invites que vous pouvez utiliser sur l’assistant AI.
+Read this guide for different types of prompts that you can use on AI Assistant.
 
 ## Agent Audience
 
-Les sections suivantes fournissent des exemples d’invites que vous pouvez utiliser avec l’Audience Agent pour explorer et analyser vos audiences. Il s’agit notamment de moyens d’étudier les caractéristiques des audiences, de détecter les audiences en double, de récupérer les tailles d’audience et de surveiller les changements significatifs de la taille d’audience au fil du temps. Utilisez ces invites pour obtenir des informations plus précises et maintenir la qualité des données de votre audience.
+The following sections provide example prompts you can use with the Audience Agent to explore and analyze your audiences. These include ways to investigate audience characteristics, detect duplicate audiences, retrieve audience sizes, and monitor significant changes in audience size over time. Use these prompts to gain deeper insights and maintain the quality of your audience data.
 
-### Exploration des audiences de conversation
+### Conversation audience exploration
 
-- « Afficher les champs pour les acheteurs aisés. »
-- « Quelles audiences n’ont été activées ou utilisées dans aucune campagne au cours des 30 derniers jours ? »
-- « Répertoriez toutes les audiences qui ont été mappées à de nouvelles destinations au cours des 3 derniers mois. »
+- &quot;Show me fields for affluent buyers.&quot;
+- &quot;Which audiences have not been activated or used in any campaign in the last 30 days?&quot;
+- &quot;List all the audiences that have been mapped to new destinations in the last 3 months.&quot;
 
-### Détecter les audiences en double
+### Detect duplicate audiences
 
-- « Existe-t-il des audiences avec des descriptions identiques ou similaires ? »
-- « Identifiez les audiences qui ont les mêmes règles, mais des noms différents. »
-- « Montrez-moi toutes les audiences qui ont les mêmes règles, mais des destinations d’activation différentes. »
+- &quot;Do I have any audiences with identical or similar descriptions?&quot;
+- &quot;Identify audiences that have the same rules but have different names.&quot;
+- &quot;Show me all the audiences that have the same rules but different activation destinations.&quot;
 
-### Récupérer la taille de l’audience
+### Retrieve audience size
 
-- « Quelle est la taille actuelle de mon audience « Membres Gold Star en California_f153e1 » ? »
-- « Quel est mon public le plus important ? »
+- &quot;What is the current size of my audience &quot;Gold-star Members in California_f153e1&quot;?&quot;
+- &quot;What is my biggest audience?&quot;
 
-### Détecter les modifications importantes de la taille de l’audience
+### Detect significant changes in audience size
 
-- « Quelles audiences ont augmenté leur taille de plus de 20 % au cours de la dernière semaine ? »
-- « Quelles audiences ont vu leur taille diminuer de plus de 15 % au cours du dernier mois ? »
-- « Quel est mon public qui croît le plus rapidement ? »
+- &quot;Which audiences have increased in size by more than 20% in the last week?&quot;
+- &quot;Which audiences have decreased in size by more than 15% in the last month?&quot;
+- &quot;What is my fastest growing audience?&quot;
 
 ## Data Insights Agent
 
-Les exemples d’invites ci-dessous peuvent être utilisés avec Data Insights Agent pour analyser vos données, identifier les tendances et découvrir des informations exploitables.
+The following example prompts can be used with the Data Insights Agent to analyze your data, identify trends, and uncover actionable insights.
 
 ### Visualisation des données
 
-- « Montrez-moi les bénéfices en septembre. »
+- &quot;Show me profits in September.&quot;
 - « Tendance des commandes en septembre. »
 - « Afficher le chiffre d’affaires par région en septembre. »
 - « Part du chiffre d’affaires par catégorie de produits. »
@@ -69,7 +73,7 @@ Les exemples d’invites ci-dessous peuvent être utilisés avec Journey Agent p
 
 ### Questions sur les ressources des parcours
 
-- « Combien de parcours en direct ai-je ? »
+- « Combien de parcours actifs ai-je ? »
 - « Donnez-moi la liste de tous les parcours récurrents planifiés et de leurs durées d’exécution prévues. »
 
 ### Informations sur les audiences et les parcours
@@ -88,34 +92,34 @@ Utilisez ces prompts pour analyser les conflits potentiels entre les parcours, y
 - « Veuillez effectuer une analyse du chevauchement des audiences pour les {JOURNEY_NAME} de parcours avec des informations de type conflit. »
 - « Existe-t-il des conflits de planification pour les {JOURNEY_NAME} de parcours ? »
 - « Afficher les conflits de chevauchement d’audience pour les {JOURNEY_NAME} de parcours. »
-- « Analysez tous les conflits pour les {JOURNEY_NAME} de parcours avec d’autres parcours actifs. »
-- « Quels sont les conflits actuels pour les {JOURNEY_NAME} de parcours ? »
-- « Vérifiez si le parcours {JOURNEY_NAME} présente des conflits d’audience avec d’autres parcours. »
-- « Recherchez les conflits de planification impliquant des {JOURNEY_NAME} de parcours. »
-- « Je veux être au courant de tous les conflits de parcours pour {JOURNEY_NAME}. »
-- « Y a-t-il des parcours en direct qui entrent en conflit avec {JOURNEY_NAME} par planning ou audience ? »
-- « Identifiez les types de conflit pour les {JOURNEY_NAME} de parcours par rapport aux parcours en cours d’exécution. »
-- « Afficher des audiences qui se chevauchent pour les {JOURNEY_NAME} de parcours et d’autres parcours. »
-- « Mettez en évidence les chevauchements de planification entre les {JOURNEY_NAME} de parcours et les parcours en direct. »
-- « Le parcours {JOURNEY_NAME} est-il en conflit avec un autre parcours ? »
-- « Veuillez détecter et répertorier les conflits pour les {JOURNEY_NAME}. »
-- « Signalez tous les types de conflits pour les {JOURNEY_NAME} de parcours. »
-- « Donnez-moi une répartition des conflits (planification et audience) pour {JOURNEY_NAME}. »
-- « Existe-t-{JOURNEY_NAME} des conflits susceptibles d’affecter les performances ? »
-- « Existe-t-il des conflits actifs affectant {JOURNEY_NAME} ? »
-- « Répertorier les parcours en conflit avec {JOURNEY_NAME} par planning ou audience. »
-- « parcours {JOURNEY_NAME} a-t-il déclenché des alertes de conflit ? »
-- « Rechercher des conflits d’audience potentiels pour les {JOURNEY_NAME} de parcours. »
-- « Analysez le risque de conflit pour les {JOURNEY_NAME} de parcours. »
-- « Fournir des diagnostics de conflit pour {JOURNEY_NAME}. »
+- &quot;Analyze all conflicts for journey {JOURNEY_NAME} with other live journeys.&quot;
+- &quot;What are the current conflicts for journey {JOURNEY_NAME}?&quot;
+- &quot;Check if journey {JOURNEY_NAME} has audience conflicts with other journeys.&quot;
+- &quot;Check for scheduling conflicts involving journey {JOURNEY_NAME}.&quot;
+- &quot;I want to know about all journey conflicts for {JOURNEY_NAME}.&quot;
+- &quot;Do any live journeys conflict with {JOURNEY_NAME} by schedule or audience?&quot;
+- &quot;Identify conflict types for journey {JOURNEY_NAME} compared to running journeys.&quot;
+- &quot;Show overlapping audiences for journey {JOURNEY_NAME} and other journeys.&quot;
+- &quot;Highlight scheduling overlaps between journey {JOURNEY_NAME} and live journeys.&quot;
+- &quot;Is journey {JOURNEY_NAME} running in conflict with any other journey?&quot;
+- &quot;Please detect and list conflicts for {JOURNEY_NAME}.&quot;
+- &quot;Report all types of conflicts for journey {JOURNEY_NAME}.&quot;
+- &quot;Give me a conflict breakdown (scheduling and audience) for {JOURNEY_NAME}.&quot;
+- &quot;Does {JOURNEY_NAME} have any conflicts that may impact performance?&quot;
+- &quot;Are there any active conflicts affecting {JOURNEY_NAME}?&quot;
+- &quot;List journeys in conflict with {JOURNEY_NAME} by schedule or audience.&quot;
+- &quot;Has journey {JOURNEY_NAME} triggered any conflict alerts?&quot;
+- &quot;Find potential audience conflicts for journey {JOURNEY_NAME}.&quot;
+- &quot;Analyze conflict risk for journey {JOURNEY_NAME}.&quot;
+- &quot;Provide conflict diagnostics for {JOURNEY_NAME}.&quot;
 
 +++
 
 ## Agent du support technique du produit
 
-L’agent d’assistance produit vous aide à résoudre les problèmes, à créer des cas d’assistance et à suivre le statut de vos tickets d’assistance. Utilisez les exemples d’invites suivants pour obtenir de l’aide.
+The Product Support Agent helps you troubleshoot issues, create support cases, and track the status of your support tickets. Use the following example prompts to get assistance.
 
-### Aide au dépannage
+### Troubleshooting help
 
 - « Pourquoi le nombre de profils diffère-t-il sur le tableau de bord d’utilisation des licences et la page d’accueil d’Experience Platform ? »
 - « Quelles sont les raisons pour lesquelles un parcours ne se déclenche pas ? »
