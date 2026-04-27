@@ -1,10 +1,21 @@
 ---
 title: Essai des agents Adobe Experience Platform
 description: Découvrez l’essai gratuit des agents Adobe Experience Platform.
-source-git-commit: 268098d64d80d25d390743cf2b888a0aea429a0d
+TQID: https://experienceleague.adobe.com/3ar5j-6IYEk2w6oyvR6JCuaw2Zrrp2DxUri5EvI0QN0
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: dd7883d8eccab3b0f006d55a850248e1c347d7e7
 workflow-type: tm+mt
-source-wordcount: '1033'
-ht-degree: 1%
+source-wordcount: 1107
+ht-degree: 5%
 
 ---
 
@@ -37,39 +48,39 @@ L’essai se termine une fois que vous avez utilisé le droit unique initial de 
 
 ## Accéder à et commencer à utiliser l’assistant AI optimisé par Agent Orchestrator
 
-Les utilisateurs des clients éligibles auront accès à l’assistant et aux agents AI dans le cadre de l’évaluation, aucune action n’est donc nécessaire. Les agents Experience Platform sont guidés par les entrées et la supervision de l’utilisateur. Les agents respectent également les contrôles d’accès au niveau du produit définis précédemment, de sorte que les utilisateurs puissent uniquement effectuer des tâches ou exécuter des actions pour lesquelles ils disposent d’autorisations au sein des produits Experience Cloud sous-jacents applicables. Si vous souhaitez vous exclure de l&#39;accès à ces fonctionnalités Agentic et désactiver l&#39;accès d&#39;évaluation, envoyez une demande à [aep-agents-trial-support@adobe.com](mailto:aep-agents-trial-support@adobe.com).
+Les utilisateurs des clients éligibles auront accès à l’assistant et aux agents AI dans le cadre de l’évaluation, aucune action n’est donc nécessaire. Experience Platform Agents are guided by user input and oversight. Agents also honor previously defined product-level access controls, so users can only perform jobs or execute actions for which they have permissions within the applicable underlying Experience Cloud products. If you want to opt-out of access to these Agentic capabilities and disable the trial access, please send a request to [aep-agents-trial-support@adobe.com](mailto:aep-agents-trial-support@adobe.com).
 
-Une fois que vous y avez accès, accédez à la page d’accueil de Adobe Experience Cloud pour commencer à utiliser l’assistant AI. Vous pouvez utiliser les [invites de découverte](../ai-assistant/ai-assistant-ui.md#discovery-prompts) pour afficher les suggestions des invites et des workflows courants. Utilisez cette fonctionnalité pour accélérer votre intégration à l’aide de l’assistant AI. Lisez également la section [bibliothèque d’invites](../ai-assistant/prompt-library.md) pour découvrir un grand nombre d’invites que vous pouvez utiliser avec différents agents. Pour obtenir des informations plus complètes, consultez le guide de l’interface utilisateur de l’assistant [AI](../ai-assistant/ai-assistant-ui.md).
+Once you have access, navigate to the Adobe Experience Cloud homepage to get started with AI Assistant. You can use the [discovery prompts](../ai-assistant/ai-assistant-ui.md#discovery-prompts) to view suggestions for prompts and common workflows. Use this feature to help accelerate your onboarding with AI Assistant. Additionally, read the [prompt library](../ai-assistant/prompt-library.md) for a variety of prompts that you can use with different agents. For more comprehensive information, read the [AI Assistant UI guide](../ai-assistant/ai-assistant-ui.md).
 
-Pour plus d’informations sur les agents disponibles, lisez la présentation d’[Agent Orchestrator](agent-orchestrator.md).
+For information on the available agents, read the [Agent Orchestrator overview](agent-orchestrator.md).
 
 >[!TIP]
 >
->Obtenez de l’aide - Veuillez envoyer une demande à [aep-agents-trial-support@adobe.com](mailto:aep-agents-trial-support@adobe.com).
+>Get Help - Please send a request to [aep-agents-trial-support@adobe.com](mailto:aep-agents-trial-support@adobe.com).
 
 ## Questions fréquentes {#faq}
 
-Lisez les sections suivantes pour obtenir des réponses aux questions fréquentes sur l’essai des agents Experience Platform.
+Read the following for answers to frequently asked questions regarding the Experience Platform Agents trial.
 
-### Qu’est-ce que la version d’essai des agents Adobe Experience Platform ?
+### What is the Adobe Experience Platform Agents trial?
 
-La version d’évaluation des agents Adobe Experience Platform permet aux clients éligibles d’utiliser certains agents sans frais supplémentaires jusqu’à 10 000 crédits d’IA. L’objectif est de fournir une solution à faible friction et à faible risque pour tirer parti de ces agents avant que les clients ne prennent une décision commerciale.
+The Adobe Experience Platform Agents trial lets eligible customers use certain Agents at no additional cost up to 10,000 AI Credits. The goal is to provide a low‑friction, low‑risk path to experience value from these agents before customers make a commercial decision.
 
-### Quels agents sont inclus dans cet essai ?
+### Which Agents are included in this trial?
 
-Lisez le guide sur [l’IA dédiée aux agents dans Experience Cloud](https://experienceleague.adobe.com/fr/docs/core-services/interface/features/agentic-ai) pour obtenir la liste complète des agents inclus dans l’essai.
+Read the guide on [Agentic AI in Experience Cloud](https://experienceleague.adobe.com/fr/docs/core-services/interface/features/agentic-ai) for a complete list of Agents included in the trial.
 
-### Qui peut participer à cet essai ?
+### Who can participate in this trial?
 
-L’évaluation est actuellement déployée par phases auprès de certains clients Adobe Experience Cloud éligibles, afin qu’Adobe puisse fournir une assistance appropriée. Si vous souhaitez participer, contactez l’équipe chargée de votre compte Adobe afin de connaître votre statut et de discuter des options d’accès.
+The trial is being rolled out to certain eligible Adobe Experience Cloud customers in phases so Adobe can provide appropriate support. If you are interested in participating, please reach out to your Adobe Account Team and they can verify your status and discuss options for access.
 
-### Combien de crédits d’IA vais-je obtenir et que se passe-t-il lorsque ces crédits d’IA sont utilisés ?
+### How much AI Credits do I get and what happens when those AI Credits are used?
 
-Les clients éligibles reçoivent jusqu’à 10 000 crédits AI pour l’évaluation, qui sont consommés lorsque les agents exécutent des tâches. Veuillez noter que ces crédits AI n’existent que pendant la durée de l’expérience d’évaluation et ne sont pas transférés si vous possédez une licence de crédits AI supplémentaires avant d’utiliser l’intégralité des 10 000 crédits AI. Pour plus d’informations sur la consommation de crédit AI, consultez le guide [Tâches d’agent et consommation de crédit AI](https://experienceleague.adobe.com/fr/docs/core-services/interface/features/ai-credit-consumption).
+Eligible customers receive up to 10,000 AI Credits for the trial, which are consumed as Agents execute Jobs. Please note that these AI Credits only exist for the duration of the trial experience and do not roll over if you license additional AI Credits before using the full 10,000 AI Credits. For more information on AI Credit consumption, read the [Agent jobs and AI Credit consumption guide](https://experienceleague.adobe.com/fr/docs/core-services/interface/features/ai-credit-consumption).
 
-### Est-ce que ça coûte quelque chose ?
+### Does this cost anything?
 
-L’évaluation ne nécessite aucun achat supplémentaire. Il n’existe pas de conversion automatique en offre payante. Si vous décidez de continuer à utiliser des agents au-delà de l’évaluation, l’équipe chargée de votre compte Adobe collaborera avec vous pour passer à une offre payante.
+The trial does not require any additional purchase. Il n’existe pas de conversion automatique en offre payante. Si vous décidez de continuer à utiliser des agents au-delà de l’évaluation, l’équipe chargée de votre compte Adobe collaborera avec vous pour passer à une offre payante.
 
 ### Qui peut voir l’utilisation et comment ?
 

@@ -1,99 +1,123 @@
 ---
-title: Présentation de Journey Agent et guide de l’utilisateur
-description: Guide complet de Journey Agent permettant aux utilisateurs de créer, d’analyser et d’optimiser des parcours marketing à l’aide d’une interface en langage naturel dans Journey Optimizer.
+title: Journey Agent Overview and User Guide
+description: Comprehensive guide to Journey Agent, enabling users to create, analyze, and optimize marketing journeys using a natural language interface in Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
-source-git-commit: aba0b2f7f819f762c336c4dfeb952326a0814800
+TQID: https://experienceleague.adobe.com/7Bamc-q4rDOB9i0oxwixdmtdU8lrx3btpvMfAsjGnig
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
+  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: dd7883d8eccab3b0f006d55a850248e1c347d7e7
 workflow-type: tm+mt
-source-wordcount: '2608'
+source-wordcount: 2655
 ht-degree: 15%
 
 ---
 
+# Journey Agent: Overview and User Guide
 
-# Journey Agent : présentation et guide de l’utilisateur
+## Introduction to Journey Agent in Adobe Journey Optimizer
 
-## Présentation de Journey Agent dans Adobe Journey Optimizer
+Journey Agent enables Journey Optimizer users to create, analyze, and optimize marketing journeys using a natural language interface. Avec l’agent Journey, les personnes professionnelles peuvent rapidement créer des parcours, détecter et résoudre les conflits de plannings ou d’audiences, analyser les performances et les points d’abandon, et identifier les parcours les plus performants à reproduire pour les campagnes futures. It empowers practitioners to make data-driven decisions, improve customer engagement, and streamline journey orchestration.
 
-Journey Agent permet aux utilisateurs de Journey Optimizer de créer, d’analyser et d’optimiser des parcours marketing à l’aide d’une interface en langage naturel. Avec l’agent Journey, les personnes professionnelles peuvent rapidement créer des parcours, détecter et résoudre les conflits de plannings ou d’audiences, analyser les performances et les points d’abandon, et identifier les parcours les plus performants à reproduire pour les campagnes futures. Il permet aux professionnels de prendre des décisions basées sur les données, d’améliorer l’engagement des clients et de rationaliser l’orchestration des parcours.
+Journey Agent consists of three main jobs to be done:
 
-Journey Agent se compose de trois tâches principales :
+- **Journey Create**: Build and configure marketing journeys through natural language prompts
+- **Channel Content Create**: Generate, edit, and manage channel-specific content (email, push, SMS) for journeys using AI-powered content generation
+- **Journey Analyze**: Analyze journeys, detect issues, uncover insights, and optimize customer engagement
 
-- **Création de Parcours** : créez et configurez des parcours marketing à l’aide d’invites en langage naturel
-- **Création de contenu de canal** : générez, modifiez et gérez le contenu spécifique au canal (e-mail, notification push, SMS) pour les parcours à l’aide de la génération de contenu optimisée par l’IA
-- **Analyse des Parcours** : analysez les parcours, détectez les problèmes, découvrez des informations et optimisez l’engagement des clients
-
-## Parcours Create : cas d’utilisation, compétences en agence et guide de l’utilisateur
+## Journey Create: Use cases, Agentic skills and User guide
 
 ## Vue d’ensemble
 
-Parcours Create permet aux utilisateurs de Journey Optimizer de créer et de configurer des parcours marketing à l’aide d’une interface en langage naturel. Avec la fonction Création de Parcours, les utilisateurs et utilisatrices peuvent rapidement créer des parcours en décrivant leurs besoins dans des invites conversationnelles. L’agent simplifie la création de parcours, ce qui permet aux spécialistes marketing de se concentrer sur la stratégie plutôt que sur la configuration technique.
+Journey Create enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create, practitioners can quickly create journeys by describing their requirements in conversational prompts. L’agent simplifie la création de parcours, ce qui permet aux spécialistes marketing de se concentrer sur la stratégie plutôt que sur la configuration technique.
 
 >[!AVAILABILITY]
 >
->La création de parcours est disponible pour tous les clients qui ont accès à l’assistant AI. Toutefois, vous aurez besoin des autorisations suivantes pour utiliser pleinement les fonctionnalités de création de Parcours :
+>Journey Create is available for all customers who have access to AI Assistant. However, you will need the following permissions in order to fully use Journey Create features:
 >
->**Gérer les Parcours** : cette autorisation vous permet de créer des parcours directement dans l’assistant AI.
+>**Manage Journeys**: This permission lets you create new journeys directly in AI Assistant.
 >
->**Afficher les événements de Parcours, les sources de données et les actions** : cette autorisation permet à l’assistant AI de rechercher des événements de Parcours et des actions personnalisées.
+>**View Journey Events, Data Sources and Actions**: This permission ensures that the AI Assistant can search through Journey Events and Custom Actions.
 >
->**Afficher les segments** : cette autorisation permet à l’assistant AI de rechercher des segments d’audience lors de la création d’un Parcours.
+>**View Segments**: This permission ensures that AI Assistant can search for audience segments when creating a Journey.
 >
->**Gérer les segments** : cette autorisation vous permet de créer de nouvelles audiences directement dans l’assistant AI.
+>**Manage Segments**: This permission lets you create new audiences directly in AI Assistant.
 
 ## Cas d’utilisation
 
-### Cas d’utilisation clés de la création de Parcours
+### Key use cases for Journey Create
 
-Parcours Créez des fonctionnalités d’offres qui peuvent être exploitées pour accélérer l’exécution marketing :
+Journey Create offers capabilities that can be leveraged to accelerate marketing execution:
 
-1. **Création de parcours déclenchée par un événement**
+1. **Event-triggered journey creation**
 
-   - Créez des parcours qui s’activent en fonction d’événements client spécifiques.
-   - Concevez des réponses automatisées aux actions des clients en temps réel.
-   - Créez des flux de communication personnalisés en fonction du comportement des clients.
+   - Create journeys that activate based on specific customer events.
+   - Design automated responses to customer actions in real-time.
+   - Build personalized communication flows based on customer behavior.
 
-1. **Création de parcours ciblés sur l’audience**
+1. **Audience-targeted journey creation**
 
-   - Créez des parcours ciblant des segments ciblés spécifiques.
-   - Concevez des séquences de communication à plusieurs étapes avec un timing stratégique.
+   - Build journeys targeting specific audience segments.
+   - Design multi-step communication sequences with strategic timing.
 
-1. **Création de parcours déclenchée par un événement métier**
+1. **Business-event triggered journey creation**
 
-   - Créez des parcours qui s’activent en fonction d’un événement métier particulier et ciblent une audience spécifiée (par exemple, retour du produit en stock ou changement du score du jeu).
-   - Créez des flux de communication personnalisés en fonction du comportement des clients.
+   - Create journeys that activate based on a particular business event and target a specified audience (e.g. product back in stock or game score change)
+   - Build personalized communication flows based on customer behavior.
 
-1. **Création du parcours de qualification d’audience**
+1. **Audience qualification journey creation**
 
-   - Créez des parcours qui s’activent lorsque les profils entrent ou sortent d’une définition de segment ciblé.
-   - Créez des flux de communication personnalisés en fonction du comportement des clients.
+   - Create journeys that activate as profiles enter or exit an audience segment definition.
+   - Build personalized communication flows based on customer behavior.
 
-1. **Flux de parcours conditionnels**
+1. **Conditional journey flows**
 
-   - Créez des branches de décision en fonction des attributs du client.
-   - Concevez des chemins de division qui s’adaptent aux préférences des clients.
+   - Create decision branches based on customer attributes.
+   - Design split paths that adapt to customer preferences.
 
-Pour chacun de ces cas d’utilisation, l’agent traduit les exigences en langage naturel en configurations de parcours structurées.
+For each of these use cases, the agent translates natural language requirements into structured journey configurations.
 
-## Compétences incluses et exclues
+## In scope and out of scope skills
 
-### **Dans la portée**
+### **In scope**
 
-Les fonctionnalités suivantes sont prises en charge par Parcours Create :
+The following capabilities are supported by Journey Create:
 
-- **Création de parcours en langage naturel** : permet aux utilisateurs de décrire le flux du parcours dans un langage de conversation.
-- **parcours basés sur un événement et sur une audience** : prend en charge les types de parcours planifiés et basés sur un déclencheur, ainsi que la qualification des événements métier et des audiences.
-- **Logique conditionnelle** : gère les divisions de décision et l’embranchement en fonction des attributs du client.
-- **Messagerie multicanal** : prend en charge les canaux de notification push, d’e-mail et de SMS.
-- **Planification des Parcours** : configure les dates et heures de début des parcours planifiés.
+- **Natural language journey creation**: Allows users to describe journey flow in conversational language.
+- **Event-based and audience-based journeys**: Supports both trigger-based and scheduled journey types, also business event and audience qualification.
+- **Conditional logic**: Handles decision splits and branching based on customer attributes.
+- **Multi-channel messaging**: Supports push notifications, email, and SMS channels.
+- **Journey scheduling**: Configures start dates and timing for scheduled journeys.
 
-### **Hors portée**
+### **Out of scope**
 
 Les fonctionnalités suivantes ne sont pas prises en charge actuellement :
 
-- **Analyses de parcours avancées**
-- **Modifications du parcours en temps réel**
+- **Advanced journey analytics**
+- **Real-time journey modifications**
 - **Orchestration entre parcours**
 - **Configuration des tests A/B**
 - **Transformations de données complexes**
@@ -149,7 +173,7 @@ Pour optimiser l’efficacité de Parcours Create, appliquez les bonnes pratique
 1. **Définir des conditions** : lors de l’utilisation d’une logique conditionnelle, expliquez les critères de chaque chemin de branche.
 1. **Inclure les canaux** : indiquez les canaux de communication à utiliser (push, e-mail, SMS).
 1. **Mentionner la planification** : pour les parcours planifiés, indiquez la date et l’heure de début souhaitées.
-1. **Actions personnalisées** : si vous utilisez des actions personnalisées dans votre workflow, vous devez indiquer que vous utilisez une action personnalisée avec le nom exact de l’action personnalisée. Exemple :
+1. **Actions personnalisées** : si vous utilisez des actions personnalisées dans votre workflow, vous devez indiquer que vous utilisez une action personnalisée avec le nom exact de l’action personnalisée. Exemple :
 Lorsqu’un utilisateur accède à l’emplacement de ma boutique, envoyez un message de bienvenue à l’aide d’une action personnalisée ExternalPush. Patientez 2 jours, puis envoyez un message de relance à l’aide d’une action personnalisée ExternalEmail avec un questionnaire lors de leur visite.
 1. **Valider les expressions** : veillez à vérifier et à valider toutes les expressions créées par Journey Agent pour vous assurer que les champs et valeurs corrects sont utilisés.
 
@@ -329,7 +353,7 @@ Voici des exemples de prompts utiles que les utilisateurs et utilisatrices peuve
 
 ### Questions sur les ressources des parcours
 
-- « Combien de parcours actifs ai-je ? » 
+- « Combien de parcours actifs ai-je ? »
 - « Donnez-moi la liste de tous les parcours récurrents planifiés et de leurs durées d’exécution prévues. »
 
 ### Informations sur les audiences et les parcours

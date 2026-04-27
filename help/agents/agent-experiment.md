@@ -1,64 +1,76 @@
 ---
-title: Agent d’expérimentation
-description: Découvrez comment utiliser l’agent d’expérience
-source-git-commit: 5694f15d82081eed8e762fea8aabc3da1e265b04
+title: Agent Experimentation
+description: Learn how to use Experimentation Agent
+TQID: https://experienceleague.adobe.com/ARh16ylmUDrp---g8KuYNyewIv54IQ53pxoE2g700o0
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: dd7883d8eccab3b0f006d55a850248e1c347d7e7
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 3%
+source-wordcount: 555
+ht-degree: 5%
 
 ---
 
-# Agent d’expérimentation
+# Agent Experimentation
 
 >[!AVAILABILITY]
 >
->L’agent d’expérimentation est disponible pour tous les clients qui ont acheté la licence payante de Journey Optimizer Experimentation Accelerator et s’intègre de manière transparente à Adobe Target ou Adobe Journey Optimizer.
+>The Experimentation Agent is available to all customers who have purchased the paid license of Journey Optimizer Experimentation Accelerator and integrates seamlessly with either Adobe Target or Adobe Journey Optimizer.
 >
->[En savoir plus sur Journey Optimizer Experimentation Accelerator](https://experienceleague.adobe.com/fr/docs/experimentation-accelerator/using/overview)
+>[Learn more on Journey Optimizer Experimentation Accelerator](https://experienceleague.adobe.com/fr/docs/experimentation-accelerator/using/overview)
 
 ## Vue d’ensemble
 
-Le **agent d’expérimentation** est un outil optimisé par l’IA qui modernise la manière dont vous pouvez exécuter et gérer des expériences numériques sur des sites web, des e-mails, des messages push et des applications. Basé sur la plateforme d’IA et les outils d’expérimentation de Adobe Experience Platform, le **Agent d’expérimentation** vous permet d’exécuter des expériences plus efficacement, d’organiser les objectifs commerciaux et de générer des informations exploitables, en mettant en évidence ce qui a fonctionné, ce qui n’a pas fonctionné et où tester ensuite.
+The **Experimentation Agent** is an AI-powered tool that modernizes how you can run and manage digital experiments across websites, emails, push messages, and applications. Built on Adobe Experience Platform AI platform and experimentation tools, the **Experimentation Agent** helps you run experiments more efficiently, organize business goals, and generate actionable insights, highlighting what worked, what did not, and where to experiment next.
 
-Les autorisations suivantes permettent d’utiliser pleinement les fonctionnalités de l’agent d’expérience.
+The following permissions in order to fully use the Experimentation Agent features.
 
-* **Afficher les expériences** : cette autorisation vous permet d’utiliser l’agent d’expérimentation pour afficher des informations sur l’expérience directement dans l’assistant AI.
+* **View Experiments**: This permission lets you use the Experimentation Agent to view insights into the experiment directly in AI Assistant.
 
-* **Gérer les métadonnées d’expérience** : cette autorisation vous permet d’utiliser l’agent d’expérience pour créer de nouvelles expériences directement dans l’assistant AI.
+* **Manage Experiment Metada**: This permission lets you use the Experimentation Agent to create new experiments directly in AI Assistant.
 
-➡️ [En savoir plus dans la documentation Journey Optimizer Experimentation Accelerator](https://experienceleague.adobe.com/fr/docs/experimentation-accelerator/using/get-started/experiment-accelerator-access)
+➡️ [Learn more in Journey Optimizer Experimentation Accelerator documentation](https://experienceleague.adobe.com/fr/docs/experimentation-accelerator/using/get-started/experiment-accelerator-access)
 
-Dans le cadre de la fonctionnalité Experimentation Accelerator, l’agent fournit :
+As part of Experimentation Accelerator feature, the Agent delivers:
 
-* **Performances** : une vue claire de ce qui s’est passé dans l’expérience.
+* **Performance**: a clear view of what happened in the experiment
 
-* **Insights** : explication des raisons pour lesquelles les résultats se sont produits
+* **Insights**: an explanation of why the results occurred
 
-* **Opportunités** : conseils sur les prochaines actions à entreprendre
+* **Opportunities**: guidance on the next actions to take
 
-![Exemple pour l’agent d’expérience](./images/experiment/experiment-agent.png)
+![Sample for Experimentation Agent](./images/experiment/experiment-agent.png)
 
 ## Cas d’utilisation
 
-L’agent d’expérimentation améliore chaque phase du workflow d’expérimentation en analysant les résultats, en interprétant le contenu et en suggérant les étapes suivantes.
+The Experimentation Agent enhances each phase of the experimentation workflow by analyzing results, interpreting content, and suggesting next steps.
 
-Ses fonctionnalités peuvent être regroupées en cinq fonctions clés :
+Its capabilities can be grouped into five key functions:
 
-* **Résumé des expériences**
+* **Experiment Summarization**
 
-  Fournir aux parties prenantes un aperçu clair et non technique des résultats des expériences.
+  Provide a clear, non-technical overview of experiment results for stakeholders.
 
-* **Analyse de contenu**
+* **Content Analysis**
 
-  Examinez les messages ou les éléments créatifs des traitements pour comprendre pourquoi certains ont surpassé les autres.
+  Examine the messaging or creative elements of treatments to understand why certain ones outperformed others.
 
-* **Identification des attributs**
+* **Attribute Identification**
 
-  Classez les traitements en fonction de leurs attributs clés, par exemple, thèmes, tons, formats, et connectez ces attributs aux résultats de conversion.
+  Categorize treatments by their key attributes, e.g., themes, tones, formats, and connect those attributes to conversion outcomes.
 
-* **génération de recommandations**
+* **Recommendation Generation**
 
-  Suggérez de nouveaux traitements ou ajustements à tester, en fonction des informations issues d’expériences précédentes.
+  Suggest new treatments or adjustments to test, based on insights from prior experiments.
 
 * **Opportunités**
 
@@ -83,7 +95,7 @@ Les fonctionnalités suivantes ne sont pas prises en charge actuellement :
 
 ## Exemples d’invites
 
-Voici une liste d’exemples d’invite pour vous aider à prendre en main l’agent d’expérimentation :
+Voici une liste d’exemples d’invites pour vous aider à commencer à utiliser Experimentation Agent :
 
 ### Questions générales
 
@@ -110,7 +122,7 @@ Voici une liste d’exemples d’invite pour vous aider à prendre en main l’a
 
 | Invites |
 |-|
-| Qu’est-ce que le test `<experiment name>` ? |
+| Qu’est-ce que le test `<experiment name>` ? ? |
 | Qu&#39;avons-nous appris de l&#39;`<experiment name>` ? |
 | Pouvez-vous me dire pourquoi le traitement A a gagné ? |
 | Quels sont les thèmes les plus populaires dans les variantes gagnantes ? |

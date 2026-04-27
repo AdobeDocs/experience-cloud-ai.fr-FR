@@ -1,42 +1,52 @@
 ---
 title: Agent Audience
-description: Découvrez comment utiliser Audience Agent pour créer des audiences, afficher les modifications d’audience, détecter les audiences en double et afficher les informations sur l’audience.
-source-git-commit: ec03f46b5d80558b683f6cd4330f51258b7378a1
+description: Learn how to use the Audience Agent to create audiences, view audience changes, detect duplicate audiences, and view audience insights.
+TQID: https://experienceleague.adobe.com/574QhqKI0YDoPHD9BFmB6jl-HET3zVom3eD4cJQABSE
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: dd7883d8eccab3b0f006d55a850248e1c347d7e7
 workflow-type: tm+mt
-source-wordcount: '1242'
+source-wordcount: 1242
 ht-degree: 2%
 
 ---
-
 
 # Agent Audience
 
 >[!AVAILABILITY]
 >
->Audience Agent est disponible pour tous les clients qui ont accès à l’assistant AI. Toutefois, vous aurez besoin des autorisations suivantes pour utiliser pleinement les fonctionnalités d’Audience Agent.
+>The Audience Agent is available for all customers who have access to AI Assistant. However, you will need the following permissions in order to fully use the Audience Agent features.
 >
->**Afficher les segments** : cette autorisation vous permet d’utiliser Audience Agent pour afficher des informations sur les audiences directement dans l’assistant AI.
+>**View Segments**: This permission lets you use the Audience Agent to view insights into the audiences directly in AI Assistant.
 >
->**Gérer les segments** : pour obtenir l’autorisation, vous pouvez utiliser Audience Agent afin de créer de nouvelles audiences directement dans l’assistant AI.
+>**Manage Segments**: To permission lets you use the Audience Agent to create new audiences directly in AI Assistant.
 
-Audience Agent vous permet d’obtenir des informations sur les audiences, notamment la détection des modifications importantes de la taille de l’audience, la détection des audiences en double, l’exploration de votre inventaire des audiences et la récupération de la taille de vos audiences.
+The Audience Agent lets you view insights about audiences, including detecting significant audience size changes, detecting duplicate audiences, exploring your audience inventory, and retrieving your audiences&#39; size.
 
 >[!SLIDE](audience-agent-overview)
 
 ## Cas d’utilisation pris en charge
 
-L’assistant Audience Agent within AI prend en charge les cas d’utilisation suivants :
+The Audience Agent within AI Assistant supports the following use cases:
 
-- Explorer votre audience par conversation
-   - Rechercher les tailles d’audience des audiences existantes
-   - Recherchez des audiences en fonction d’attributs complets ou partiels nommés
-   - Détecter les audiences en double
-   - Découvrir les champs XDM que vous pouvez utiliser pour définir une audience
+- Conversationally explore your audience
+   - Find audience sizes of existing audiences
+   - Look for audiences based on full or partial attributes named
+   - Detect duplicate audiences
+   - Discover XDM fields you can use to define an audience
 - Détecter les modifications importantes de la taille de l’audience
-   - Vous pouvez ainsi trouver des audiences qui ont soudainement augmenté ou diminué, ce qui vous permet de mieux analyser les changements potentiels du marché
+   - This lets you find audiences that have suddenly grown or shrunk, letting you better analyze potential market changes
 - Création d’une audience
-   - Cette compétence vous permet de créer une audience basée sur les attributs et les événements donnés
-   - En outre, cette compétence vous permet d’estimer la taille potentielle d’une audience avant de créer l’audience, ce qui vous permet d’itérer rapidement sur l’audience la plus efficace avant qu’elle ne soit prête à être activée
+   - This skill lets you create an audience based on the given attributes and events
+   - Additionally, this skill lets you estimate the potential size of an audience prior to creating the audience, letting you quickly iterate on the most effective audience before it&#39;s ready to activate
 
 <!--
   - Find your audience size and detect significant changes in audience size
@@ -49,16 +59,16 @@ L’assistant Audience Agent within AI prend en charge les cas d’utilisation s
   - This skill lets you more easily identify the right fields to use in your audience based on context and relevance 
 -->
 
-Audience Agent ne prend pas **actuellement** en charge les fonctionnalités suivantes :
+The Audience Agent does not **currently** support the following feature:
 
-- Exploration des audiences basée sur des objectifs
-   - L’exploration des audiences basée sur des objectifs vous permet de découvrir des jeux de données et des profils pertinents alignés sur un objectif commercial en appliquant des modèles de machine learning tels que la propension à acheter ou à convertir.
+- Goal-based audience exploration
+   - Goal-based audience exploration lets you discover relevant datasets and profiles aligned to a business goal by applying machine learning models such as propensity to buy or convert.
 
-En outre, lors de l’utilisation d’Audience Agent, vous devez tenir compte des contraintes suivantes :
+Additionally, when using Audience Agent, you should keep the following constraints in mind:
 
-- Audience Agent a besoin d’au moins 24 heures pour traiter vos données
-   - Par exemple, vous **pouvez pas** une requête qui recherche des données au cours des dernières 24 heures. Vous devrez vérifier dans les 48 dernières heures, au minimum.
-- Audience Agent ne prend en charge que les types d’audiences suivants :
+- Audience Agent needs at least 24 hours to process your data
+   - For example, you **cannot** have a query that looks for data within the last 24 hours. You&#39;ll need to look within the last 48 hours, at a minimum.
+- Audience Agent only supports the following audience types:
    - Audiences **basées sur les personnes** évaluées à l’aide de la segmentation par lots
    - Audiences **basées sur un compte** pour les cas d’utilisation suivants :
       - Exploration des audiences de conversation
@@ -204,61 +214,61 @@ Ce plan se compose de trois étapes :
 
 ![Étape 1 du plan, qui consiste à identifier les caractéristiques de l’audience.](./images/audience/plan-step-1.png){align="center" width="80%"}
 
-Après avoir accepté le plan, l’assistant AI récupérera les caractéristiques de l’audience en fonction de votre requête initiale.
+After accepting the plan, AI Assistant will grab the audience&#39;s characteristics based off of your initial query.
 
 +++ Réponse
 
-![Définition de l’audience basée sur la requête de l’utilisateur.](./images/audience/audience-create-definition.png)
+![The audience definition based off of the user query.](./images/audience/audience-create-definition.png)
 
-Pour cette requête, l’assistant AI génère le Profile Query Language (PQL) approprié qui rechercherait les personnes qui vivent en Californie. Dans ce cas d’utilisation, la requête PQL se présenterait comme suit :
+For this query, AI Assistant generates the relevant Profile Query Language (PQL) that would look for people who live in California. In this use case, the PQL query would look like the following:
 
 ```sql
 homeAddress.state.equals("California", false)
 ```
 
-Pour plus d’informations sur PQL, consultez la présentation de PQL [&#128279;](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/pql/overview).
+For more information on PQL, read the [PQL overview](https://experienceleague.adobe.com/fr/docs/experience-platform/segmentation/pql/overview).
 
 +++
 
-Si la définition de l’audience de l’assistant d’IA est correcte, vous pouvez l’approuver et passer à l’étape suivante.
+If the AI Assistant&#39;s audience definition is correct, you can approve and move on to the next step.
 
 #### Estimer la taille de l’audience {#estimate}
 
-![Étape 2 du plan, qui consiste à estimer la taille de l’audience potentielle.](./images/audience/plan-step-2.png){align="center" width="80%"}
+![Step 2 of the plan, which is to estimate the size of the potential audience.](./images/audience/plan-step-2.png){align="center" width="80%"}
 
-Après avoir approuvé les caractéristiques d’audience identifiées, l’assistant AI estimera la taille de l’audience potentielle et les détails de la définition de l’audience.
-
-+++ Réponse
-
-![L’exemple d’estimation pour l’audience potentielle s’affiche. La taille estimée et la définition de segment s’affichent.](./images/audience/audience-create-estimate.png)
-
-+++
-
-Si la taille estimée semble correcte, vous pouvez approuver et passer à l’étape suivante.
-
-#### Créer et conserver une nouvelle audience {#create}
-
-![Étape 3 du plan, qui consiste à terminer la création de l’audience.](./images/audience/plan-step-3.png){align="center" width="80%"}
-
-Enfin, si les caractéristiques et la taille de l’audience semblent correctes, vous pouvez approuver ou rejeter la création de l’audience.
+After approving the identified audience characteristics, AI Assistant will estimate the size of the potential audience and the audience definition details.
 
 +++ Réponse
 
-Tout d’abord, vous pouvez examiner l’audience proposée par le biais de la grille de données fournie.
-
-![L’écran de révision s’affiche.](./images/audience/audience-create-review.png)
-
-Si l’audience semble correcte, vous pouvez accepter la proposition en sélectionnant **[!UICONTROL Créer]** pour terminer la création de l’audience.
-
-![La proposition complète pour l’audience s’affiche.](./images/audience/audience-create-proposal.png)
+![The sample estimate for the potential audience is displayed. The estimated size and the segment definition are shown.](./images/audience/audience-create-estimate.png)
 
 +++
 
-L’audience est maintenant créée.
+If the estimated size looks correct, you can approve and move on to the next step.
 
-![La proposition d’audience a été acceptée et l’audience a été créée.](./images/audience/audience-finish-create.png){align="center" width="80%"}
+#### Create and persist new audience {#create}
+
+![Step 3 of the plan, which is to finish creating the audience.](./images/audience/plan-step-3.png){align="center" width="80%"}
+
+Finally, if the characteristics and the audience size look correct, you can approve or reject the audience&#39;s creation.
+
++++ Réponse
+
+First, you can review the proposed audience through the provided data grid.
+
+![The review screen is displayed.](./images/audience/audience-create-review.png)
+
+If the audience looks correct, you can accept the proposal by selecting **[!UICONTROL Create]** to finish creating the audience.
+
+![The complete proposal for the audience is displayed.](./images/audience/audience-create-proposal.png)
+
++++
+
+The audience is now created.
+
+![The audience proposal was accepted, and the audience was created.](./images/audience/audience-finish-create.png){align="center" width="80%"}
 
 ## Étapes suivantes
 
-Vous êtes arrivé au bout de ce guide, vous devriez mieux comprendre Audience Agent et les fonctionnalités qu’il prend en charge. Pour plus d’informations sur les agents dans Adobe Experience Platform, lisez la présentation d’[Agent Orchestrator](./agent-orchestrator.md).
+After reading this guide, you should have a better understanding of Audience Agent and what features it supports. For more information on agents in Adobe Experience Platform, read the [Agent Orchestrator overview](./agent-orchestrator.md).
 

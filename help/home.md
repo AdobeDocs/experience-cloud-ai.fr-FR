@@ -1,9 +1,23 @@
 ---
 title: IA dans les applications Experience Cloud
 description: Découvrez comment les applications Experience Cloud utilisent l’IA générative (GenAI), l’Assistant IA et l’IA agentique.
-source-git-commit: c3cb327bb7625ee81f784a1fad740b7b4cbdfb71
+TQID: https://experienceleague.adobe.com/heALjEZbowNaygG24oOM2HSlHa9oYVI5ViUNZDr19Ds
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: dd7883d8eccab3b0f006d55a850248e1c347d7e7
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: 846
 ht-degree: 17%
 
 ---
@@ -29,7 +43,7 @@ Bienvenue dans le guide complet des fonctionnalités d’IA dans les application
 
 ### Agent Orchestrator
 
-[&#128279;](./agents/agent-orchestrator.md) est la nouvelle couche agentic de Adobe Experience Platform. Conçu pour exploiter la richesse des données et des connaissances clientèle de la plateforme, Experience Platform Agent Orchestrator alimente l’intelligence et le raisonnement d’agents experts spécialement conçus pour Adobe Experience Platform, leur permettant d’exécuter des prises de décision complexes et de résoudre des problèmes à grande vitesse et à grande échelle, le tout sous supervision humaine. Lorsque vous posez des questions ou demandez de l’aide en langage naturel dans une interface conversationnelle telle que l’assistant IA, Agent Orchestrator fait automatiquement appel à des agentes et agents spécialisés pour vous fournir les bonnes réponses. Agent Orchestrator se souvient de l’historique de vos conversations, ce qui lui permet de s’appuyer naturellement sur vos questions précédentes sans répéter le contexte et de combiner les informations issues de plusieurs agentes et agents afin de vous présenter des réponses claires et unifiées.
+[Adobe Experience Platform Agent Orchestrator](./agents/agent-orchestrator.md) est la nouvelle couche agentic de Adobe Experience Platform. Conçu pour exploiter la richesse des données et des connaissances clientèle de la plateforme, Experience Platform Agent Orchestrator alimente l’intelligence et le raisonnement d’agents experts spécialement conçus pour Adobe Experience Platform, leur permettant d’exécuter des prises de décision complexes et de résoudre des problèmes à grande vitesse et à grande échelle, le tout sous supervision humaine. Lorsque vous posez des questions ou demandez de l’aide en langage naturel dans une interface conversationnelle telle que l’assistant IA, Agent Orchestrator fait automatiquement appel à des agentes et agents spécialisés pour vous fournir les bonnes réponses. Agent Orchestrator se souvient de l’historique de vos conversations, ce qui lui permet de s’appuyer naturellement sur vos questions précédentes sans répéter le contexte et de combiner les informations issues de plusieurs agentes et agents afin de vous présenter des réponses claires et unifiées.
 
 **Composants principaux :**
 
@@ -48,35 +62,35 @@ Audience Agent fournit des informations sur les audiences, notamment :
 - Exploration de l’inventaire des audiences.
 - Récupération des tailles d’audience.
 
-Lisez la [documentation d’](./agents/audience.md) pour plus d’informations.
+Lisez la [documentation d’Audience Agent](./agents/audience.md) pour plus d’informations.
 
 #### Data Insights Agent
 
-Disponible dans Customer Journey Analytics, le Data Insights Agent :
+Available in Customer Journey Analytics, the Data Insights Agent:
 
-- Répond aux questions sur vos données à l’aide du langage naturel.
-- Crée des visualisations pertinentes dans Analysis Workspace.
-- Utilise des composants de votre vue de données et des données réelles.
+- Answers questions about your data using natural language.
+- Builds relevant visualizations in Analysis Workspace.
+- Uses components from your dataview and actual data.
 
 #### Agent d’analyse de parcours
 
-L’agent d’analyse de Parcours permet aux utilisateurs de Adobe Journey Optimizer de :
+The Journey Analyze Agent enables the Adobe Journey Optimizer users to:
 
-- Analysez et optimisez les parcours à l’aide du langage naturel.
-- Détectez et résolvez les conflits de planning ou d’audience.
-- Analysez les performances et les points de chute.
+- Analyze, and optimize journeys using natural language.
+- Detect and resolve schedule or audience conflicts.
+- Analyze performance and drop-off points.
 
-Pour plus d’informations[&#128279;](./agents/ajo-agent.md) consultez la documentation de Journey Agent .
+Read the [Journey Agent documentation](./agents/ajo-agent.md) for more information.
 
 #### Agent du support technique du produit
 
-Utilisez l’agent du support produit pour le débogage et le dépannage en libre-service :
+Use the Product Support Agent for self-serve debugging and troubleshooting:
 
-- Résolution des problèmes liés aux fonctionnalités de Adobe Experience Platform sans quitter les workflows.
-- Créez des tickets d’assistance avec du contexte à partir des interactions de l’assistant AI.
-- Vérifiez les mises à jour des tickets via l’assistant AI.
+- Troubleshoot Adobe Experience Platform features without leaving workflows.
+- Create support tickets with context from AI Assistant interactions.
+- Check ticket updates through AI Assistant.
 
-Pour plus d’informations, consultez la [documentation de l’agent d’assistance produit](./agents/product-support.md).
+Read the [Product Support Agent documentation](./agents/product-support.md) for more information.
 
 <!--
 #### Adobe Marketing Agent for [!DNL Microsoft 365 Copilot]
@@ -92,23 +106,23 @@ Read the [Adobe Marketing Agent documentation](./agents/ama-ms.md) for more info
 
 ## Prise en main
 
-### Exigences d’accès
+### Access requirements
 
-Pour utiliser l’assistant AI et les agents Experience Platform, votre administrateur Adobe doit configurer les autorisations appropriées :
+To use AI Assistant and Experience Platform Agents, your Adobe Admin needs to set up the appropriate permissions:
 
-- Pour utiliser l’assistant AI dans Real-Time CDP et Adobe Journey Optimizer, vous devez disposer de l’autorisation « Activer l’assistant AI », ainsi que de l’autorisation « Afficher les informations opérationnelles » pour accéder aux questions opérationnelles.
-- L’accès à l’assistant d’IA dans Customer Journey Analytics est géré par le biais du contrôle d’accès Customer Journey Analytics, qui vous permet de poser des questions sur les connaissances du produit et les informations sur les données.
-- Pour Adobe Experience Manager, vous pouvez accéder à l’assistant AI par le biais d’autorisations définies dans le Adobe Admin Console.
+- To use AI Assistant within Real-Time CDP and Adobe Journey Optimizer, you need the &quot;Enable AI Assistant&quot; permission, as well as the &quot;View Operational Insights&quot; permission to access operational questions.
+- Access to AI Assistant in Customer Journey Analytics is managed through Customer Journey Analytics Access Control, which allows you to ask both product knowledge and data insights questions.
+- For Adobe Experience Manager, you can access AI Assistant through permissions set in the Adobe Admin Console.
 
 ### Confidentialité et sécurité
 
-AI Assistant est conçu avec la confidentialité, la sécurité et la gouvernance au premier plan :
+AI Assistant is built with privacy, security, and governance at the forefront:
 
-- Aucune donnée personnelle n&#39;est utilisée pour la formation.
-- Toutes les politiques de contrôle d’accès existantes sont respectées.
-- Conformité à la norme HIPAA en cas d’utilisation avec Adobe Experience Platform Healthcare Shield.
-- Politique de rétention de 30 jours pour les logs d’interaction.
-- Isolation des données spécifique au sandbox.
+- No personal data is used for training.
+- All existing access control policies are honored.
+- HIPAA-ready when used with Adobe Experience Platform Healthcare Shield.
+- 30-day retention policy for interaction logs.
+- Sandbox-specific data isolation.
 
 ## Bonnes pratiques
 
