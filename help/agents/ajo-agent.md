@@ -1,6 +1,6 @@
 ---
-title: Journey Agent Overview and User Guide
-description: Comprehensive guide to Journey Agent, enabling users to create, analyze, and optimize marketing journeys using a natural language interface in Journey Optimizer.
+title: Présentation de Journey Agent et guide de l’utilisateur
+description: Guide complet de Journey Agent permettant aux utilisateurs de créer, d’analyser et d’optimiser des parcours marketing à l’aide d’une interface en langage naturel dans Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
@@ -29,95 +29,100 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: dd7883d8eccab3b0f006d55a850248e1c347d7e7
+source-git-commit: d209365776b2467f5230fa2cc9a3a4534eb57328
 workflow-type: tm+mt
-source-wordcount: 2655
-ht-degree: 15%
+source-wordcount: 2687
+ht-degree: 14%
 
 ---
 
-# Journey Agent: Overview and User Guide
 
-## Introduction to Journey Agent in Adobe Journey Optimizer
-
-Journey Agent enables Journey Optimizer users to create, analyze, and optimize marketing journeys using a natural language interface. Avec l’agent Journey, les personnes professionnelles peuvent rapidement créer des parcours, détecter et résoudre les conflits de plannings ou d’audiences, analyser les performances et les points d’abandon, et identifier les parcours les plus performants à reproduire pour les campagnes futures. It empowers practitioners to make data-driven decisions, improve customer engagement, and streamline journey orchestration.
-
-Journey Agent consists of three main jobs to be done:
-
-- **Journey Create**: Build and configure marketing journeys through natural language prompts
-- **Channel Content Create**: Generate, edit, and manage channel-specific content (email, push, SMS) for journeys using AI-powered content generation
-- **Journey Analyze**: Analyze journeys, detect issues, uncover insights, and optimize customer engagement
-
-## Journey Create: Use cases, Agentic skills and User guide
-
-## Vue d’ensemble
-
-Journey Create enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create, practitioners can quickly create journeys by describing their requirements in conversational prompts. L’agent simplifie la création de parcours, ce qui permet aux spécialistes marketing de se concentrer sur la stratégie plutôt que sur la configuration technique.
+# Journey Agent : présentation et guide de l’utilisateur
 
 >[!AVAILABILITY]
 >
->Journey Create is available for all customers who have access to AI Assistant. However, you will need the following permissions in order to fully use Journey Create features:
+>Les compétences de création Journey Agent et les compétences de génération de contenu sont disponibles pour les clients qui font partie du programme Agent Orchestrator Explorer. Pour plus d’informations, contactez l’Assistance clientèle d’Adobe.
+
+## Présentation de Journey Agent dans Adobe Journey Optimizer
+
+Journey Agent permet aux utilisateurs de Journey Optimizer de créer, d’analyser et d’optimiser des parcours marketing à l’aide d’une interface en langage naturel. Avec l’agent Journey, les personnes professionnelles peuvent rapidement créer des parcours, détecter et résoudre les conflits de plannings ou d’audiences, analyser les performances et les points d’abandon, et identifier les parcours les plus performants à reproduire pour les campagnes futures. Il permet aux professionnels de prendre des décisions basées sur les données, d’améliorer l’engagement des clients et de rationaliser l’orchestration des parcours.
+
+Journey Agent se compose de trois tâches principales :
+
+- **Création de Parcours** : créez et configurez des parcours marketing à l’aide d’invites en langage naturel
+- **Création de contenu de canal** : générez, modifiez et gérez le contenu spécifique au canal (e-mail, notification push, SMS) pour les parcours à l’aide de la génération de contenu optimisée par l’IA
+- **Analyse des Parcours** : analysez les parcours, détectez les problèmes, découvrez des informations et optimisez l’engagement des clients
+
+## Parcours Create : cas d’utilisation, compétences en agence et guide de l’utilisateur
+
+## Vue d’ensemble
+
+Parcours Create permet aux utilisateurs de Journey Optimizer de créer et de configurer des parcours marketing à l’aide d’une interface en langage naturel. Avec la fonction Création de Parcours, les utilisateurs et utilisatrices peuvent rapidement créer des parcours en décrivant leurs besoins dans des invites conversationnelles. L’agent simplifie la création de parcours, ce qui permet aux spécialistes marketing de se concentrer sur la stratégie plutôt que sur la configuration technique.
+
+>[!AVAILABILITY]
 >
->**Manage Journeys**: This permission lets you create new journeys directly in AI Assistant.
+>La fonction Créer un parcours est disponible pour les clients qui font partie du programme Agent Orchestrator Explorer. Vous aurez également besoin des autorisations suivantes pour utiliser pleinement les fonctionnalités de création de Parcours :
 >
->**View Journey Events, Data Sources and Actions**: This permission ensures that the AI Assistant can search through Journey Events and Custom Actions.
+>**Gérer les Parcours** : cette autorisation vous permet de créer des parcours directement dans l’assistant AI.
 >
->**View Segments**: This permission ensures that AI Assistant can search for audience segments when creating a Journey.
+>**Afficher les événements de Parcours, les sources de données et les actions** : cette autorisation permet à l’assistant AI de rechercher des événements de Parcours et des actions personnalisées.
 >
->**Manage Segments**: This permission lets you create new audiences directly in AI Assistant.
+>**Afficher les segments** : cette autorisation permet à l’assistant AI de rechercher des segments d’audience lors de la création d’un Parcours.
+>
+>**Gérer les segments** : cette autorisation vous permet de créer de nouvelles audiences directement dans l’assistant AI.
 
 ## Cas d’utilisation
 
-### Key use cases for Journey Create
+### Cas d’utilisation clés de la création de Parcours
 
-Journey Create offers capabilities that can be leveraged to accelerate marketing execution:
+Parcours Créez des fonctionnalités d’offres qui peuvent être exploitées pour accélérer l’exécution marketing :
 
-1. **Event-triggered journey creation**
+1. **Création de parcours déclenchée par un événement**
 
-   - Create journeys that activate based on specific customer events.
-   - Design automated responses to customer actions in real-time.
-   - Build personalized communication flows based on customer behavior.
+   - Créez des parcours qui s’activent en fonction d’événements client spécifiques.
+   - Concevez des réponses automatisées aux actions des clients en temps réel.
+   - Créez des flux de communication personnalisés en fonction du comportement des clients.
 
-1. **Audience-targeted journey creation**
+1. **Création de parcours ciblés sur l’audience**
 
-   - Build journeys targeting specific audience segments.
-   - Design multi-step communication sequences with strategic timing.
+   - Créez des parcours ciblant des segments ciblés spécifiques.
+   - Concevez des séquences de communication à plusieurs étapes avec un timing stratégique.
 
-1. **Business-event triggered journey creation**
+1. **Création de parcours déclenchée par un événement métier**
 
-   - Create journeys that activate based on a particular business event and target a specified audience (e.g. product back in stock or game score change)
-   - Build personalized communication flows based on customer behavior.
+   - Créez des parcours qui s’activent en fonction d’un événement métier particulier et ciblent une audience spécifiée (par exemple, retour du produit en stock ou changement du score du jeu).
+   - Créez des flux de communication personnalisés en fonction du comportement des clients.
 
-1. **Audience qualification journey creation**
+1. **Création du parcours de qualification d’audience**
 
-   - Create journeys that activate as profiles enter or exit an audience segment definition.
-   - Build personalized communication flows based on customer behavior.
+   - Créez des parcours qui s’activent lorsque les profils entrent ou sortent d’une définition de segment ciblé.
+   - Créez des flux de communication personnalisés en fonction du comportement des clients.
 
-1. **Conditional journey flows**
+1. **Flux de parcours conditionnels**
 
-   - Create decision branches based on customer attributes.
-   - Design split paths that adapt to customer preferences.
+   - Créez des branches de décision en fonction des attributs du client.
+   - Concevez des chemins de division qui s’adaptent aux préférences des clients.
 
-For each of these use cases, the agent translates natural language requirements into structured journey configurations.
+Pour chacun de ces cas d’utilisation, l’agent traduit les exigences en langage naturel en configurations de parcours structurées.
 
-## In scope and out of scope skills
+## Compétences incluses et exclues
 
-### **In scope**
+### **Dans la portée**
 
-The following capabilities are supported by Journey Create:
+Les fonctionnalités suivantes sont prises en charge par Parcours Create :
 
-- **Natural language journey creation**: Allows users to describe journey flow in conversational language.
-- **Event-based and audience-based journeys**: Supports both trigger-based and scheduled journey types, also business event and audience qualification.
-- **Conditional logic**: Handles decision splits and branching based on customer attributes.
-- **Multi-channel messaging**: Supports push notifications, email, and SMS channels.
-- **Journey scheduling**: Configures start dates and timing for scheduled journeys.
+- **Création de parcours en langage naturel** : permet aux utilisateurs de décrire le flux du parcours dans un langage de conversation.
+- parcours basés sur un événement et sur une audience **: prend en charge les types de parcours planifiés et basés sur un déclencheur, ainsi que la qualification des événements métier et des audiences.**
+- **Logique conditionnelle** : gère les divisions de décision et l’embranchement en fonction des attributs du client.
+- **Messagerie multicanal** : prend en charge les canaux de notification push, d’e-mail et de SMS.
+- **Planification des Parcours** : configure les dates et heures de début des parcours planifiés.
 
-### **Out of scope**
+### **Hors portée**
 
 Les fonctionnalités suivantes ne sont pas prises en charge actuellement :
 
-- **Advanced journey analytics**
-- **Real-time journey modifications**
+- **Analyses de parcours avancées**
+- **Modifications du parcours en temps réel**
 - **Orchestration entre parcours**
 - **Configuration des tests A/B**
 - **Transformations de données complexes**
@@ -130,11 +135,11 @@ Voici des exemples d’invites utiles que les utilisateurs peuvent utiliser pour
 
 ### Invites de parcours déclenchées par un événement
 
-**parcours de visite de la boutique :**
+parcours de visite de la boutique :**&#x200B;**
 
 « Créez un parcours qui démarre lorsqu’un utilisateur saisit l’emplacement de ma boutique. Envoyez une notification push pour souhaiter la bienvenue aux utilisateurs dans le magasin . Patientez 2 jours et vérifiez si l’utilisateur dispose d’une adresse e-mail valide. Si l’utilisateur dispose d’une adresse e-mail valide, envoyez une enquête par e-mail pour lui demander des informations sur son expérience en magasin. Si l’utilisateur ne dispose pas d’une adresse e-mail valide, envoyez une notification push pour demander l’enregistrement. »
 
-**parcours après achat :**
+parcours après achat :**&#x200B;**
 
 « Créez un parcours qui démarre lorsqu’un client effectue un achat en ligne. Envoyez une notification push pour les remercier de leur achat. Ensuite, vérifiez s’il s’agit de membres du programme de fidélité. Si l’utilisateur est membre du programme de récompenses de fidélité, envoyez une seconde notification push avec un code de remise de 10 %. Si l’utilisateur n’est pas membre du programme de récompenses de fidélité, envoyez une notification push l’invitant à s’inscrire au programme de fidélité. Patientez 2 jours et envoyez une notification push de suivi avec une enquête sur leur expérience d’achat. »
 
