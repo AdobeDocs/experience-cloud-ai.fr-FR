@@ -33,7 +33,7 @@ Pour utiliser l&#39;agent de détection de champ, vérifiez que vous disposez de
 
 Une connaissance de base des schémas XDM et de l’utilisation des champs dans la segmentation ou les workflows de données peut vous aider à interpréter les résultats plus efficacement. Pour plus d’informations, consultez la [présentation de XDM](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/home) et la [documentation de l’éditeur de schémas](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/create-schema-ui).
 
-Pour obtenir des instructions sur l’activation de l’accès de l’assistant AI et l’octroi des autorisations requises, consultez le [guide d’accès ](./agent-orchestrator.md#access).
+Pour obtenir des instructions sur l’activation de l’accès de l’assistant AI et l’octroi des autorisations requises, consultez le [guide d’accès &#x200B;](./agent-orchestrator.md#access).
 
 ## Fonctions de l’agent de découverte de champ {#field-discovery-agent-functions}
 
@@ -166,7 +166,7 @@ La réponse renvoie les exemples de valeurs du champ, l’emplacement du schéma
 
 ## Dans la portée et hors de la portée {#in-scope-and-out-of-scope}
 
-Cette section résume ce que l&#39;agent de découverte de champs peut et ne peut pas faire. Pour obtenir des conseils détaillés sur les tâches, voir [Cas d’utilisation pris en charge](#supported-use-cases). Pour les contraintes de plateforme, voir [ Mécanismes de sécurisation et limitations ](#guardrails-and-limitations).
+Cette section résume ce que l&#39;agent de découverte de champs peut et ne peut pas faire. Pour obtenir des conseils détaillés sur les tâches, voir [Cas d’utilisation pris en charge](#supported-use-cases). Pour les contraintes de plateforme, voir [&#x200B; Mécanismes de sécurisation et limitations &#x200B;](#guardrails-and-limitations).
 
 ### Dans la portée
 
@@ -273,9 +273,9 @@ Utilisez cette section lorsque des résultats sont manquants, inattendus ou lors
 
 - **Un champ récemment ajouté n’apparaît pas dans les résultats.** La base de connaissances peut ne pas encore refléter le nouveau schéma ou champ. Patientez le temps que la base de connaissances se mette à jour après l’ajout de schémas ou de champs à votre environnement, puis soumettez à nouveau votre requête. Voir [Base de connaissances](#knowledge-base).
 
-- **Tous les résultats sont étiquetés Modérément pertinent ou Pertinent plutôt que Très pertinent.** Votre requête est peut-être trop large ou la terminologie que vous avez utilisée ne correspond peut-être pas à vos métadonnées de champ. Affinez votre invite avec une langue plus spécifique ou des termes qui correspondent à la manière dont vos champs sont nommés dans vos schémas. Voir [ Bonnes pratiques ](#best-practices).
+- **Tous les résultats sont étiquetés Modérément pertinent ou Pertinent plutôt que Très pertinent.** Votre requête est peut-être trop large ou la terminologie que vous avez utilisée ne correspond peut-être pas à vos métadonnées de champ. Affinez votre invite avec une langue plus spécifique ou des termes qui correspondent à la manière dont vos champs sont nommés dans vos schémas. Voir [&#x200B; Bonnes pratiques &#x200B;](#best-practices).
 
-- **L&#39;agent Field Discovery n&#39;a pas été appelé.** Vous avez envoyé une requête dans l’assistant AI, mais le panneau **[!UICONTROL Raisonnement terminé]** n’indique pas l’agent de découverte de champ. Votre requête ne contenait peut-être pas une intention de découverte de champ claire. Reformulez explicitement votre requête, par exemple, « Rechercher le champ qui contient le statut d’opt-out des e-mails du client », puis soumettez-la à nouveau. Voir [ Utilisation de l’agent de découverte de champ ](#use-field-discovery-agent).
+- **L&#39;agent Field Discovery n&#39;a pas été appelé.** Vous avez envoyé une requête dans l’assistant AI, mais le panneau **[!UICONTROL Raisonnement terminé]** n’indique pas l’agent de découverte de champ. Votre requête ne contenait peut-être pas une intention de découverte de champ claire. Reformulez explicitement votre requête, par exemple, « Rechercher le champ qui contient le statut d’opt-out des e-mails du client », puis soumettez-la à nouveau. Voir [&#x200B; Utilisation de l’agent de découverte de champ &#x200B;](#use-field-discovery-agent).
 
 - **Les exemples de valeurs ne s’affichent pas pour un champ.** Le champ peut être vide dans votre sandbox actuel, vos autorisations peuvent ne pas inclure l’accès à son jeu de données sous-jacent ou le champ peut avoir une cardinalité élevée (par exemple un champ d’identifiant) pour lequel les exemples de valeurs ne sont pas affichés. Confirmez vos autorisations d’accès au jeu de données et vérifiez que le champ est rempli de données. Voir [Contraintes d’accès et d’informations d’identification personnelles](#access-and-pii-constraints).
 
