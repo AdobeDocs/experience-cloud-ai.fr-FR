@@ -1,19 +1,10 @@
 ---
 title: Agent Experimentation
-description: Learn how to use Experimentation Agent
-TQID: https://experienceleague.adobe.com/ARh16ylmUDrp---g8KuYNyewIv54IQ53pxoE2g700o0
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: dd7883d8eccab3b0f006d55a850248e1c347d7e7
+description: Découvrez comment utiliser Experimentation Agent
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: b2afc6a3f389790d7af2d4ba29a4362b28432a28
 workflow-type: tm+mt
 source-wordcount: 555
 ht-degree: 5%
@@ -22,55 +13,59 @@ ht-degree: 5%
 
 # Agent Experimentation
 
+<!--
+TQID: https://experienceleague.adobe.com/ARh16ylmUDrp---g8KuYNyewIv54IQ53pxoE2g700o0
+-->
+
 >[!AVAILABILITY]
 >
->The Experimentation Agent is available to all customers who have purchased the paid license of Journey Optimizer Experimentation Accelerator and integrates seamlessly with either Adobe Target or Adobe Journey Optimizer.
+>Experimentation Agent est disponible pour tous les clients qui ont acheté la licence payante de Journey Optimizer Experimentation Accelerator et s’intègre de manière transparente à Adobe Target ou Adobe Journey Optimizer.
 >
->[Learn more on Journey Optimizer Experimentation Accelerator](https://experienceleague.adobe.com/fr/docs/experimentation-accelerator/using/overview)
+>[En savoir plus sur Journey Optimizer Experimentation Accelerator](https://experienceleague.adobe.com/fr/docs/experimentation-accelerator/using/overview)
 
 ## Vue d’ensemble
 
-The **Experimentation Agent** is an AI-powered tool that modernizes how you can run and manage digital experiments across websites, emails, push messages, and applications. Built on Adobe Experience Platform AI platform and experimentation tools, the **Experimentation Agent** helps you run experiments more efficiently, organize business goals, and generate actionable insights, highlighting what worked, what did not, and where to experiment next.
+**** est un outil optimisé par l’IA qui modernise la manière dont vous pouvez exécuter et gérer des expériences digitales sur des sites web, des e-mails, des messages push et des applications. Basé sur la plateforme d’IA et les outils d’expérimentation de Adobe Experience Platform, **Experimentation Agent** vous aide à exécuter plus efficacement les expériences, à organiser les objectifs commerciaux et à générer des informations exploitables, en mettant en évidence ce qui a fonctionné, ce qui n’a pas fonctionné et où tester ensuite.
 
-The following permissions in order to fully use the Experimentation Agent features.
+Les autorisations ci-dessous permettent d’utiliser pleinement les fonctions d’Experimentation Agent.
 
-* **View Experiments**: This permission lets you use the Experimentation Agent to view insights into the experiment directly in AI Assistant.
+* **Afficher les expériences** : cette autorisation vous permet d’utiliser Experimentation Agent pour afficher des informations sur l’expérience directement dans l’assistant AI.
 
-* **Manage Experiment Metada**: This permission lets you use the Experimentation Agent to create new experiments directly in AI Assistant.
+* **Gérer les métadonnées d’expérience** : cette autorisation vous permet d’utiliser Experimentation Agent pour créer de nouvelles expériences directement dans l’assistant AI.
 
-➡️ [Learn more in Journey Optimizer Experimentation Accelerator documentation](https://experienceleague.adobe.com/fr/docs/experimentation-accelerator/using/get-started/experiment-accelerator-access)
+➡️ [En savoir plus dans la documentation Journey Optimizer Experimentation Accelerator](https://experienceleague.adobe.com/en/docs/experimentation-accelerator/using/get-started/experiment-accelerator-access)
 
-As part of Experimentation Accelerator feature, the Agent delivers:
+Dans le cadre de la fonctionnalité Experimentation Accelerator, l’agent fournit :
 
-* **Performance**: a clear view of what happened in the experiment
+* **Performances** : une vue claire de ce qui s’est passé dans l’expérience.
 
-* **Insights**: an explanation of why the results occurred
+* **Insights** : explication des raisons pour lesquelles les résultats se sont produits
 
-* **Opportunities**: guidance on the next actions to take
+* **Opportunités** : conseils sur les prochaines actions à entreprendre
 
-![Sample for Experimentation Agent](./images/experiment/experiment-agent.png)
+![Exemple pour Experimentation Agent ](./images/experiment/experiment-agent.png)
 
 ## Cas d’utilisation
 
-The Experimentation Agent enhances each phase of the experimentation workflow by analyzing results, interpreting content, and suggesting next steps.
+Experimentation Agent améliore chaque phase du workflow d’expérimentation en analysant les résultats, en interprétant le contenu et en suggérant les étapes suivantes.
 
-Its capabilities can be grouped into five key functions:
+Ses fonctionnalités peuvent être regroupées en cinq fonctions clés :
 
-* **Experiment Summarization**
+* **Résumé des expériences**
 
-  Provide a clear, non-technical overview of experiment results for stakeholders.
+  Fournir aux parties prenantes un aperçu clair et non technique des résultats des expériences.
 
-* **Content Analysis**
+* **Analyse de contenu**
 
-  Examine the messaging or creative elements of treatments to understand why certain ones outperformed others.
+  Examinez les messages ou les éléments créatifs des traitements pour comprendre pourquoi certains ont surpassé les autres.
 
-* **Attribute Identification**
+* **Identification des attributs**
 
-  Categorize treatments by their key attributes, e.g., themes, tones, formats, and connect those attributes to conversion outcomes.
+  Classez les traitements en fonction de leurs attributs clés, par exemple, thèmes, tons, formats, et connectez ces attributs aux résultats de conversion.
 
-* **Recommendation Generation**
+* **génération de recommandations**
 
-  Suggest new treatments or adjustments to test, based on insights from prior experiments.
+  Suggérez de nouveaux traitements ou ajustements à tester, en fonction des informations issues d’expériences précédentes.
 
 * **Opportunités**
 
