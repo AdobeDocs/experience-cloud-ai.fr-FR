@@ -89,7 +89,7 @@ Les paramètres suivants régissent l’accès à Data Insights Agent dans Custo
 
    1. Sélectionnez **[!UICONTROL Enregistrer]** pour enregistrer les autorisations.
 
-  Pour plus d’informations sur le contrôle d’accès, voir [&#x200B; Contrôle d’accès &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control#access-control).
+  Pour plus d’informations sur le contrôle d’accès, voir [&#x200B; Contrôle d’accès &#x200B;](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/technotes/access-control#access-control).
 
 * **Accès aux vues de données** : les vues de données doivent être activées pour Data Insights Agent.
 
@@ -97,7 +97,7 @@ Les paramètres suivants régissent l’accès à Data Insights Agent dans Custo
   >
   >Tenez compte des points suivants lors de l’activation des vues de données :
   >* Vous pouvez activer un maximum de 50 vues de données par organisation IMS. Si vous activez plus de 50 vues de données pour tous les profils de produit pour une organisation donnée, le Data Insights Agent utilisera les 50 vues de données les plus utilisées.
-  >  Vous pouvez utiliser les [informations de la colonne Data Insights Agent dans les vues de données](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/manage-dataviews#manage-data-views) pour afficher le nombre de vues de données activées pour Data Insights Agent dans votre organisation IMS.
+  >  Vous pouvez utiliser les [informations de la colonne Data Insights Agent dans les vues de données](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-dataviews/manage-dataviews#manage-data-views) pour afficher le nombre de vues de données activées pour Data Insights Agent dans votre organisation IMS.
   >* Le Data Insights Agent peut référencer les vues de données incluses à un moment donné le jour même de leur activation.
 
   Pour activer les vues de données pour Data Insights Agent :
@@ -195,7 +195,7 @@ Adobe Experience Platform Agent Orchestrator vous permet d’accéder aux foncti
 
 Agent Orchestrator interprète votre requête, détermine les agents spécialisés nécessaires et les orchestre pour fournir la réponse appropriée. Il effectue le suivi du contexte dans les interactions à plusieurs tours, de sorte que vous puissiez tirer parti naturellement des requêtes précédentes.
 
-Pour plus d&#39;informations, voir [&#128279;](https://business.adobe.com/products/experience-platform/agent-orchestrator.html).
+Pour plus d&#39;informations, voir [&#128279;](https://business.adobe.com/fr/products/experience-platform/agent-orchestrator.html).
 
 ## Exemples d’invites de visualisation de données
 
@@ -285,8 +285,8 @@ Vous trouverez ci-dessous les bonnes pratiques relatives à votre configuration 
 
 >[!MORELIKETHIS]
 >
->[Paramètres des composants](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
->[Dictionnaire de données](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/data-dictionary/data-dictionary-overview)
->[Approuver la mesure calculée](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-approving)
->[Partage de segments &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/segments/seg-share)
+>[Paramètres des composants](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
+>[Dictionnaire de données](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-components/data-dictionary/data-dictionary-overview)
+>[Approuver la mesure calculée](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-approving)
+>[Partage de segments &#x200B;](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-components/segments/seg-share)
 
