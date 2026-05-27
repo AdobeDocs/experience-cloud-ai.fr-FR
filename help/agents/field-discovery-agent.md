@@ -31,7 +31,7 @@ Pour utiliser l&#39;agent de détection de champ, vérifiez que vous disposez de
 - L’organisation et le sandbox appropriés
 - Accès aux schémas et aux jeux de données sur lesquels vous avez l’intention d’effectuer des requêtes
 
-Une connaissance de base des schémas XDM et de l’utilisation des champs dans la segmentation ou les workflows de données peut vous aider à interpréter les résultats plus efficacement. Pour plus d’informations, consultez la [présentation de XDM](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/home) et la [documentation de l’éditeur de schémas](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/create-schema-ui).
+Une connaissance de base des schémas XDM et de l’utilisation des champs dans la segmentation ou les workflows de données peut vous aider à interpréter les résultats plus efficacement. Pour plus d’informations, consultez la [présentation de XDM](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/home) et la [documentation de l’éditeur de schémas](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/tutorials/create-schema-ui).
 
 Pour obtenir des instructions sur l’activation de l’accès de l’assistant AI et l’octroi des autorisations requises, consultez le [guide d’accès &#x200B;](./agent-orchestrator.md#access).
 
@@ -81,7 +81,7 @@ Outre chaque suggestion de champ, l’agent de découverte de champ présente de
 >
 >Les exemples de valeurs peuvent contenir des informations d’identification personnelles. Ne les partagez pas en dehors de workflows internes sécurisés.
 
-Les exemples de valeurs ne sont visibles que pour les champs dans les autorisations d’accès aux jeux de données. Pour plus d’informations sur la gouvernance des données et les restrictions d’utilisation dans Experience Platform, consultez la [présentation de la gouvernance des données](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home).
+Les exemples de valeurs ne sont visibles que pour les champs dans les autorisations d’accès aux jeux de données. Pour plus d’informations sur la gouvernance des données et les restrictions d’utilisation dans Experience Platform, consultez la [présentation de la gouvernance des données](https://experienceleague.adobe.com/fr/docs/experience-platform/data-governance/home).
 
 Si aucune valeur d’exemple n’apparaît pour un champ, il se peut que le champ soit vide dans votre sandbox actuel ou que vos autorisations n’incluent pas l’accès à son jeu de données sous-jacent. Les champs à cardinalité élevée (tels que les champs d’identifiant ou d’UUID) peuvent également ne pas renvoyer de valeurs d’échantillon représentatives. Les valeurs d’échantillon sont agrégées et basées sur la fréquence. Elles ne sont pas traçables par profils individuels.
 
