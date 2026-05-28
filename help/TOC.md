@@ -32,6 +32,6 @@ ht-degree: 57%
    - [Adobe Marketing Agent for Microsoft 365 Copilot](./agents/ama-ms.md)
    - [Essai des agents](./agents/trial.md)
    - Ingénierie des données {#data-engineering}
-      - {hide-from-toc}[](./agents/data-engineering/overview.md)
+      - {hide-from-toc}[&#128279;](./agents/data-engineering/overview.md)
 - MCP {#mcp}
    - [REAL-TIME CDP MCP](./mcp/rtcdp-mcp.md)
