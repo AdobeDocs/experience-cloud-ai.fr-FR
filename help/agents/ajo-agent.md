@@ -53,7 +53,7 @@ Journey Agent se compose de quatre tâches principales :
 - **Création de contenu de canal** : générez, modifiez et gérez le contenu spécifique au canal (e-mail, notification push, SMS) pour les parcours à l’aide de la génération de contenu optimisée par l’IA
 - **Analyse des Parcours** : analysez les parcours, détectez les problèmes, découvrez des informations et optimisez l’engagement des clients
 
-En outre, la **simulation de Parcours** est une fonctionnalité Journey Optimizer qui inclut la [simulation de Parcours &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), une compétence agentique intégrée au produit, non conversationnelle, avec trois fonctionnalités :
+En outre, la **simulation de Parcours** est une fonctionnalité Journey Optimizer qui inclut la [simulation de Parcours &#x200B;](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), une compétence agentique intégrée au produit, non conversationnelle, avec trois fonctionnalités :
 
 - Génération d’utilisateurs simulés
 - Génération de valeurs d’événement
@@ -283,7 +283,7 @@ Les fonctionnalités suivantes ne sont pas prises en charge actuellement :
 
 Journey Agent permet aux utilisateurs de Journey Optimizer d’analyser et d’optimiser les parcours à l’aide d’une interface en langage naturel. Avec Journey Agent, les utilisateurs et utilisatrices peuvent rapidement identifier et résoudre les conflits de planning et/ou d’audience, détecter les points d’abandon d’utilisateur ou d’utilisatrice dans un parcours et fournir des informations ou des recommandations. Il permet aux personnes professionnelles de prendre des décisions fondées sur des données, d’améliorer l’engagement de la clientèle et de rationaliser l’orchestration de parcours.
 
-Découvrez l’agent en un coup d’œil et en savoir plus dans cette [présentation](https://experienceleague.adobe.com/en/slides/journey-agent-overview).
+Découvrez l’agent en un coup d’œil et en savoir plus dans cette [présentation](https://experienceleague.adobe.com/fr/slides/journey-agent-overview).
 
 >[!AVAILABILITY]
 >
@@ -503,4 +503,4 @@ En outre, les fonctionnalités suivantes sont prises en charge par la compétenc
 
 La simulation peut ne pas prendre en charge toutes les activités, tous les canaux ou toutes les intégrations pris en charge par le mode Test ou un parcours en direct. Le comportement peut changer à mesure que la fonctionnalité se développe.
 
-➡️ En savoir plus sur les [limitations de simulation](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) dans la documentation de Journey Optimizer.
+➡️ En savoir plus sur les [limitations de simulation](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) dans la documentation de Journey Optimizer.
