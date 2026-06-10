@@ -1,14 +1,14 @@
 ---
 audience: user
-user-guide-title: Assistant AI dans Adobe Experience Cloud
+user-guide-title: Assistant d’IA dans Adobe Experience Cloud
 user-guide-description: Découvrez comment utiliser l’Assistant IA pour accélérer votre workflow avec Adobe Experience Platform et Real-time Customer Data Platform.
 description: En savoir plus sur l’Assistant IA dans Experience Cloud. Améliorez votre connaissance des produits et obtenez des informations opérationnelles grâce à l’IA dans Experience Cloud.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: ba2c78d3c5e48155f6b2290ad59261a161fb107d
+source-git-commit: 7f87755d70bde2399f5c747479891ae8a36a3bf2
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 57%
+source-wordcount: '105'
+ht-degree: 56%
 
 ---
 
@@ -31,6 +31,7 @@ ht-degree: 57%
    - [Agent du support technique du produit](./agents/product-support.md)
    - [Adobe Marketing Agent for Microsoft 365 Copilot](./agents/ama-ms.md)
    - [Essai des agents](./agents/trial.md)
+   - [Agent de notifications](./agents/notifications.md)
    - Ingénierie des données {#data-engineering}
       - {hide-from-toc}[&#128279;](./agents/data-engineering/overview.md)
 - MCP {#mcp}
