@@ -33,6 +33,6 @@ ht-degree: 56%
    - [Essai des agents](./agents/trial.md)
    - [Agent de notifications](./agents/notifications.md)
    - Ingénierie des données {#data-engineering}
-      - {hide-from-toc}[](./agents/data-engineering/overview.md)
+      - {hide-from-toc}[&#128279;](./agents/data-engineering/overview.md)
 - MCP {#mcp}
    - [REAL-TIME CDP MCP](./mcp/rtcdp-mcp.md)
