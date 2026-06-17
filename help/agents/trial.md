@@ -12,7 +12,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: e385f60b8c55779b636dcc494fced27bc63d1eb3
+source-git-commit: e463f08590d0d44d286e3ce69e57607d35e74489
 workflow-type: tm+mt
 source-wordcount: 1243
 ht-degree: 4%
@@ -88,7 +88,7 @@ L’évaluation ne nécessite aucun achat supplémentaire. Il n’existe pas de 
 
 Vous pouvez effectuer le suivi de vos crédits AI à l’aide du tableau de bord d’utilisation des licences dans l’interface utilisateur de Adobe Experience Platform. Pour plus d’informations, consultez la [documentation du tableau de bord d’utilisation des licences](https://experienceleague.adobe.com/fr/docs/experience-platform/dashboards/guides/license-usage). Utilisez le tableau de bord pour afficher l’utilisation et les rapports de vos crédits AI. Seuls les administrateurs et les utilisateurs disposant des autorisations appropriées peuvent afficher vos informations d’utilisation.
 
-Vous pouvez également utiliser le tableau de bord de surveillance Agentic AI pour intégrer insight à l’adoption, l’engagement, les commentaires et l’utilisation du crédit d’IA dans l’ensemble de votre organisation. Les utilisateurs autorisés peuvent utiliser le tableau de bord pour effectuer le suivi des mesures clés, identifier les opportunités d’optimisation et prendre en charge les initiatives de gouvernance et d’adoption. Pour plus d’informations, consultez le guide sur [la surveillance de l’IA dédiée aux agences](https://experienceleague.adobe.com/fr/docs/core-services/interface/features/monitoring).
+Vous pouvez également utiliser le tableau de bord de surveillance de l’IA dédiée aux agences pour intégrer insight à l’adoption, l’engagement, les commentaires et l’utilisation du crédit IA dédiée aux agences dans votre entreprise. Les utilisateurs autorisés peuvent utiliser le tableau de bord pour effectuer le suivi des mesures clés, identifier les opportunités d’optimisation et prendre en charge les initiatives de gouvernance et d’adoption. Pour plus d’informations, consultez le guide sur [la surveillance de l’IA dédiée aux agences](https://experienceleague.adobe.com/fr/docs/core-services/interface/features/monitoring).
 
 ### Que se passe-t-il une fois le procès terminé ?
 
