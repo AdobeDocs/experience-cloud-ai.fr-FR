@@ -12,7 +12,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: e463f08590d0d44d286e3ce69e57607d35e74489
+source-git-commit: 3f67508410c0a41a8edb6f22f20f4c25709df9f7
 workflow-type: tm+mt
 source-wordcount: 1243
 ht-degree: 4%
@@ -40,6 +40,8 @@ Adobe déterminera votre éligibilité pour l&#39;essai à sa seule discrétion.
 
 Les clients éligibles reçoivent un droit initial unique allant jusqu’à 10 000 crédits AI à utiliser pour toute combinaison de tâches (en fonction de votre ou vos licences existantes pour les applications Experience Cloud) répertoriées dans le [Tableau de consommation de crédit AI](https://experienceleague.adobe.com/fr/docs/core-services/interface/features/ai-credit-consumption). Vous pouvez effectuer le suivi de vos crédits AI à l’aide du tableau de bord d’utilisation des licences dans l’interface utilisateur de Adobe Experience Platform. Pour plus d’informations, consultez la [documentation du tableau de bord d’utilisation des licences](https://experienceleague.adobe.com/fr/docs/experience-platform/dashboards/guides/license-usage).
 
+Le tableau de bord de surveillance d’Agentic AI vous donne une visibilité claire sur la manière dont l’IA dédiée aux agences est adoptée et utilisée dans votre organisation. En tant qu’utilisateur autorisé, vous pouvez facilement suivre l’engagement, recueillir des commentaires, surveiller l’utilisation du crédit de l’IA et examiner les mesures clés. Utilisez ces informations pour découvrir des opportunités d’optimisation et soutenir vos efforts de gouvernance et d’adoption. Pour en savoir plus, consultez le [Guide de surveillance de l’utilisation de l’IA dédiée aux agences](https://experienceleague.adobe.com/fr/docs/core-services/interface/features/monitoring).
+
 >[!IMPORTANT]
 >
 >Les crédits AI n’existent que pendant la durée de l’évaluation et **ne les redéployez pas** si vous possédez une licence de crédits AI supplémentaires avant d’utiliser l’intégralité des 10 000 crédits AI.
@@ -51,8 +53,6 @@ L’essai se termine une fois que vous avez utilisé le droit unique initial de 
 Les utilisateurs des clients éligibles auront accès à l’assistant et aux agents AI dans le cadre de l’évaluation, aucune action n’est donc nécessaire. Les agents Experience Platform sont guidés par les entrées et la supervision de l’utilisateur. Les agents respectent également les contrôles d’accès au niveau du produit définis précédemment, de sorte que les utilisateurs puissent uniquement effectuer des tâches ou exécuter des actions pour lesquelles ils disposent d’autorisations au sein des produits Experience Cloud sous-jacents applicables. Si vous souhaitez vous exclure de l&#39;accès à ces fonctionnalités Agentic et désactiver l&#39;accès d&#39;évaluation, envoyez une demande à [&#128279;](mailto:aep-agents-trial-support@adobe.com).
 
 Une fois que vous y avez accès, accédez à la page d’accueil d’Adobe Experience Cloud pour commencer à utiliser l’assistant AI. Vous pouvez utiliser les [invites de découverte](../ai-assistant/ai-assistant-ui.md#discovery-prompts) pour afficher les suggestions des invites et des workflows courants. Utilisez cette fonctionnalité pour accélérer votre intégration à l’aide de l’assistant AI. Lisez également la section [bibliothèque d’invites](../ai-assistant/prompt-library.md) pour découvrir un grand nombre d’invites que vous pouvez utiliser avec différents agents. Pour obtenir des informations plus complètes, consultez le guide de l’interface utilisateur de l’assistant [AI](../ai-assistant/ai-assistant-ui.md).
-
-Le tableau de bord de surveillance d’Agentic AI vous donne une visibilité claire sur la manière dont l’IA dédiée aux agences est adoptée et utilisée dans votre organisation. En tant qu’utilisateur autorisé, vous pouvez facilement suivre l’engagement, recueillir des commentaires, surveiller l’utilisation du crédit de l’IA et examiner les mesures clés. Utilisez ces informations pour découvrir des opportunités d’optimisation et soutenir vos efforts de gouvernance et d’adoption. Pour en savoir plus, consultez le [Guide de surveillance de l’utilisation de l’IA dédiée aux agences](https://experienceleague.adobe.com/fr/docs/core-services/interface/features/monitoring).
 
 Pour plus d’informations sur les agents disponibles, lisez la présentation d’[&#128279;](agent-orchestrator.md).
 
