@@ -5,10 +5,10 @@ user-guide-description: Découvrez comment utiliser l’Assistant IA pour accé
 description: En savoir plus sur l’Assistant IA dans Experience Cloud. Améliorez votre connaissance des produits et obtenez des informations opérationnelles grâce à l’IA dans Experience Cloud.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: cc631921f23e1fa66323a287f31914631fd1c67a
+source-git-commit: 97140003d4a03d83260cf42e026c2e068f517a09
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 56%
+source-wordcount: '108'
+ht-degree: 54%
 
 ---
 
@@ -32,6 +32,7 @@ ht-degree: 56%
    - [Adobe Marketing Agent for Microsoft 365 Copilot](./agents/ama-ms.md)
    - [Agent de notifications](./agents/notifications.md)
    - [Essai des agents](./agents/trial.md)
+   - [Valider vos données](./agents/data-validation.md)
    - Ingénierie des données {#data-engineering}
       - {hide-from-toc}[&#128279;](./agents/data-engineering/overview.md)
 - MCP {#mcp}
