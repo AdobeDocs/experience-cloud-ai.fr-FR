@@ -1,0 +1,387 @@
+---
+title: Prise En Main Du Chat Entre Collègues Dans Playground
+description: Découvrez comment utiliser le Module de conversation des collègues dans Playground pour découvrir comment les invites en langage naturel peuvent vous aider à apprendre, à étudier et à affiner votre travail.
+hide: true
+source-git-commit: ea975ce8a0386f9d340014ab7755761815bcf8ae
+workflow-type: tm+mt
+source-wordcount: '1671'
+ht-degree: 4%
+
+---
+
+# Prise en main du Chat avec un collègue dans Playground
+
+Utilisez la discussion entre collègues dans Playground pour découvrir comment les invites en langage naturel peuvent vous aider à apprendre, à étudier et à affiner votre travail. Playground fournit des exemples de façons de démarrer une conversation afin que vous puissiez rapidement comprendre ce que le Chat des collègues peut faire.
+
+>[!IMPORTANT]
+>
+>Utilisez les éléments suivants pour terminer cet exercice :
+>
+>- Lien : [ao.adobe.io](https://ao.adobe.io/)
+>- Instance : AEP GenAI - VA7
+>- Sandbox : `fsi-box`
+
+## Démonstration d’AI Coworker : campagne de mise à niveau de la carte de crédit [!DNL weBank]
+
+Cet exercice couvre Real-Time CDP et Adobe Journey Optimizer.
+
+Vous êtes un stratège en entreprise CX chez **[!DNL weBank]**, une entreprise de services financiers axée sur le numérique. Utilisez l’IA Coworker pour passer des données brutes à une campagne active, entièrement par le biais de la conversation.
+
+## Partie 1 : comprendre votre entreprise
+
+### 1.1 — Connaître l&#39;étendue des terres
+
+**Invite**
+
+> Me donner un aperçu de mon sandbox — de combien d’audiences, de jeux de données et de destinations dispose-t-on ?
+
+**Résultat attendu**
+
+Coworker renvoie un inventaire complet des sandbox en secondes :
+
+| Ressource | Nombre |
+| --- | --- |
+| Audiences | 21 |
+| Jeux de données | 30 |
+| Schémas | 28 |
+| Sources | 3 |
+| Destinations | 1 (Amazon S3) |
+| Parcours | 0 |
+
+### 1.2 — Quelles audiences existent déjà ?
+
+**Invite**
+
+> Répertorier toutes mes audiences, triées par taille
+
+**Résultat attendu**
+
+Coworker répertorie 21 audiences triées par taille, de 8 012 profils à 0 :
+
+| Catégorie | Audience | Profils |
+| --- | --- | --- |
+| Scores de propension | Mise à niveau de la carte de crédit élevée | 1,195 |
+| Scores de propension | Méthode | 4,113 |
+| Scores de propension | Faible | 8,012 |
+| Propension hypothécaire | Élevé | 1,233 |
+| Propension hypothécaire | Méthode | 4,141 |
+| Propension hypothécaire | Faible | 7,946 |
+| Niveaux de valeur de compte | +500K | 4,377 |
+| Niveaux de valeur de compte | 250-500K | 4,537 |
+| Niveaux de valeur de compte | 100 À 250 000 | 2,666 |
+| Niveaux de valeur de compte | 50 À 100 000 | 894 |
+| Niveaux de valeur de compte | &lt;50K | 846 |
+| Données démographiques | Femme | 6,719 |
+| Données démographiques | Homme | 6,601 |
+| Géographie | Côte Est | 2,260 |
+| Géographie | Côte Ouest | 1,740 |
+| Opt-in du canal | Email | 6,597 |
+| Opt-in du canal | SMS | 6,675 |
+| Date de naissance | Anniversaire ce mois | 0 |
+| Date de naissance | Dans les 7 jours | 0 |
+| Date de naissance | Today | 0 |
+| Date de naissance | 30 prochains jours | 0 |
+
+Toutes les audiences d’anniversaire affichent actuellement 0, car elles dépendent du temps.
+
+### 1.3 — Quelles données alimentent ces audiences ?
+
+**Invite**
+
+> Quels jeux de données ai-je qui contiennent des données client ?
+
+**Résultat attendu**
+
+Coworker identifie deux jeux de données métier clés et les jeux de données système associés :
+
+| Jeu de données | Description |
+| --- | --- |
+| **weBank : CRM** | Données de profil/compte client (profil + identité activé) |
+| **weBank : actions des clients** | Données d’événement comportemental (profil + identité activé) |
+
+Les jeux de données Journey Optimizer système pour les signaux d’engagement incluent le suivi des e-mails, le suivi des notifications push, le consentement et les commentaires des messages.
+
+## Partie 2 : Découvrir les bons champs
+
+### 2.1 — Rechercher les champs de valeur de compte
+
+**Invite**
+
+> Quels champs sont disponibles en rapport avec la valeur ou le solde du compte ?
+
+**Résultat attendu**
+
+Coworker affiche le champ principal et les champs associés dans le jeu de données **weBank : CRM** :
+
+| Champ | Remarques |
+| --- | --- |
+| `_aepgenai_va7.fsiBankAccountDetails.totalAccountValue` | Champ de Principal ; utilisé dans les 5 audiences de niveau Valeur du compte |
+| `numberOfAccounts` | Champ associé |
+| `accountType` | Champ associé |
+| `currentStatement` | Champ associé |
+| `actionAmount` | Champ associé |
+
+### 2.2 — Rechercher les champs de carte de crédit
+
+**Invite**
+
+> Rechercher des champs liés à la carte de crédit ou au type de carte
+
+**Résultat attendu**
+
+Coworker identifie ces champs dans le schéma **weBank : CRM** :
+
+| Champ | Description |
+| --- | --- |
+| `_aepgenai_va7.fsiBankAccountDetails.creditcardType` | Stocke le type de carte (Visa, Mastercard, Amex) |
+| `_aepgenai_va7.fsiBankAccountDetails.creditcardHolder` | Nom du détenteur de carte |
+
+### 2.3 — Champs géographiques
+
+**Invite**
+
+> Existe-t-il un champ pour l’État d’origine ou la région ?
+
+**Résultat attendu**
+
+Coworker identifie les champs géographiques dans le jeu de données **weBank : CRM** :
+
+| Champ | Remarques |
+| --- | --- |
+| `homeAddress.state` | Abréviation d’État des États-Unis, utilisée dans les sections Lives on East Coast et Lives on West Coast. |
+| `homeAddress.stateProvince` | Également trouvé |
+| `homeAddress.region` | Également trouvé |
+| `placeContext.geo.stateProvince` | Également trouvé |
+
+## Partie 3 : trouver l’audience appropriée pour une campagne de réactivation
+
+### 3.1 — Demandez à l&#39;IA de vous aider à trouver la bonne audience
+
+**Invite**
+
+> Aidez-moi à trouver ou à créer l’audience appropriée pour une campagne de réactivation de carte de crédit. Je souhaite cibler les clients qui ont obtenu un score de propension élevé ou moyen pour une mise à niveau de carte de crédit, mais qui n’ont pas encore pris de mesures
+
+**Résultat attendu**
+
+Un collègue trouve deux audiences candidates qui n’ont jamais été ciblées dans un parcours ou une destination :
+
+| Audience | Profils |
+| --- | --- |
+| Mise à niveau de la carte de crédit élevée | 1,195 |
+| Medium de mise à niveau des cartes de crédit | 4,113 |
+
+Options recommandées :
+
+| Option | Approche |
+| --- | --- |
+| **A** | Utilisez les deux directement avec l’embranchement par parcours : offre agressive pour High, nurture pour Medium |
+| **B** | Créer un segment dérivé de segments avec une logique de mise à niveau-exclusion pour une gestion plus épurée |
+
+Taille combinée : environ 5 308 profils
+
+### 3.2 — Créer l&#39;audience de précision
+
+**Invite**
+
+> Créez une audience de clients qui se trouvent dans l’audience « Propensions : mise à niveau élevée des cartes de crédit » ET qui ont une valeur de compte de plus de 250 000 $ ET qui ont choisi d’envoyer un e-mail
+
+Nommez-le **Mise à niveau vers la version Platinum - Éligible aux e-mails de valeur élevée** → Sélectionnez un plan de → par lots pour l’approuver.
+
+**Résultat attendu**
+
+Le collaborateur calque la propension à l’apprentissage automatique, la valeur financière et l’éligibilité des canaux en un seul segment de précision, un travail qui nécessiterait normalement un ticket d’équipe de données.
+
+### 3.3 — Estimation de la taille et de la cascade
+
+**Invite**
+
+> Quelle est la taille de cette audience ? Montrez-moi la répartition de la cascade.
+
+**Résultat attendu**
+
+Coworker renvoie une estimation du nombre de profils en temps réel et un graphique en cascade visuel :
+
+| Étape de filtrage | Résultat |
+| --- | --- |
+| Mise à niveau de la carte de crédit à forte propension | Environ 1 195 profils |
+| + Valeur du compte supérieure à 250 000 $ | Réduit davantage |
+| + Opt-In D’E-Mail | Nombre adressable final |
+
+Cela indique exactement quelle condition est le plus grand filtre et s’il faut assouplir les critères.
+
+### 3.4 — Rechercher des audiences similaires
+
+**Invite**
+
+> Existe-t-il des audiences existantes similaires à celle que je viens de créer ?
+
+**Résultat attendu**
+
+Coworker confirme qu’il n’existe aucune audience combinée unique, mais tous les blocs de création sont déjà présents :
+
+| Bloc de création | Détails |
+| --- | --- |
+| Propension : mise à niveau des cartes de crédit élevée | Score ≥ 90 |
+| Valeur du compte : 250-500K | Audience existante |
+| Valeur Du Compte : +500K | Audience existante |
+| Souscription Aux E-Mails | `consents.marketing.email.val = "y"` |
+
+Un collègue confirme qu’il n’y a aucun risque de duplication et recommande de continuer.
+
+## Partie 4 : création du Parcours
+
+### 4.1 — Trouvez des idées de parcours fondées sur vos données
+
+**Invite**
+
+> En fonction des cas d’utilisation populaires dans les services financiers, suggérez des parcours à gain rapide que je peux créer avec les audiences que j’ai
+
+**Résultat attendu**
+
+Coworker suggère cinq idées de parcours concrètes fondées sur des audiences réelles :
+
+| idée de parcours | Audiences |
+| --- | --- |
+| Touche de fidélité d’anniversaire | Anniversaire dans les 7 jours + Niveau de valeur du compte |
+| Entretien de la mise à niveau des cartes de crédit | Mise à niveau CC élevée + opt-in aux e-mails |
+| Portée régionale du prêt hypothécaire | Prêt hypothécaire élevé + côte Est/Ouest |
+| Mise à niveau des conseils sur le niveau de richesse | Valeur Du Compte : +500K |
+| Opt-In Cross-Channel Activation | Opt-in des e-mails moins Opt-in des SMS |
+
+### 4.2 — Création du parcours de mise à niveau de la carte de crédit
+
+**Invite**
+
+> Créez un parcours à l’aide de l’audience « Mise à niveau vers la version Platine - Éligible aux e-mails de valeur élevée ». Envoyez une notification push présentant les avantages de la carte platine weBank. Patientez 3 jours. Si le client n&#39;a pas postulé, envoyez un SMS avec une offre à durée limitée de 0% APR pendant 12 mois sur les transferts de solde. Patientez encore 5 jours. Si toujours aucune application, envoyez une notification push finale avec une invitation de banque personnelle.
+
+Vérifier le plan → Approuver le plan → Accorder des autorisations
+
+**Résultat attendu**
+
+Coworker crée un parcours complet à 3 contacts et à 2 canaux à partir d’une seule description en langage naturel, y compris les temporisateurs d’attente, les contrôles de condition et les offres croissantes.
+
+### 4.3 — Bonus : création d&#39;un parcours à partir d&#39;une image
+
+**Invite**
+
+> Créer ce parcours à partir de l&#39;image que j&#39;ai téléchargée
+
+**Résultat attendu**
+
+Il lit l’image chargée (y compris les nœuds, les canaux, les temps d’attente et les conditions) et génère le parcours complet dans Journey Optimizer. Cela transforme un artefact de planification directement en parcours déployable.
+
+### 4.4 — Vérification des conflits
+
+**Invite**
+
+> Existe-t-il des parcours actifs susceptibles d’entrer en conflit avec le parcours que je viens de créer ?
+
+**Résultat attendu**
+
+Coworker vérifie automatiquement le chevauchement des audiences, les collisions de planification et la saturation des canaux dans tous les parcours actifs.
+
+## Partie 5 : transformer les abandons Parcours en une nouvelle audience
+
+### 5.1 — Identifier le point de restitution
+
+**Invite**
+
+> Montrez-moi le parcours que je viens de créer et identifiez l’étape qui a la plus forte chute
+
+**Résultat attendu**
+
+Coworker analyse les événements d’étape de parcours et surfacique le nœud avec le taux de sortie le plus élevé. Par exemple :
+
+> 68 % des profils ayant reçu le premier e-mail ne l’ont jamais ouvert et l’ont quitté avant l’étape SMS.
+
+### 5.2 — Créer une audience de type « drop-off »
+
+**Invite**
+
+> Transformez ces abandons de parcours en une nouvelle audience, celle des personnes qui ont rejoint le parcours de mise à niveau vers la version Platine mais n’ont jamais atteint l’étape SMS
+
+Nommez-le **Mise à niveau vers la version Platinum - E-mail des non-répondeurs** → Sélectionnez le lot → approuver le plan
+
+**Résultat attendu**
+
+Coworker crée une nouvelle audience basée sur les données comportementales du parcours, c’est-à-dire les profils qui sont entrés dans le parcours mais n’ont pas atteint l’étape SMS. Cette audience est immédiatement utilisable pour une campagne de relance.
+
+### 5.3 — Réactiver les abandons
+
+**Invite**
+
+> Créez un parcours de réactivation pour l’audience « Mise à niveau vers la version Platine - E-mail des non-répondeurs ». Essayez une approche différente : commencez par envoyer une notification push mettant en évidence une offre de 75 000 points bonus à durée limitée, patientez 2 jours, puis envoyez une invitation par publipostage direct pour visiter leur succursale locale.
+
+Vérifier le plan → Approuver le plan → Accorder des autorisations
+
+**Résultat attendu**
+
+Coworker crée un parcours de récupération dédié en utilisant différents canaux et messages pour les non-répondeurs. Vous avez maintenant bouclé la boucle sur une fuite de conversion, entièrement par conversation.
+
+## Partie 6 : contrôle qualité et validation automatisés
+
+### 6.1 — Actualisation des données et contrôle de l’intégrité de l’ingestion
+
+**Invite**
+
+> Existe-t-il des problèmes de qualité des données avec les jeux de données qui alimentent mes audiences ? Vérifiez l’intégrité de l’ingestion pour weBank : CRM et weBank : Actions des clients
+
+**Résultat attendu**
+
+Un collègue signale l’intégrité de l’ingestion pour chaque jeu de données :
+
+| Jeu de données | Statut | Détails |
+| --- | --- | --- |
+| **weBank : CRM** | Bon | 39 enregistrements ingérés, 32 au profil, aucun échec |
+| **weBank : actions des clients** | Indicateur mineur | 441 enregistrements ingérés ; 35 avaient des horodatages expirés ; environ 8 % étaient exclus en raison de la période de durée de vie |
+
+Recommandation : vérifiez les paramètres de TTL ou recherchez les enregistrements obsolètes dans le système source.
+
+### 6.2 — Valider le parcours avant publication
+
+**Invite**
+
+> Consultez le parcours de mise à niveau vers la version Platine pour identifier les erreurs ou les problèmes de qualité — vérifiez les temps d’attente manquants, les chemins d’accès d’impasse, les configurations de canal manquantes et les écarts d’éligibilité d’audience
+
+**Résultat attendu**
+
+Un collègue inspecte la structure du parcours et signale des problèmes tels que :
+
+| Type d&#39;événement | Exemple |
+| --- | --- |
+| Chemins d’accès dans l’impasse | Chemins qui ne se terminent pas par un nœud de fin |
+| Configuration des canaux | Configurations de surface de canal manquantes dans les actions |
+| Minuteurs d’attente | Minuteurs qui peuvent entraîner des problèmes de SLA |
+| Contenu | Nœuds à contenu manquant |
+
+## Partie 7 : Surveillance et gouvernance
+
+### 7.1 — Suivre l’intégrité de l’audience au fil du temps
+
+**Invite**
+
+> Montrez-moi comment l’audience « Propensions : mise à niveau élevée des cartes de crédit » a changé au cours des 30 derniers jours
+
+**Résultat attendu**
+
+Coworker renvoie une vue de série temporelle de la croissance ou du déclin de l’audience avec une analyse des tendances, ce qui vous aide à identifier si la notation du modèle ML dérive ou si les modifications des données en amont affectent la qualification.
+
+### 7.2 — Diagnostiquer un changement
+
+**Invite**
+
+> Pourquoi l’audience « Valeur du compte : +500K » a-t-elle diminué récemment ?
+
+**Résultat attendu**
+
+Un collègue effectue une analyse causale en décomposant la modification entre :
+
+| Facteur | Question |
+| --- | --- |
+| Actualisation des données | Y a-t-il eu un écart d’ingestion ? |
+| Fusionner les modifications de politique | L’assemblage des profils a-t-il changé ? |
+| Modifications de la source en amont | Les données CRM ont-elles cessé de circuler ? |
+| Comportement réel du client | La valeur des comptes a-t-elle vraiment diminué ? |
+
+Cela remplace 1 à 2 jours de tri des analystes.
+
