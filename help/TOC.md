@@ -34,7 +34,7 @@ ht-degree: 52%
    - [Essai des agents](./agents/trial.md)
    - [Valider vos données](./agents/data-validation.md)
    - Ingénierie des données {#data-engineering}
-      - {hide-from-toc}[](./agents/data-engineering/overview.md)
+      - {hide-from-toc}[&#128279;](./agents/data-engineering/overview.md)
 - MCP {#mcp}
    - [REAL-TIME CDP MCP](./mcp/rtcdp-mcp.md)
 - Collègue {#coworker}
